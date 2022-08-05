@@ -1,0 +1,40 @@
+[
+  {
+    "Spanish": [
+      {
+        "title": "Lasagna de Zuchini al Plomo con Juliana de Vegetales",
+        "price": "$1.850.-"
+      },
+      {
+        "title": "Wok de Arroz y Vegetales",
+        "price": "$1.150.-"
+      },
+      {
+        "title": "Risotto de Hongos",
+        "price": "$1.750.-"
+      },
+      {
+        "title": "Hamburguesas Veganas",
+        "price": "$1.150.-"
+      }
+    ],
+    "English": [
+      {
+        "title": "Leaded Zucchini Lasagna with Vegetable Julienne",
+        "price": "$1,850.-"
+      },
+      {
+        "title": "Rice and Vegetable Wok",
+        "price": "$1,150.-"
+      },
+      {
+        "title": "Risotto Mushroom",
+        "price": "$1.750.-"
+      },
+      {
+        "title": "Vegan Burgers",
+        "price": "$1.150.-"
+      }
+    ]
+  }
+]

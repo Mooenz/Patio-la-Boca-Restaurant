@@ -1,0 +1,72 @@
+[
+  {
+    "Spanish": [
+      {
+        "title": "Ensalada Mixta (Tomate, Lechuga, Cebolla)",
+        "price": "$580.-"
+      },
+      {
+        "title": "Ensalada Rucula y Parmesano",
+        "price": "$620.-"
+      },
+      {
+        "title": "Ensalada de Zanahoria y Huevo",
+        "price": "$580.-"
+      },
+      {
+        "title": "Papas Fritas",
+        "price": "$580.-"
+      },
+      {
+        "title": "Tortilla de Papas",
+        "price": "$990.-"
+      },
+      {
+        "title": "Tortilla de Papas con Chorizo Colorado",
+        "price": "$1.090.-"
+      },
+      {
+        "title": "Puré de Papas o Calabaza",
+        "price": "$580.-"
+      },
+      {
+        "title": "Arroz",
+        "price": "$580.-"
+      }
+    ],
+    "English": [
+      {
+        "title": "Tomato, Lettuce, Onion",
+        "price": "$580.-"
+      },
+      {
+        "title": "Arugula and Parmesan Salad",
+        "price": "$620.-"
+      },
+      {
+        "title": "Carrot and Egg Salad",
+        "price": "$580.-"
+      },
+      {
+        "title": "French Fries",
+        "price": "$580.-"
+      },
+      {
+        "title": "Potato Omelette",
+        "price": "$990.-"
+      },
+      {
+        "title": "Potato Omelette with Red Chorizo",
+        "price": "$1,090.-"
+      },
+      {
+        "title": "Mashed Potatoes or Pumpkin",
+        "price": "$580.-"
+      },
+      {
+        "title": "Rice",
+        "price": "$580.-"
+      }
+    ]
+  }
+]

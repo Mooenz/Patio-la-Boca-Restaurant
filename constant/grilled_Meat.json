@@ -1,0 +1,56 @@
+[
+  {
+    "Spanish": [
+      {
+        "title": "Asado 600 gr",
+        "price": "$2.250.-"
+      },
+      {
+        "title": "Vacío 600 gr",
+        "price": "$2.350.-"
+      },
+      {
+        "title": "Bife de Chorizo 500 gr",
+        "price": "$2.450.-"
+      },
+      {
+        "title": "Lomo 400 gr",
+        "price": "$2.600.-"
+      },
+      {
+        "title": "Bife con Lomo más de 800 gr",
+        "price": "$3.550.-"
+      },
+      {
+        "title": "Tabla para 3 o 4 personas: Asado banderita, vacío, bondiola, pollo, chichulin, chorizo, morcilla.",
+        "price": "$5.750.-"
+      }
+    ],
+    "English": [
+      {
+        "title": "Short Ribs 600 gr",
+        "price": "$2,250.-"
+      },
+      {
+        "title": "Thin Flank 600 gr",
+        "price": "$2,350.-"
+      },
+      {
+        "title": "Sirloin Steak 500 gr",
+        "price": "$2,450.-"
+      },
+      {
+        "title": "Tenderloin 400 gr",
+        "price": "$2,600.-"
+      },
+      {
+        "title": "T-Bone more than 800 gr",
+        "price": "$3,550.-"
+      },
+      {
+        "title": "Barbecue for 3 or 4: Short Ribs, Thin Flank, Pork, Chicken,Chinchulin, Chorizo, Blood Sausage",
+        "price": "$5,750.-"
+      }
+    ]
+  }
+]
