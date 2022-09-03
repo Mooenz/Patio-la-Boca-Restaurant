@@ -8,7 +8,7 @@ import { Container, List, Item, Icon, Title } from './styles.js';
 import menu from '../../constant/menu.json';
 
 const MenuMain = () => {
-  const { setShow } = useContext(ShowContext);
+  const { show, setShow, language } = useContext(ShowContext);
 
   const sectionShow = (section) => {
     setShow(section);
@@ -17,12 +17,27 @@ const MenuMain = () => {
   return (
     <Container>
       <List>
-        {menu.map(({ title, image, id }) => (
-          <Item key={id} onClick={() => sectionShow(title)}>
-            <Icon icon={image} />
-            <Title>{title}</Title>
-          </Item>
-        ))}
+        {language === 'es'
+          ? menu.es.map(({ title, image, id }) => (
+              <Item
+                key={id}
+                active={title === show}
+                onClick={() => sectionShow(title)}
+              >
+                <Icon icon={image} />
+                <Title>{title}</Title>
+              </Item>
+            ))
+          : menu.en.map(({ title, image, id }) => (
+              <Item
+                key={id}
+                active={title === show}
+                onClick={() => sectionShow(title)}
+              >
+                <Icon icon={image} />
+                <Title>{title}</Title>
+              </Item>
+            ))}
       </List>
     </Container>
   );

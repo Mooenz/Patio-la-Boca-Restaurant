@@ -5,7 +5,7 @@ import { ShowContext } from '../../context/ShowContext';
 import Item from '../Item';
 
 // Styles
-import { Title } from './style';
+import { Title, Image } from './style';
 
 const Items = ({ data }) => {
   const { language } = useContext(ShowContext);
@@ -13,7 +13,7 @@ const Items = ({ data }) => {
     <div>
       {language === 'es' && <Title>{data.es.name}</Title>}
       {language === 'en' && <Title>{data.en.name}</Title>}
-      <ul>
+      <ul>        
         {language === 'es' &&
           data.es.items.map((item) => <Item key={item.id} item={item} />)}
 

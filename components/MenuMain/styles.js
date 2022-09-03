@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import theme from '../../constant/theme';
 
-const { light, tertiary } = theme;
+const { light, secondary, tertiary } = theme;
 
 export const Container = styled.section`
   position: fixed;
@@ -33,6 +33,7 @@ export const Item = styled.li`
   height: 100%;
   padding: 8px;
   cursor: pointer;
+  background-color:  ${({ active }) => active && secondary};
 `;
 export const Icon = styled.span`
   display: block;
