@@ -1,22 +1,46 @@
-[
-  {
-    "id": "1",
-    "title": "Home",
-    "image": "home"
-  },
-  {
-    "id": "2",
-    "title": "Menu",
-    "image": "menu"
-  },
-  {
-    "id": "3",
-    "title": "Bebidas",
-    "image": "drinks"
-  },
-  {
-    "id": "4",
-    "title": "Sugerencias",
-    "image": "suggestion"
-  }
-]
+{
+  "es": [
+    {
+      "id": "0",
+      "title": "Inicio",
+      "image": "home"
+    },
+    {
+      "id": "1",
+      "title": "Menú",
+      "image": "menu"
+    },
+    {
+      "id": "2",
+      "title": "Bebidas",
+      "image": "drinks"
+    },
+    {
+      "id": "3",
+      "title": "Sugerencias",
+      "image": "suggestion"
+    }
+  ],
+  "en" : [
+    {
+      "id": "0",
+      "title": "Home",
+      "image": "home"
+    },
+    {
+      "id": "1",
+      "title": "Menu",
+      "image": "menu"
+    },
+    {
+      "id": "2",
+      "title": "Drinks",
+      "image": "drinks"
+    },
+    {
+      "id": "3",
+      "title": "Suggestion",
+      "image": "suggestion"
+    }
+  ]
+}
