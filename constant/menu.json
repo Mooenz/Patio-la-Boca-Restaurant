@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "title": "Home",
+    "image": "home"
+  },
+  {
+    "id": "2",
+    "title": "Menu",
+    "image": "menu"
+  },
+  {
+    "id": "3",
+    "title": "Bebidas",
+    "image": "drinks"
+  },
+  {
+    "id": "4",
+    "title": "Sugerencias",
+    "image": "suggestion"
+  }
+]

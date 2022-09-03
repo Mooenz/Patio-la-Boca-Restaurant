@@ -1,40 +1,49 @@
-[
-  {
-    "Spanish": [
+{
+  "es": {
+    "name": "Pasta Casera",
+    "items": [
       {
+        "id": 0,
         "title": "Fideos o Cinta",
-        "price": "$900.-"
+        "price": "$900"
       },
       {
+        "id": 1,
         "title": "Sorrentinos de Jamon y Queso",
-        "price": "$1.350.-"
+        "price": "$1.350"
       },
       {
+        "id": 2,
         "title": "Raviolones de Verdura y Ricota",
-        "price": "$1.350.-"
+        "price": "$1.350"
       },
       {
+        "id": 3,
         "title": "Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada",
-        "price": "$1.550.-"
-      }
-    ],
-    "English": [
-      {
-        "title": "Spaghetti",
-        "price": "$900.-"
-      },
-      {
-        "title": "Sorrentinos the Ham and Cheese",
-        "price": "$1,350.-"
-      },
-      {
-        "title": "Vegetable and Ricotta Ravioli",
-        "price": "$1,350.-"
-      },
-      {
-        "title": "Sorrentinos of smoked pepper pasta, filled with braised pork",
-        "price": "$1,550.-"
+        "price": "$1.550"
       }
     ]
-  }
-]
+  },
+  "en": [
+    {
+      "id": 0,
+      "title": "Spaghetti",
+      "price": "$900"
+    },
+    {
+      "id": 1,
+      "title": "Sorrentinos the Ham and Cheese",
+      "price": "$1,350"
+    },
+    {
+      "id": 2,
+      "title": "Vegetable and Ricotta Ravioli",
+      "price": "$1,350"
+    },
+    {
+      "id": 3,
+      "title": "Sorrentinos of smoked pepper pasta, filled with braised pork",
+      "price": "$1,550"
+    }
+  ]
+}

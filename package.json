@@ -2,7 +2,7 @@
   "name": "la-boca-restaurant",
   "version": "0.1.0",
   "private": true,
-  "author": "Jose Manuel Montaño Saenz, Kevin Silva Zarate" ,
+  "author": "Jose Manuel Montaño Saenz, Kevin Silva Zarate",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -13,11 +13,11 @@
     "next": "12.2.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-intersection-observer": "^8.33.1",
-    "styled-components": "^5.3.3",    
-    "babel-plugin-styled-components": "^2.0.2"
+    "react-intersection-observer": "^9.4.0",
+    "styled-components": "^5.3.3"
   },
   "devDependencies": {
+    "babel-plugin-styled-components": "^2.0.7",
     "eslint": "8.21.0",
     "eslint-config-next": "12.2.4"
   }

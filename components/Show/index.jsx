@@ -1,0 +1,23 @@
+import { useContext } from 'react';
+import { ShowContext } from '../../context/ShowContext';
+
+// Components
+import Home from '../Home';
+import Menu from '../Menu';
+import Drinks from '../Drinks';
+import Suggestions from '../Suggestions';
+
+const Show = () => {
+  const { show } = useContext(ShowContext);
+
+  return (
+    <>
+      {show === 'Home' && <Home />}
+      {show === "Menu" && <Menu />}
+      {show === "Bebidas" && <Drinks />}
+      {show === "Sugerencias" && <Suggestions />}
+    </>
+  );
+};
+
+export default Show;
