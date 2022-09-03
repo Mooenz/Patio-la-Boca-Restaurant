@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Salsas",
+    "image":"Salsas.jpg",
     "items": [
       {
         "id": 0,
@@ -26,6 +27,7 @@
   },
   "en": {
     "name": "Souces",
+    "image":"Salsas.jpg",
     "items": [
       {
         "id": 0,

@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Milanesas",
+    "image":"Postres.jpg",
     "items": [
       {
         "id": 0,
@@ -31,6 +32,7 @@
   },
   "en": {
     "name": "Minutas",
+    "image":"Postres.jpg",
     "items": [
       {
         "id": 0,

@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Bebidas",
+    "image":"Parrila.jpg",
     "items": [
       {
         "id": 0,
@@ -86,6 +87,7 @@
   },
   "en": {
     "name": "Drinks",
+    "image":"Parrila.jpg",
     "items": [
       {
         "id": 0,
