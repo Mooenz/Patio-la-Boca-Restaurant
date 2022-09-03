@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Vegetariano",
+    "image":"Vegetariano.jpg",
     "items": [
       {
         "id": 0,
@@ -26,6 +27,7 @@
   },
   "en": {
     "name": "Vegetarian",
+    "image":"Vegetariano.jpg",
     "items": [
       {
         "id": 0,

@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Vinos",
+    "image":"Vegetariano.jpg",
     "items": [
       {
         "id": 0,
@@ -84,6 +85,7 @@
   },
   "en": {
     "name": "wine",
+    "image":"Vegetariano.jpg",
     "items": [
       {
         "id": 0,

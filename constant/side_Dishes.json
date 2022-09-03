@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Guarniciones",
+    "image":"Parrila.jpg",
     "items": [
       {
         "id": 0,
@@ -46,6 +47,7 @@
   },
   "en": {
     "name": "Side Dishes",
+    "image":"Parrila.jpg",
     "items": [
       {
         "id": 0,

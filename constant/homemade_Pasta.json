@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Pasta Casera",
+    "image":"Pastas.jpg",
     "items": [
       {
         "id": 0,
@@ -26,6 +27,7 @@
   },
   "en": {
     "name": "Homemade Pasta",
+    "image":"Pastas.jpg",
     "items": [
       {
         "id": 0,

@@ -1,6 +1,7 @@
 {
   "es": {
     "name": "Entradas",
+    "image":"Entradas.jpg",
     "items": [
       {
         "id": 0,
@@ -36,6 +37,7 @@
   },
   "en": {
     "name": "Entries",
+    "image":"Entradas.jpg",
     "items": [
       {
         "id": 0,
