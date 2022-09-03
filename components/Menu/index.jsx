@@ -17,7 +17,7 @@ import { Container } from './styles.js';
 
 const Menu = () => {
   return (
-    <>
+    <Container>
       <Items data={starters} />
       <Items data={grilledMeat} />
       <Items data={sideDishes} />
@@ -27,7 +27,7 @@ const Menu = () => {
       <Items data={milanesas} />
       <Items data={sandwich} />
       <Items data={desserts} />
-    </>
+    </Container>
   );
 };
 

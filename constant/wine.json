@@ -1,138 +1,168 @@
-[
-  {
-    "Spanish": [
+{
+  "es": {
+    "name": "Vinos",
+    "items": [
       {
+        "id": 0,
         "Type": "Rose",
         "title": "Caelum 700cc",
-        "price": "$1.550.-"
+        "price": "$1.550"
       },
       {
+        "id": 1,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc",
-        "price": "$1.250.-"
+        "price": "$1.250"
       },
       {
+        "id": 2,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc",
-        "price": "$1.750.-"
+        "price": "$1.750"
       },
       {
+        "id": 3,
         "Type": "Malbec",
         "title": "Juan Benegas 750cc",
-        "price": "$1.250.-"
+        "price": "$1.250"
       },
       {
+        "id": 4,
         "Type": "Malbec",
         "title": "Norcelo 750cc",
-        "price": "$1.750.-"
+        "price": "$1.750"
       },
       {
+        "id": 5,
         "Type": "Malbec",
         "title": "Solo Contigo 750cc",
-        "price": "$1.800.-"
+        "price": "$1.800"
       },
       {
+        "id": 6,
         "Type": "Malbec",
         "title": "Caelum 750cc",
-        "price": "$1.550.-"
+        "price": "$1.550"
       },
       {
+        "id": 7,
         "Type": "Malbec",
         "title": "Cavas de Crianza 750cc",
-        "price": "$1.750.-"
+        "price": "$1.750"
       },
       {
+        "id": 8,
         "Type": "Malbec",
         "title": "Bataraz Reserva 750cc",
-        "price": "$2.150.-"
+        "price": "$2.150"
       },
       {
+        "id": 9,
         "Type": "Malbec",
         "title": "Gran Vino Chañarmuyo 750cc",
-        "price": "$2.600.-"
+        "price": "$2.600"
       },
       {
+        "id": 10,
         "Type": "Blend",
         "title": "Chañarmuyo 750cc",
-        "price": "$2.100.-"
+        "price": "$2.100"
       },
       {
+        "id": 11,
         "Type": "Cabernet",
         "title": "Solo Contigo Tinto 750cc",
-        "price": "$1.800.-"
+        "price": "$1.800"
       },
       {
+        "id": 12,
         "Type": "Malbec",
         "title": "Copa de Vino (Malbec o Chardonnay)",
-        "price": "$390.-"
+        "price": "$390"
       }
-    ],
-    "English": [
+    ]
+  },
+  "en": {
+    "name": "wine",
+    "items": [
       {
-        "Type": "Rose",
+        "id": 0,
+        "Type": "Wine",
         "title": "Caelum 700cc",
-        "price": "$1,550.-"
+        "price": "$1,550"
       },
       {
+        "id": 1,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc",
-        "price": "$1,250.-"
+        "price": "$1,250"
       },
       {
+        "id": 2,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc",
-        "price": "$1,750.-"
+        "price": "$1,750"
       },
       {
+        "id": 3,
         "Type": "Malbec",
         "title": "Juan Benegas 750cc",
-        "price": "$1,250.-"
+        "price": "$1,250"
       },
       {
+        "id": 4,
         "Type": "Malbec",
         "title": "Norcelo 750cc",
-        "price": "$1,750.-"
+        "price": "$1,750"
       },
       {
+        "id": 5,
         "Type": "Malbec",
         "title": "Solo Contigo 750cc",
-        "price": "$1,800.-"
+        "price": "$1,800"
       },
       {
+        "id": 6,
         "Type": "Malbec",
         "title": "Caelum 750cc",
-        "price": "$1,550.-"
+        "price": "$1,550"
       },
       {
+        "id": 7,
         "Type": "Malbec",
         "title": "Cavas de Crianza 750cc",
-        "price": "$1,750.-"
+        "price": "$1,750"
       },
       {
+        "id": 8,
         "Type": "Malbec",
         "title": "Bataraz Reserva 750cc",
-        "price": "$2,150.-"
+        "price": "$2,150"
       },
       {
+        "id": 9,
         "Type": "Malbec",
         "title": "Gran Vino Chañarmuyo 750cc",
-        "price": "$2,600.-"
+        "price": "$2,600"
       },
       {
+        "id": 10,
         "Type": "Blend",
         "title": "Chañarmuyo 750cc",
-        "price": "$2,100.-"
+        "price": "$2,100"
       },
       {
+        "id": 11,
         "Type": "Cabernet",
         "title": "Solo Contigo Tinto 750cc",
-        "price": "$1,800.-"
+        "price": "$1,800"
       },
       {
+        "id": 12,
         "Type": "Malbec",
         "title": "Glass of Wine (Malbec or Chardonnay)",
-        "price": "$390.-"
+        "price": "$390"
       }
     ]
   }
-]
+}

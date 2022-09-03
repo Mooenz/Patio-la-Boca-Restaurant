@@ -32,6 +32,7 @@ export const Item = styled.li`
   width: 100%;
   height: 100%;
   padding: 8px;
+  cursor: pointer;
 `;
 export const Icon = styled.span`
   display: block;

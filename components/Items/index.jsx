@@ -9,9 +9,8 @@ import { Title } from './style';
 
 const Items = ({ data }) => {
   const { language } = useContext(ShowContext);
-
   return (
-    <>
+    <div>
       {language === 'es' && <Title>{data.es.name}</Title>}
       {language === 'en' && <Title>{data.en.name}</Title>}
       <ul>
@@ -21,7 +20,7 @@ const Items = ({ data }) => {
         {language === 'en' &&
           data.en.items.map((item) => <Item key={item.id} item={item} />)}
       </ul>
-    </>
+    </div>
   );
 };
 

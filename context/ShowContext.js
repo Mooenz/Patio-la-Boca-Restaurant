@@ -4,7 +4,7 @@ export const ShowContext = createContext();
 
 const UseShow = ({ children }) => {
   const [show, setShow] = useState('Home');
-  const [language, setLanguage] = useState('es');
+  const [language, setLanguage] = useState('en');
 
   return (
     <ShowContext.Provider value={{ show, setShow, language, setLanguage }}>
