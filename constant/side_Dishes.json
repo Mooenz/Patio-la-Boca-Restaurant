@@ -6,42 +6,42 @@
       {
         "id": 0,
         "title": "Ensalada Mixta (Tomate, Lechuga, Cebolla)",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 1,
         "title": "Ensalada Rucula y Parmesano",
-        "price": "$620"
+        "price": "$680"
       },
       {
         "id": 2,
         "title": "Ensalada de Zanahoria y Huevo",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 3,
         "title": "Papas Fritas",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 4,
         "title": "Tortilla de Papas",
-        "price": "$990"
+        "price": "$1.000"
       },
       {
         "id": 5,
         "title": "Tortilla de Papas con Chorizo Colorado",
-        "price": "$1.090"
+        "price": "$1.200"
       },
       {
         "id": 6,
         "title": "Puré de Papas o Calabaza",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 7,
         "title": "Arroz",
-        "price": "$580"
+        "price": "$620"
       }
     ]
   },
@@ -52,42 +52,42 @@
       {
         "id": 0,
         "title": "Tomato, Lettuce, Onion",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 1,
         "title": "Arugula and Parmesan Salad",
-        "price": "$620"
+        "price": "$680"
       },
       {
         "id": 2,
         "title": "Carrot and Egg Salad",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 3,
         "title": "French Fries",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 4,
         "title": "Potato Omelette",
-        "price": "$990"
+        "price": "$1,000"
       },
       {
         "id": 5,
         "title": "Potato Omelette with Red Chorizo",
-        "price": "$1,090"
+        "price": "$1,200"
       },
       {
         "id": 6,
         "title": "Mashed Potatoes or Pumpkin",
-        "price": "$580"
+        "price": "$620"
       },
       {
         "id": 7,
         "title": "Rice",
-        "price": "$580"
+        "price": "$620"
       }
     ]
   }
