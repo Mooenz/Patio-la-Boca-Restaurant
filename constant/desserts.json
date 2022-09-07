@@ -6,12 +6,12 @@
       {
         "id": 0,
         "title": "Budín de Pan Casero",
-        "price": "$450"
+        "price": "$500"
       },
       {
         "id": 1,
         "title": "Flan Casero",
-        "price": "$450"
+        "price": "$500"
       },
       {
         "id": 2,
@@ -26,12 +26,12 @@
       {
         "id": 4,
         "title": "Chocotorta",
-        "price": "$550"
+        "price": "$600"
       },
       {
         "id": 5,
         "title": "Volcán de Chocolate con Bocha de Crema Americana",
-        "price": "$750"
+        "price": "$850"
       }
     ]
   },
@@ -42,12 +42,12 @@
       {
         "id": 0,
         "title": "Homemade Bread Pudding",
-        "price": "$450"
+        "price": "$500"
       },
       {
         "id": 1,
         "title": "Homemade Cream Caramel",
-        "price": "$450"
+        "price": "$500"
       },
       {
         "id": 2,
@@ -62,12 +62,12 @@
       {
         "id": 4,
         "title": "Chocolate Cookies Cake",
-        "price": "$550"
+        "price": "$600"
       },
       {
         "id": 5,
         "title": "Chocolate Volcano with Ice Cream",
-        "price": "$750"
+        "price": "$850"
       }
     ]
   }

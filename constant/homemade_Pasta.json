@@ -11,7 +11,7 @@
       {
         "id": 1,
         "title": "Sorrentinos de Jamon y Queso",
-        "price": "$1.350"
+        "price": "$1.400"
       },
       {
         "id": 2,
@@ -21,7 +21,12 @@
       {
         "id": 3,
         "title": "Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada",
-        "price": "$1.550"
+        "price": "$1.600"
+      },
+      {
+        "id": 4,
+        "title": "Capeletis de Cordero, Queso Azul y Nueces",
+        "price": "$1.700"
       }
     ]
   },
@@ -37,7 +42,7 @@
       {
         "id": 1,
         "title": "Sorrentinos the Ham and Cheese",
-        "price": "$1,350"
+        "price": "$1,400"
       },
       {
         "id": 2,
@@ -47,7 +52,12 @@
       {
         "id": 3,
         "title": "Sorrentinos of smoked pepper pasta, filled with braised pork",
-        "price": "$1,550"
+        "price": "$1,600"
+      },
+      {
+        "id": 4,
+        "title": "Lamb Capeletis, Blue Cheese and Walnuts",
+        "price": "$1,700"
       }
     ]
   }

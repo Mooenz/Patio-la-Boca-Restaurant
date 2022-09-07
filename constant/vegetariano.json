@@ -16,7 +16,7 @@
       {
         "id": 2,
         "title": "Risotto de Hongos",
-        "price": "$1.750"
+        "price": "$1.950"
       },
       {
         "id": 3,
@@ -42,12 +42,12 @@
       {
         "id": 2,
         "title": "Risotto Mushroom",
-        "price": "$1.750"
+        "price": "$1,950"
       },
       {
         "id": 3,
         "title": "Vegan Burgers",
-        "price": "$1.150"
+        "price": "$1,150"
       }
     ]
   }
