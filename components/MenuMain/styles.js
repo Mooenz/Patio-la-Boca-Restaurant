@@ -5,7 +5,7 @@ const { light, secondary, tertiary } = theme;
 
 export const Container = styled.section`
   position: fixed;
-  bottom: 24px;
+  bottom: 0;
   left: 0;
   padding: 0 12px;
   width: 100%;
