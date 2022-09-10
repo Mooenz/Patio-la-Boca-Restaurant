@@ -4,14 +4,15 @@ import wine from '../../constant/wine.json';
 
 //Components
 import Items from '../Items';
+import Container from '../Container';
 
 const Drinks = () => {
   return (
-    <>
-    <Items data={drinks} />
-    <Items data={wine} />
-    </>
-  )
-}
+    <Container>
+      <Items data={drinks} />
+      <Items data={wine} />
+    </Container>
+  );
+};
 
-export default Drinks
+export default Drinks;

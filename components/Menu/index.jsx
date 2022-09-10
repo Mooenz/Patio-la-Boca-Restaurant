@@ -11,10 +11,11 @@ import desserts from '../../constant/desserts.json';
 
 // Components
 import Items from '../Items';
+import Container from '../Container';
 
 const Menu = () => {
   return (
-    <>
+    <Container>
       <Items data={starters} />
       <Items data={grilledMeat} />
       <Items data={sideDishes} />
@@ -24,7 +25,7 @@ const Menu = () => {
       <Items data={milanesas} />
       <Items data={sandwich} />
       <Items data={desserts} />
-    </>
+    </Container>
   );
 };
 

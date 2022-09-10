@@ -1,7 +1,18 @@
+// Styles
+import { Titulo, Logo, SocialMedia, ContainerSocialMedia } from './styles';
+
 const Home = () => {
   return (
-    <>Manueeeeeel</>
-  )
-}
+    <>
+      <Titulo>Bienvenidos</Titulo>
+      <Logo></Logo>
+      <ContainerSocialMedia>
+        <SocialMedia></SocialMedia>
+        <SocialMedia></SocialMedia>
+        <SocialMedia></SocialMedia>
+      </ContainerSocialMedia>
+    </>
+  );
+};
 
-export default Home
+export default Home;
