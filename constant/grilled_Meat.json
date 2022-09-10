@@ -1,7 +1,7 @@
 {
   "es": {
     "name": "Parrilla",
-    "image":"Parrila.jpg",
+    "image":"Parrilla.jpg",
     "items": [
       {
         "id": 0,
@@ -37,7 +37,7 @@
   },
   "en": {
     "name": "Grilled Meat",
-    "image":"Parrila.jpg",
+    "image":"Parrilla.jpg",
     "items": [
       {
         "id": 0,

@@ -1,7 +1,7 @@
 {
   "es": {
     "name": "Sándwich",
-    "image":"Postres.jpg",
+    "image":"sandwich.jpg",
     "items": [
       {
         "id": 0,
@@ -22,7 +22,7 @@
   },
   "en": {
     "name": "Sándwich",
-    "image":"Postres.jpg",
+    "image":"sandwich.jpg",
     "items": [
       {
         "id": 0,
@@ -32,12 +32,12 @@
       {
         "id": 1,
         "title": "Pork with lettuce, tomato and fries",
-        "price": "$1.500"
+        "price": "$1,500"
       },
       {
         "id": 2,
         "title": "Homemade hamburger with cheese, lettuce, tomato and fries",
-        "price": "$1.500"
+        "price": "$1,500"
       }
     ]
   }
