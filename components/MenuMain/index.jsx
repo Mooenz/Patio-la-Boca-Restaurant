@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { ShowContext } from '../../context/ShowContext';
 
 // Styles
-import { Container, List, Item, Icon, Title } from './styles.js';
+import { Container, List, Item, Icon, Title } from './styles';
 
 // Data
 import menu from '../../constant/menu.json';
