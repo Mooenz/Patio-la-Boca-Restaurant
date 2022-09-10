@@ -1,9 +1,9 @@
 const theme = {
-  light: '#FFF4E9',
-  primary: '#F38001',
-  secondary: '#A85801',
-  tertiary: '#733D01',
-  dark: "#0C0701",
+  light: '#F2D9D4',
+  primary: '#F1820C',
+  secondary: '#D0710A ',
+  tertiary: '#3A1813',
+  dark: "#451D14",
   grey: "#FAFAFA",
   white: "#FFFFFF",
 };

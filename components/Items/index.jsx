@@ -11,14 +11,19 @@ const Items = ({ data }) => {
   const { language } = useContext(ShowContext);
   return (
     <div>
+        {<Image bg={data.es.image} alt={data.es.image} />}
       {language === 'es' && <Title>{data.es.name}</Title>}
       {language === 'en' && <Title>{data.en.name}</Title>}
-      <ul>        
+      <ul>
         {language === 'es' &&
-          data.es.items.map((item) => <Item key={item.id} item={item} />)}
+          data.es.items.map((item) => (
+            <Item key={item.id} item={item} image={data.es.image} />
+          ))}
 
         {language === 'en' &&
-          data.en.items.map((item) => <Item key={item.id} item={item} />)}
+          data.en.items.map((item) => (
+            <Item key={item.id} item={item} image={data.en.image} />
+          ))}
       </ul>
     </div>
   );

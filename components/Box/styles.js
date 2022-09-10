@@ -2,6 +2,6 @@ import styled from 'styled-components';
 
 export const Container = styled.section`
   position: relative;
-  padding: 24px 12px 84px;
+  height: calc(100vh - 64px);
   min-height: 600px;
 `;

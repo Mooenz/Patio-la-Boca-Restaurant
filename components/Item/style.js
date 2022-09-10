@@ -7,7 +7,7 @@ export const ItemStyle = styled.div`
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  padding: 8px 0;
+  padding: 8px 12px;
 
   &:not(:last-child) {
     border-bottom: 1px solid rgb(168 88 1 / 20%);
