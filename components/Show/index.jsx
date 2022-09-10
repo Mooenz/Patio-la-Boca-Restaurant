@@ -13,7 +13,6 @@ const Show = () => {
   // console.log(Button)
   return (
     <>
-      {<Button />}
       {show === 'Inicio' && <Home />}
       {show === 'Home' && <Home />}
       {show === 'Sugerencias' && <Suggestions />}
