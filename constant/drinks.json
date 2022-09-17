@@ -6,57 +6,57 @@
       {
         "id": 0,
         "title": "Gaseosa línea Coca-Cola 500cc",
-        "price": "$280"
+        "price": "$320"
       },
       {
         "id": 1,
         "title": "Agua saborizada levite",
-        "price": "$280"
+        "price": "$320"
       },
       {
         "id": 2,
         "title": "Agua c/s gas",
-        "price": "$230"
+        "price": "$270"
       },
       {
         "id": 3,
         "title": "Jugo de Naranja exprimido",
-        "price": "$450"
+        "price": "$460"
       },
       {
         "id": 4,
         "title": "Cerveza Artesanal Rubia pinta 500cc",
-        "price": "$380"
+        "price": "$400"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$700"
+        "price": "$750"
       },
       {
         "id": 6,
         "title": "Fernet Branca con Coca",
-        "price": "$750"
+        "price": "$800"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italia) con Naranja o Tonica",
-        "price": "$700"
+        "price": "$750"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$700"
+        "price": "$750"
       },
       {
         "id": 9,
         "title": "Vodka con Naranja",
-        "price": "$650"
+        "price": "$750"
       },
       {
         "id": 10,
         "title": "Vermut (Cinzano o Gancia con Soda)",
-        "price": "$550"
+        "price": "$650"
       },
       {
         "id": 11,
@@ -66,17 +66,17 @@
       {
         "id": 12,
         "title": "Café Expreso",
-        "price": "$250"
+        "price": "$260"
       },
       {
         "id": 13,
         "title": "Café Americano",
-        "price": "$250"
+        "price": "$260"
       },
       {
         "id": 14,
         "title": "Café con Leche",
-        "price": "$250"
+        "price": "$260"
       },
       {
         "id": 15,
@@ -92,57 +92,57 @@
       {
         "id": 0,
         "title": "Soda line Coca-Cola 500cc",
-        "price": "$280"
+        "price": "$320"
       },
       {
         "id": 1,
         "title": "Flavored Water",
-        "price": "$280"
+        "price": "$320"
       },
       {
         "id": 2,
         "title": "Water, Sparkling Water",
-        "price": "$230"
+        "price": "$270"
       },
       {
         "id": 3,
         "title": "Squeezed Orange Juice",
-        "price": "$450"
+        "price": "$460"
       },
       {
         "id": 4,
         "title": "Draft Beer 500cc",
-        "price": "$380"
+        "price": "$400"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$280"
+        "price": "$750"
       },
       {
         "id": 6,
         "title": "Fernet Branca with Coca",
-        "price": "$750"
+        "price": "$800"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italy) with Orange or Tonic",
-        "price": "$700"
+        "price": "$750"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$700"
+        "price": "$750"
       },
       {
         "id": 9,
         "title": "Vodka with Orange",
-        "price": "$650"
+        "price": "$750"
       },
       {
         "id": 10,
         "title": "Vermut (Cinzano or Gancia with Soda)",
-        "price": "$550"
+        "price": "$650"
       },
       {
         "id": 11,
@@ -152,17 +152,17 @@
       {
         "id": 12,
         "title": "Coffe Express",
-        "price": "$250"
+        "price": "$260"
       },
       {
         "id": 13,
         "title": "American Coffe",
-        "price": "$250"
+        "price": "$260"
       },
       {
         "id": 14,
         "title": "Coffee with milk",
-        "price": "$250"
+        "price": "$260"
       },
       {
         "id": 15,
