@@ -5,7 +5,7 @@ import { ShowContext } from '../../context/ShowContext';
 import Item from '../Item';
 
 // Styles
-import { Title, Image } from './style';
+import { Title, Image, Container } from './style';
 
 const Items = ({ data }) => {
   const { language } = useContext(ShowContext);
@@ -14,7 +14,7 @@ const Items = ({ data }) => {
     <div>
       {<Image bg={data.es.image} alt={data.es.image} />}
       {language ? <Title>{data.es.name}</Title> : <Title>{data.en.name}</Title>}
-      <ul>
+      <Container>
         {language
           ? data.es.items.map((item) => (
               <Item key={item.id} item={item} image={data.es.image} />
@@ -22,7 +22,7 @@ const Items = ({ data }) => {
           : data.en.items.map((item) => (
               <Item key={item.id} item={item} image={data.en.image} />
             ))}
-      </ul>
+      </Container>
     </div>
   );
 };

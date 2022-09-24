@@ -1,7 +1,22 @@
-import styled from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 import theme from '../../constant/theme';
 
 const { primary } = theme;
+
+const fade = keyframes`
+  from {
+    opacity: 0;
+    transform: translateY(-5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+`;
+
+export const Container = styled.ul`
+  animation: ${fade} 0.7s linear;
+`;
 
 export const Title = styled.h2`
   margin: 0 0 18px;
@@ -10,6 +25,7 @@ export const Title = styled.h2`
   color: ${primary};
   text-transform: capitalize;
   padding: 0 12px;
+  animation: ${fade} 0.5s linear;
 `;
 
 export const Image = styled.div`

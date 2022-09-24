@@ -13,9 +13,7 @@ const MenuMain = () => {
   const sectionShow = (section) => {
     setShow(section);
   };
-
-  console.log(show)
-
+  
   return (
     <Container>
       <List>
