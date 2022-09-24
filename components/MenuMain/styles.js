@@ -7,7 +7,6 @@ export const Container = styled.section`
   position: fixed;
   bottom: 0;
   left: 0;
-  padding: 0 12px;
   width: 100%;
   background-color: ${tertiary};
 `;
@@ -18,7 +17,7 @@ export const List = styled.ul`
   align-items: center;
   height: 100%;
   width: 100%;
-  max-width: 350px;
+  max-width: 600px;
   margin: auto;
 `;
 

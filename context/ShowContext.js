@@ -3,8 +3,8 @@ import { createContext, useState } from 'react';
 export const ShowContext = createContext();
 
 const UseShow = ({ children }) => {
-  const [language, setLanguage] = useState('es');
-  const tap = language === 'es' ? 'Inicio' : 'Home';
+  const [language, setLanguage] = useState(true);
+  const tap = language ? 'Inicio' : 'Home';
   const [show, setShow] = useState(tap);
 
   return (

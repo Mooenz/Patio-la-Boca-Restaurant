@@ -14,10 +14,12 @@ const MenuMain = () => {
     setShow(section);
   };
 
+  console.log(show)
+
   return (
     <Container>
       <List>
-        {language === 'es'
+        {language
           ? menu.es.map(({ title, image, id }) => (
               <Item
                 key={id}
