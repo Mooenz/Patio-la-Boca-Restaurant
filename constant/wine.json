@@ -5,81 +5,117 @@
     "items": [
       {
         "id": 0,
-        "Type": "Rose",
-        "title": "Caelum 700cc",
-        "price": "$1.550"
+        "Type": "Blanco Dulce",
+        "title": "Simona 750cc - Blanco Dulce",
+        "price": "$1.200"
       },
       {
         "id": 1,
-        "Type": "Chardonnay",
-        "title": "Clara Benegas 750cc",
-        "price": "$1.250"
+        "Type": "Rose",
+        "title": "Caelum 750cc - Rose",
+        "price": "$1.550"
       },
       {
         "id": 2,
         "Type": "Chardonnay",
-        "title": "Cavas de Crianza 750cc",
+        "title": "Cavas de Crianza 750cc - Chardonnay",
         "price": "$1.750"
       },
       {
         "id": 3,
         "Type": "Malbec",
-        "title": "Juan Benegas 750cc",
-        "price": "$1.250"
+        "title": "Finca Magnolia 750cc - Malbec",
+        "price": "$1.350"
       },
       {
         "id": 4,
         "Type": "Malbec",
-        "title": "Norcelo 750cc",
-        "price": "$1.750"
+        "title": "Caelum 750cc - Malbec",
+        "price": "$1.550"
       },
       {
         "id": 5,
         "Type": "Malbec",
-        "title": "Solo Contigo 750cc",
-        "price": "$1.800"
+        "title": "Norcelo 750cc - Malbec",
+        "price": "$1.750"
       },
       {
         "id": 6,
         "Type": "Malbec",
-        "title": "Caelum 750cc",
-        "price": "$1.550"
+        "title": "Cavas de Crianza 750cc - Malbec",
+        "price": "$1.750"
       },
       {
         "id": 7,
         "Type": "Malbec",
-        "title": "Cavas de Crianza 750cc",
-        "price": "$1.750"
+        "title": "Bataraz Reserva 750cc - Malbec",
+        "price": "$2.150"
       },
       {
         "id": 8,
         "Type": "Malbec",
-        "title": "Bataraz Reserva 750cc",
-        "price": "$2.150"
+        "title": "Gran Vino Chañarmuyo 750cc - Malbec",
+        "price": "$2.600"
       },
       {
         "id": 9,
         "Type": "Malbec",
-        "title": "Gran Vino Chañarmuyo 750cc",
-        "price": "$2.600"
+        "title": "Los Helechos Reserva 750cc - Malbec",
+        "price": "$2.800"
       },
       {
         "id": 10,
-        "Type": "Blend",
-        "title": "Chañarmuyo 750cc",
-        "price": "$2.100"
+        "Type": "Malbec",
+        "title": "Los Helechos Malbec de Malbecs 750cc - Malbec",
+        "price": "$3.800"
       },
       {
         "id": 11,
-        "Type": "Cabernet",
-        "title": "Solo Contigo Tinto 750cc",
-        "price": "$1.800"
+        "Type": "Blend",
+        "title": "Finca Magnolia 750cc (Chardonnay, Sauvignon Blanc) - Blend",
+        "price": "$1.350"
       },
       {
         "id": 12,
+        "Type": "Blend",
+        "title": "Chañarmuyo 750cc (Cabernet Franc / Sauvignon) - Blend",
+        "price": "$2.100"
+      },
+      {
+        "id": 13,
+        "Type": "Cabernet Franc",
+        "title": "Tomero 750cc - Cabernet Franc",
+        "price": "$1.350"
+      },
+      {
+        "id": 14,
+        "Type": "Carbernet Franc",
+        "title": "Bataraz 750cc - Cabernet Franc",
+        "price": "$2.150"
+      },
+      {
+        "id": 15,
+        "Type": "Carbernet Sauvignon",
+        "title": "Finca Magnolia 750cc - Cabernet Sauvignon",
+        "price": "$1.350"
+      },
+      {
+        "id": 16,
+        "Type": "Pinot Noir, Petit Verdot, Syrah",
+        "title": "Finca La Anita 750cc - Pinot Noir, Petit Verdot, Syrah",
+        "price": "$2.150"
+      },
+      {
+        "id": 17,
+        "Type": "Sangiovese",
+        "title": "Benegas 750cc - Sangiovese",
+        "price": "$3.500"
+      },
+      {
+        "id": 18,
         "Type": "Malbec",
-        "title": "Copa de Vino (Malbec o Chardonnay)",
-        "price": "$390"
+        "title": "Copa de Vino (Tinto o Blanco)",
+        "price": "$450"
       }
     ]
   },
@@ -89,81 +125,117 @@
     "items": [
       {
         "id": 0,
-        "Type": "Wine",
-        "title": "Caelum 700cc",
-        "price": "$1,550"
+        "Type": "Blanco Dulce",
+        "title": "Simona 750cc - Blanco Dulce",
+        "price": "$1,200"
       },
       {
         "id": 1,
-        "Type": "Chardonnay",
-        "title": "Clara Benegas 750cc",
-        "price": "$1,250"
+        "Type": "Rose",
+        "title": "Caelum 750cc - Rose",
+        "price": "$1,550"
       },
       {
         "id": 2,
         "Type": "Chardonnay",
-        "title": "Cavas de Crianza 750cc",
+        "title": "Cavas de Crianza 750cc - Chardonnay",
         "price": "$1,750"
       },
       {
         "id": 3,
         "Type": "Malbec",
-        "title": "Juan Benegas 750cc",
-        "price": "$1,250"
+        "title": "Finca Magnolia 750cc - Malbec",
+        "price": "$1,350"
       },
       {
         "id": 4,
         "Type": "Malbec",
-        "title": "Norcelo 750cc",
-        "price": "$1,750"
+        "title": "Caelum 750cc - Malbec",
+        "price": "$1,550"
       },
       {
         "id": 5,
         "Type": "Malbec",
-        "title": "Solo Contigo 750cc",
-        "price": "$1,800"
+        "title": "Norcelo 750cc - Malbec",
+        "price": "$1,750"
       },
       {
         "id": 6,
         "Type": "Malbec",
-        "title": "Caelum 750cc",
-        "price": "$1,550"
+        "title": "Cavas de Crianza 750cc - Malbec",
+        "price": "$1,750"
       },
       {
         "id": 7,
         "Type": "Malbec",
-        "title": "Cavas de Crianza 750cc",
-        "price": "$1,750"
+        "title": "Bataraz Reserva 750cc - Malbec",
+        "price": "$2,150"
       },
       {
         "id": 8,
         "Type": "Malbec",
-        "title": "Bataraz Reserva 750cc",
-        "price": "$2,150"
+        "title": "Gran Vino Chañarmuyo 750cc - Malbec",
+        "price": "$2,600"
       },
       {
         "id": 9,
         "Type": "Malbec",
-        "title": "Gran Vino Chañarmuyo 750cc",
-        "price": "$2,600"
+        "title": "Los Helechos Reserva 750cc - Malbec",
+        "price": "$2,800"
       },
       {
         "id": 10,
-        "Type": "Blend",
-        "title": "Chañarmuyo 750cc",
-        "price": "$2,100"
+        "Type": "Malbec",
+        "title": "Los Helechos Malbec de Malbecs 750cc - Malbec",
+        "price": "$3,800"
       },
       {
         "id": 11,
-        "Type": "Cabernet",
-        "title": "Solo Contigo Tinto 750cc",
-        "price": "$1,800"
+        "Type": "Blend",
+        "title": "Finca Magnolia 750cc (Chardonnay, Sauvignon Blanc) - Blend",
+        "price": "$1,350"
       },
       {
         "id": 12,
+        "Type": "Blend",
+        "title": "Chañarmuyo 750cc (Cabernet Franc / Sauvignon) - Blend",
+        "price": "$2,100"
+      },
+      {
+        "id": 13,
+        "Type": "Cabernet Franc",
+        "title": "Tomero 750cc - Cabernet Franc",
+        "price": "$1,350"
+      },
+      {
+        "id": 14,
+        "Type": "Carbernet Franc",
+        "title": "Bataraz 750cc - Cabernet Franc",
+        "price": "$2,150"
+      },
+      {
+        "id": 15,
+        "Type": "Carbernet Sauvignon",
+        "title": "Finca Magnolia 750cc - Cabernet Sauvignon",
+        "price": "$1,350"
+      },
+      {
+        "id": 16,
+        "Type": "Pinot Noir, Petit Verdot, Syrah",
+        "title": "Finca La Anita 750cc - Pinot Noir, Petit Verdot, Syrah",
+        "price": "$2,150"
+      },
+      {
+        "id": 17,
+        "Type": "Sangiovese",
+        "title": "Benegas 750cc - Sangiovese",
+        "price": "$3,500"
+      },
+      {
+        "id": 18,
         "Type": "Malbec",
-        "title": "Glass of Wine (Malbec or Chardonnay)",
-        "price": "$390"
+        "title": "Glass of Red or White Wine",
+        "price": "$450"
       }
     ]
   }
