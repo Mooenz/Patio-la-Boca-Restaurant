@@ -6,17 +6,17 @@
       {
         "id": 0,
         "title": "Gaseosa línea Coca-Cola 500cc",
-        "price": "$320"
+        "price": "$330"
       },
       {
         "id": 1,
         "title": "Agua saborizada levite",
-        "price": "$320"
+        "price": "$330"
       },
       {
         "id": 2,
         "title": "Agua c/s gas",
-        "price": "$270"
+        "price": "$280"
       },
       {
         "id": 3,
@@ -26,7 +26,7 @@
       {
         "id": 4,
         "title": "Cerveza Artesanal Rubia pinta 500cc",
-        "price": "$400"
+        "price": "$420"
       },
       {
         "id": 5,
@@ -40,7 +40,7 @@
       },
       {
         "id": 7,
-        "title": "Campari Bitter (Italia) con Naranja o Tonica",
+        "title": "Campari Bitter (Italia) con Naranja o Tónica",
         "price": "$750"
       },
       {
@@ -92,17 +92,17 @@
       {
         "id": 0,
         "title": "Soda line Coca-Cola 500cc",
-        "price": "$320"
+        "price": "$330"
       },
       {
         "id": 1,
         "title": "Flavored Water",
-        "price": "$320"
+        "price": "$330"
       },
       {
         "id": 2,
         "title": "Water, Sparkling Water",
-        "price": "$270"
+        "price": "$280"
       },
       {
         "id": 3,
@@ -112,7 +112,7 @@
       {
         "id": 4,
         "title": "Draft Beer 500cc",
-        "price": "$400"
+        "price": "$420"
       },
       {
         "id": 5,

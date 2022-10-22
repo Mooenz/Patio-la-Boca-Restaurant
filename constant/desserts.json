@@ -21,17 +21,17 @@
       {
         "id": 3,
         "title": "Helado Almendrado",
-        "price": "$500"
+        "price": "$550"
       },
       {
         "id": 4,
         "title": "Chocotorta",
-        "price": "$600"
+        "price": "$750"
       },
       {
         "id": 5,
         "title": "Volcán de Chocolate con Bocha de Crema Americana",
-        "price": "$850"
+        "price": "$950"
       }
     ]
   },
@@ -57,17 +57,17 @@
       {
         "id": 3,
         "title": "Almond Ice Cream",
-        "price": "$500"
+        "price": "$550"
       },
       {
         "id": 4,
         "title": "Chocolate Cookies Cake",
-        "price": "$600"
+        "price": "$750"
       },
       {
         "id": 5,
         "title": "Chocolate Volcano with Ice Cream",
-        "price": "$850"
+        "price": "$950"
       }
     ]
   }
