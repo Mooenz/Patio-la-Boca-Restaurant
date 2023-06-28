@@ -1,7 +1,7 @@
 {
   "es": {
   "name": "Platos de Invierno",
-  "imagen":"invierno.jpeg",
+  "image":"invierno.jpeg",
   "items": [
     {
       "id": 0,
@@ -25,7 +25,7 @@
 },
 "en": {
   "name": "Winter Dishes",
-  "imagen":"invierno.jpg",
+  "image":"invierno.jpeg",
   "items": [
     {
       "id": 0,
