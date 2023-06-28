@@ -5,23 +5,23 @@
     "items": [
       {
         "id": 0,
-        "title": "Lasagna de Zuchini al Plomo con Juliana de Vegetales",
-        "price": "$1.950"
+        "title": "Cazuela de Vegetales",
+        "price": "$2.650"
       },
       {
         "id": 1,
         "title": "Wok de Arroz y Vegetales",
-        "price": "$1.250"
+        "price": "$2.100"
       },
       {
         "id": 2,
         "title": "Risotto de Hongos",
-        "price": "$2.050"
+        "price": "$3.200"
       },
       {
         "id": 3,
         "title": "Hamburguesas Veganas",
-        "price": "$1.250"
+        "price": "$2.100"
       }
     ]
   },
@@ -31,23 +31,23 @@
     "items": [
       {
         "id": 0,
-        "title": "Leaded Zucchini Lasagna with Vegetable Julienne",
-        "price": "$1,950"
+        "title": "Vegetable Casserole",
+        "price": "$2,650"
       },
       {
         "id": 1,
         "title": "Rice and Vegetable Wok",
-        "price": "$1,250"
+        "price": "$2,100"
       },
       {
         "id": 2,
         "title": "Risotto Mushroom",
-        "price": "$2,050"
+        "price": "$3,200"
       },
       {
         "id": 3,
         "title": "Vegan Burgers",
-        "price": "$1,250"
+        "price": "$2,100"
       }
     ]
   }

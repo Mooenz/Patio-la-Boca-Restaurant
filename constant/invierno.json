@@ -1,0 +1,49 @@
+{
+  "es": {
+  "name": "Platos de Invierno",
+  "imagen":"invierno.jpg",
+  "items": [
+    {
+      "id": 0,
+      "title": "Osobuco Braseado con Cremoso de Batata y Cebolla Caramelizada",
+      "price": "$3.200",
+      "state": false
+    },
+    {
+      "id": 1,
+      "title": "Guiso de Lentejas",
+      "price": "$2.500",
+      "state": false
+    },
+    {
+      "id": 2,
+      "title": "Colación Sopa Crema de Cebolla",
+      "price": "$1.200",
+      "state": false
+    }
+  ]
+},
+"en": {
+  "name": "Winter Dishes",
+  "imagen":"invierno.jpg",
+  "items": [
+    {
+      "id": 0,
+      "title": "Osobuco with Sweet Potato Puree and Caramelized Onion",
+      "price": "$3,200",
+      "state": false
+    },
+    {
+      "id": 1,
+      "title": "Lent's Stew",
+      "price": "$2,500",
+      "state": false
+    },
+    {
+      "id": 2,
+      "title": "Onion Cream Soup",
+      "price": "$1,200",
+      "state": false
+    }
+  ]
+}}

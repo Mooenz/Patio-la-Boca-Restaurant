@@ -8,6 +8,7 @@ import vegetarian from '../../constant/vegetariano.json';
 import milanesas from '../../constant/milanesas.json';
 import sandwich from '../../constant/sandwich.json';
 import desserts from '../../constant/desserts.json';
+import invierno from '../../constant/invierno.json';
 
 // Components
 import Items from '../Items';
@@ -25,6 +26,7 @@ const Menu = () => {
       <Items data={milanesas} />
       <Items data={sandwich} />
       <Items data={desserts} />
+      <Items data={invierno} />
     </Container>
   );
 };
