@@ -26,7 +26,6 @@ const Menu = () => {
       <Items data={milanesas} />
       <Items data={sandwich} />
       <Items data={desserts} />
-      <Items data={invierno} />
     </Container>
   );
 };

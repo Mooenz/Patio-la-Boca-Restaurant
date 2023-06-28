@@ -9,6 +9,7 @@ const Suggestions = () => {
   return (
     <Container>
       <Items data={suggestions} />
+      <Items data={invierno} />
     </Container>
   );
 };
