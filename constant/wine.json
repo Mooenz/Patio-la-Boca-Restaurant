@@ -137,8 +137,8 @@
       },
       {
         "id": 15022,
-        "Type": "Malbec",
-        "title": "Seismiles 750cc - Malbec",
+        "Type": "Cabernet Sauvignon",
+        "title": "Seismiles 750cc - Cabernet Sauvignon",
         "price": "$2.900"   
       },
       {
@@ -287,14 +287,14 @@
       },
       {
         "id": 15022,
-        "Type": "Malbec",
-        "title": "Seismiles 750cc - Malbec",
+        "Type": "Cabernet Sauvignon",
+        "title": "Seismiles 750cc - Cabernet Sauvignon",
         "price": "$2,900"   
       },{
         "id": 15023,
         "Type": "Malbec",
         "title": "Glass of Red or White Wine",
-        "price": "900" 
+        "price": "$900" 
       }
     ]
   }
