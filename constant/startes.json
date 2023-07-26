@@ -6,37 +6,37 @@
       {
         "id": 0,
         "title": "Empanadas de Carne o Jamón y Queso",
-        "price": "$600"
+        "price": "$660"
       },
       {
         "id": 1,
         "title": "Empanada de Carne Cortada a Cuchillo",
-        "price": "$650"
+        "price": "$750"
       },
       {
         "id": 2,
         "title": "Empanada de Cordero",
-        "price": "$700"
+        "price": "$800"
       },
       {
         "id": 3,
         "title": "Chorizo",
-        "price": "$800"
+        "price": "$880"
       },
       {
         "id": 4,
         "title": "Morcilla",
-        "price": "$750"
+        "price": "$820"
       },
       {
         "id": 5,
         "title": "Provoleta",
-        "price": "$2.200"
+        "price": "$2.400"
       },
       {
         "id": 6,
         "title": "Provoleta de Cabra",
-        "price": "$2.950"
+        "price": "$3.250"
       }
     ]
   },
@@ -47,37 +47,37 @@
       {
         "id": 0,
         "title": "Empanada Mence Meat or Ham & Cheese",
-        "price": "$600"
+        "price": "$660"
       },
       {
         "id": 1,
         "title": "Knife cut Beef Empanada",
-        "price": "$650"
+        "price": "$750"
       },
       {
         "id": 2,
         "title": "Knife cut Beef Empanada",
-        "price": "$700"
+        "price": "$800"
       },
       {
         "id": 3,
         "title": "Chorizo",
-        "price": "$800"
+        "price": "$880"
       },
       {
         "id": 4,
         "title": "Blood Sausage",
-        "price": "$750"
+        "price": "$820"
       },
       {
         "id": 5,
         "title": "Grilled Cheese",
-        "price": "$2,200"
+        "price": "$2,400"
       },
       {
         "id": 6,
         "title": "Goat Cheese Grilled",
-        "price": "$2,950"
+        "price": "$3,250"
       }
     ]
   }
