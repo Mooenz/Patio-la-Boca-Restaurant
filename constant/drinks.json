@@ -6,82 +6,77 @@
       {
         "id": 0,
         "title": "Gaseosa línea Coca-Cola 500cc",
-        "price": "$600"
+        "price": "$650"
       },
       {
         "id": 1,
         "title": "Agua saborizada levite",
-        "price": "$600"
+        "price": "$650"
       },
       {
         "id": 2,
         "title": "Agua c/s gas",
-        "price": "$550"
-      },
-      {
-        "id": 3,
-        "title": "Jugo de Naranja exprimido",
-        "price": "$850"
+        "price": "$600"
       },
       {
         "id": 4,
         "title": "Cerveza Artesanal Rubia pinta 500cc",
-        "price": "$750"
+        "price": "$850"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$1.300"
+        "price": "$1.500"
       },
       {
         "id": 6,
         "title": "Fernet Branca con Coca",
-        "price": "$1.300"
+        "price": "$1.500"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italia) con Naranja o Tónica",
-        "price": "$1.300"
+        "price": "$1.500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$1.300"
+        "price": "$1.500"
       },
       {
         "id": 9,
         "title": "Vodka con Naranja",
-        "price": "$1.300"
+        "price": "$1.500"
       },
       {
         "id": 10,
         "title": "Vermut (Cinzano o Gancia con Soda)",
-        "price": "$1.100"
+        "price": "$1.300"
       },
       {
         "id": 11,
         "title": "Espumante - Sparkling Wine",
-        "price": "3.350"
+        "price": "3.500"
       },
       {
         "id": 12,
         "title": "Café Expreso",
-        "price": "$450"
+        "price": "$500"
       },
       {
         "id": 13,
         "title": "Café Americano",
-        "price": "$460"
+        "price": "$500"
       },
       {
         "id": 14,
         "title": "Café con Leche",
-        "price": "$480"
+        "price": "$550"
       },
       {
         "id": 15,
         "title": "Té (caja con variedad)",
-        "price": "$350"
+        "price": "$450"
       }
     ]
   },
@@ -92,82 +87,77 @@
       {
         "id": 0,
         "title": "Soda line Coca-Cola 500cc",
-        "price": "$600"
+        "price": "$650"
       },
       {
         "id": 1,
         "title": "Flavored Water",
-        "price": "$600"
+        "price": "$650"
       },
       {
         "id": 2,
         "title": "Water, Sparkling Water",
-        "price": "$550"
-      },
-      {
-        "id": 3,
-        "title": "Squeezed Orange Juice",
-        "price": "$850"
+        "price": "$600"
       },
       {
         "id": 4,
         "title": "Draft Beer 500cc",
-        "price": "$750"
+        "price": "$850"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$1,300"
+        "price": "$1,500"
       },
       {
         "id": 6,
         "title": "Fernet Branca with Coca",
-        "price": "$1,300"
+        "price": "$1,500"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italy) with Orange or Tonic",
-        "price": "$1,300"
+        "price": "$1,500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$1,300"
+        "price": "$1,500"
       },
       {
         "id": 9,
         "title": "Vodka with Orange",
-        "price": "$1,300"
+        "price": "$1,500"
       },
       {
         "id": 10,
         "title": "Vermut (Cinzano or Gancia with Soda)",
-        "price": "$1,100"
+        "price": "$1,300"
       },
       {
         "id": 11,
         "title": "Sparkling Wine",
-        "price": "3,350"
+        "price": "3,500"
       },
       {
         "id": 12,
         "title": "Coffe Express",
-        "price": "$450"
+        "price": "$500"
       },
       {
         "id": 13,
         "title": "American Coffe",
-        "price": "$460"
+        "price": "$500"
       },
       {
         "id": 14,
         "title": "Coffee with milk",
-        "price": "$480"
+        "price": "$550"
       },
       {
         "id": 15,
         "title": "Tea (variety box)",
-        "price": "$350"
+        "price": "$450"
       }
     ]
   }

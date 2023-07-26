@@ -7,25 +7,25 @@
         "id": 1500,
         "Type": "Torrontés Tardio",
         "title": "Stutz 750cc - Torrontés Tardio",
-        "price": "$3.400"
+        "price": "$4.000"
       },
       {
         "id": 1501,
         "Type": "Rose",
         "title": "Caelum 750cc - Rose",
-        "price": "$3.250"
+        "price": "$3.850"
       },
       {
         "id": 1502,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc - Chardonnay",
-        "price": "$3.400"
+        "price": "$4.400"
       },
       {
         "id": 1503,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc - Chardonnay",
-        "price": "$2.900"
+        "price": "$3.200"
       },
       {
         "id": 1504,
@@ -49,13 +49,13 @@
         "id": 1507,
         "Type": "Malbec",
         "title": "Cavas de Crianza 750cc - Malbec",
-        "price": "$3.400"
+        "price": "$4.500"
       },
       {
         "id": 1508,
         "Type": "Malbec",
         "title": "Bataraz Reserva 750cc - Malbec",
-        "price": "$3.200"
+        "price": "$4.900"
       },
       {
         "id": 1509,
@@ -67,37 +67,37 @@
         "id": 15010,
         "Type": "Blend",
         "title": "Cumehue 750cc - (Bonarda/Suavignon))",
-        "price": "$2.800"
+        "price": "$3.800"
       },
       {
         "id": 15011,
         "Type": "Malbec",
         "title": "Elephant Gun 750cc - Malbec",
-        "price": "$3.200"
+        "price": "$5.000"
       },
       {
         "id": 15012,
         "Type": "Rose",
         "title": "Mandala 750cc - Rose",
-        "price": "$2.500"
+        "price": "$3.200"
       },
       {
         "id": 15013,
         "Type": "Blend",
         "title": "Chañarmuyo 750cc (Cabernet Franc / Sauvignon) - Blend",
-        "price": "$3.900"
+        "price": "$4.400"
       },
       {
         "id": 15014,
         "Type": "Naranjo",
         "title": "Cuesta Barreales 750cc - Naranjo",
-        "price": "$3.800"
+        "price": "$5.200"
       },
       {
         "id": 15015,
         "Type": "Carbernet Franc",
         "title": "Bataraz 750cc - Cabernet Franc",
-        "price": "$3.200"
+        "price": "$4.900"
       },
       {
         "id": 15016,
@@ -121,13 +121,13 @@
         "id": 15019,
         "Type": "Tannat",
         "title": "Vallisto 750cc - Tannat",
-        "price": "$4.700"   
+        "price": "$5.000"   
       },
       {
         "id": 15020,
         "Type": "Merlot",
         "title": "Desenlace 750cc - Merlot",
-        "price": "$3.900"   
+        "price": "$4.200"   
       },
       {
         "id": 15021,
@@ -139,7 +139,7 @@
         "id": 15022,
         "Type": "Cabernet Sauvignon",
         "title": "Seismiles 750cc - Cabernet Sauvignon",
-        "price": "$2.900"   
+        "price": "$3.000"   
       },
       {
         "id": 15023,
@@ -157,25 +157,25 @@
         "id": 1500,
         "Type": "Torrontés Tardio",
         "title": "Stutz 750cc - Torrontés Tardio",
-        "price": "$3,400"
+        "price": "$4,000"
       },
       {
         "id": 1501,
         "Type": "Rose",
         "title": "Caelum 750cc - Rose",
-        "price": "$3,250"
+        "price": "$3,850"
       },
       {
         "id": 1502,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc - Chardonnay",
-        "price": "$3,400"
+        "price": "$4,400"
       },
       {
         "id": 1503,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc - Chardonnay",
-        "price": "$2,900"
+        "price": "$3,200"
       },
       {
         "id": 1504,
@@ -199,13 +199,13 @@
         "id": 1507,
         "Type": "Malbec",
         "title": "Cavas de Crianza 750cc - Malbec",
-        "price": "$3,400"
+        "price": "$4,500"
       },
       {
         "id": 1508,
         "Type": "Malbec",
         "title": "Bataraz Reserva 750cc - Malbec",
-        "price": "$3,200"
+        "price": "$4,900"
       },
       {
         "id": 1509,
@@ -217,37 +217,37 @@
         "id": 15010,
         "Type": "Blend",
         "title": "Cumehue 750cc - (Bonarda/Suavignon))",
-        "price": "$2,800"
+        "price": "$3,800"
       },
       {
         "id": 15011,
         "Type": "Malbec",
         "title": "Elephant Gun 750cc - Malbec",
-        "price": "$3,200"
+        "price": "$5,000"
       },
       {
         "id": 15012,
         "Type": "Rose",
         "title": "Mandala 750cc - Rose",
-        "price": "$2,500"
+        "price": "$3,200"
       },
       {
         "id": 15013,
         "Type": "Blend",
         "title": "Chañarmuyo 750cc (Cabernet Franc / Sauvignon) - Blend",
-        "price": "$3,900"
+        "price": "$4,400"
       },
       {
         "id": 15014,
         "Type": "Naranjo",
         "title": "Cuesta Barreales 750cc - Naranjo",
-        "price": "$3,800"
+        "price": "$5,200"
       },
       {
         "id": 15015,
         "Type": "Carbernet Franc",
         "title": "Bataraz 750cc - Cabernet Franc",
-        "price": "$3,200"
+        "price": "$4,900"
       },
       {
         "id": 15016,
@@ -271,13 +271,13 @@
         "id": 15019,
         "Type": "Tannat",
         "title": "Vallisto 750cc - Tannat",
-        "price": "$4,700"   
+        "price": "$5,000"   
       },
       {
         "id": 15020,
         "Type": "Merlot",
         "title": "Desenlace 750cc - Merlot",
-        "price": "$3,900"   
+        "price": "$4,200"   
       },
       {
         "id": 15021,
@@ -289,7 +289,7 @@
         "id": 15022,
         "Type": "Cabernet Sauvignon",
         "title": "Seismiles 750cc - Cabernet Sauvignon",
-        "price": "$2,900"   
+        "price": "$3,000"   
       },{
         "id": 15023,
         "Type": "Malbec",
