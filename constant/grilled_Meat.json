@@ -6,47 +6,47 @@
       {
         "id": 0,
         "title": "Asado 600 gr",
-        "price": "$5.200"
+        "price": "$7.450"
       },
       {
         "id": 1,
         "title": "Vacío 600 gr",
-        "price": "$5.300"
+        "price": "$7.550"
       },
       {
         "id": 2,
         "title": "Bife de Chorizo 500 gr",
-        "price": "$5.700"
+        "price": "$8.000"
       },
       {
         "id": 3,
         "title": "Lomo 400 gr",
-        "price": "$6.100"
+        "price": "$8.500"
       },
       {
         "id": 4,
         "title": "Bife con Lomo más de 800 gr",
-        "price": "$6.500"
+        "price": "$10.200"
       },
       {
         "id": 5,
         "title": "Pechuga Grille",
-        "price": "$2.500"
+        "price": "$3.850"
       },
       {
         "id": 6,
         "title": "Tabla para 3 o 4 personas: Asado banderita, vacío, bondiola, pollo, chichulin, 1 chorizo, 1 morcilla.",
-        "price": "$13.750"
+        "price": "$17.700"
       },
       {
         "id": 7,
         "title": "Tabla Premium para 2 personas: Lomo, Bife de Chorizo, Asado Banderia",
-        "price": "$10.200"
+        "price": "$13.400"
       },
       {
         "id": 8,
         "title": "Tabla Mix para 2: Lomo, Mini bife de Chorizo, Asado Banderita, Bondiola, 1 Chorizo, 1 Morcilla, Chinchulin ",
-        "price": "$9.500"
+        "price": "$12.600"
       },
       {
         "id": 9,
@@ -62,47 +62,47 @@
       {
         "id": 0,
         "title": "Short Ribs 600 gr",
-        "price": "$5,200"
+        "price": "$7,450"
       },
       {
         "id": 1,
         "title": "Thin Flank 600 gr",
-        "price": "$5,300"
+        "price": "$7,550"
       },
       {
         "id": 2,
         "title": "Sirloin Steak 500 gr",
-        "price": "$5,700"
+        "price": "$8,000"
       },
       {
         "id": 3,
         "title": "Tenderloin 400 gr",
-        "price": "$6,100"
+        "price": "$8,500"
       },
       {
         "id": 4,
         "title": "T-Bone more than 800 gr",
-        "price": "$6,500"
+        "price": "$10,200"
       },
       {
         "id": 5,
         "title": "Chicken",
-        "price": "$2,500"
+        "price": "$3,850"
       },
       {
         "id": 6,
         "title": "Barbecue for 3 or 4: Short Ribs, Thin Flank, Pork, Chicken, Chinchulin, 1 Chorizo, 1 Blood Sausage",
-        "price": "$13,750"
+        "price": "$17,700"
       },
       {
         "id": 7,
         "title": "Premium Barbecue for 2: Tenderloin, Sirloin Steak, Short Ribs",
-        "price": "$10,200"
+        "price": "$13,400"
       },
       {
         "id": 8,
         "title": "Barbecue Mix for 2: Tenderloin, Sirloin Steak, Short Ribs, Pork, Chinchulin, 1 Chorizo, 1 Blood Sausage",
-        "price": "$9,500"
+        "price": "$12,600"
       },
       {
         "id": 9,

@@ -6,19 +6,19 @@
     {
       "id": 0,
       "title": "Osobuco Braseado con Cremoso de Batata y Cebolla Caramelizada",
-      "price": "$3.200",
+      "price": "$4.300",
       "state": false
     },
     {
       "id": 1,
       "title": "Guiso de Lentejas",
-      "price": "$2.500",
+      "price": "$3.350",
       "state": false
     },
     {
       "id": 2,
       "title": "Colación Sopa Crema de Cebolla",
-      "price": "$1.200",
+      "price": "$2.150",
       "state": false
     }
   ]
@@ -30,19 +30,19 @@
     {
       "id": 0,
       "title": "Osobuco with Sweet Potato Puree and Caramelized Onion",
-      "price": "$3,200",
+      "price": "$4,300",
       "state": false
     },
     {
       "id": 1,
       "title": "Lent's Stew",
-      "price": "$2,500",
+      "price": "$3,350",
       "state": false
     },
     {
       "id": 2,
       "title": "Onion Cream Soup",
-      "price": "$1,200",
+      "price": "$2,150",
       "state": false
     }
   ]
