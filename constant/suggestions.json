@@ -1,0 +1,84 @@
+{
+  "es": {
+    "name": "Sugerencia",
+    "image":"Sugerencias.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "~ Alfajor de Queso de Cabra entre dos Medallones de Lomo, Bañado en Tzatziki Griego, Acompañado de Papas Españolas",
+        "price": "$7.250"
+      },
+      {
+        "id": 1,
+        "title": "~ Trucha cocida con aceite de oliva, limón y pimienta verde acompañada de Hongos Portobelos empanados y rellenos con queso",
+        "price": "$8.200"
+      },
+      {
+        "id": 2,
+        "title": "~ Curry de Langostinos con Arroz Basmati y Nueces",
+        "price": "$6.800"
+      },
+      {
+        "id": 3,
+        "title": "~ Capeletis de Cordero, Queso Azul y Nueces con crema de hongos frescos",
+        "price": "$3.950"
+      },
+      {
+        "id": 4,
+        "title": "~ Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada hechos al hierro, acompañado de aceitunas negras, tomatitos cherry, rucula y escamas de parmesano",
+        "price": "$3.950"
+      },
+      {
+        "id": 5,
+        "title": "~ Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada con crema de Brocoli",
+        "price": "$3.700"
+      },
+      {
+        "id": 6,
+        "title": "~ Raviolones de Casón en Crema de Ostras",
+        "price": "$3.950"
+      }
+    ]
+  },
+  "en": {
+    "name": "Suggestion",
+    "image":"Sugerencias.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "~ Goat Cheese Alfajor between two Tenderloin, Bathed in Greek Tzatziki and Spanish Potatoes",
+        "price": "$7.250"
+      },
+      {
+        "id": 1,
+        "title": "~ Trout cooked with olive oil, lemon and green pepper accompanied by breaded PortobeloS Mushrooms stuffed with cheese",
+        "price": "$8.200"
+      },
+      {
+        "id": 2,
+        "title": "~ King Prawns Curry with Basmati Rice and Walnuts",
+        "price": "$6.850"
+      },
+      {
+        "id": 3,
+        "title": "~ Lamb Capelettis, Blue Cheese and Walnuts with fresh mushroom cream",
+        "price": "$3.950"
+      },
+      {
+        "id": 4,
+        "title": "~ Sorrentinos of smoked pepper pasta, filled with braised pork and on top are  black olives, Cherry tomatoes, arugula and parmesan cheese",
+        "price": "$3.950"
+      },
+      {
+        "id": 5,
+        "title": "~ Panzottis made of smoked carrot dough stuffed with shredded veal with Broccoli and cream",
+        "price": "$3.700"
+      },
+      {
+        "id": 6,
+        "title": "~ Casón Ravioli in Oyster Cream",
+        "price": "$3.950"
+      }
+    ]
+  }
+}
