@@ -6,32 +6,32 @@
       {
         "id": 0,
         "title": "Budín de Pan Casero",
-        "price": "$1.150"
+        "price": "$1.300"
       },
       {
         "id": 1,
         "title": "Flan Casero",
-        "price": "$1.150"
+        "price": "$1.300"
       },
       {
         "id": 2,
         "title": "Extras Dulce de Leche o Crema",
-        "price": "$350"
+        "price": "$400"
       },
       {
         "id": 3,
         "title": "Helado Almendrado",
-        "price": "$1.550"
+        "price": "$1.750"
       },
       {
         "id": 4,
         "title": "Chocotorta",
-        "price": "$1.850"
+        "price": "$2.100"
       },
       {
         "id": 5,
         "title": "Volcán de Chocolate con Bocha de Crema Americana",
-        "price": "$2.300"
+        "price": "$2.650"
       },
       {
         "id": 6,
@@ -41,12 +41,12 @@
       {
         "id": 7,
         "title": "Brownie Tibio con Nueces y Helado",
-        "price": "$2.050"
+        "price": "$2.350"
       },
       {
         "id": 8,
         "title": "Bocha de Helado",
-        "price": "$700"
+        "price": "$800"
       }
     ]
   },
@@ -57,32 +57,32 @@
       {
         "id": 0,
         "title": "Homemade Bread Pudding",
-        "price": "$1.150"
+        "price": "$1.300"
       },
       {
         "id": 1,
         "title": "Homemade Cream Caramel",
-        "price": "$1.150"
+        "price": "$1.300"
       },
       {
         "id": 2,
         "title": "With Argentinian Toffee or Cream",
-        "price": "$350"
+        "price": "$400"
       },
       {
         "id": 3,
         "title": "Almond Ice Cream",
-        "price": "$1.550"
+        "price": "$1.750"
       },
       {
         "id": 4,
         "title": "Chocolate Cookies Cake",
-        "price": "$1,850"
+        "price": "$2,100"
       },
       {
         "id": 5,
         "title": "Chocolate Volcano with Ice Cream",
-        "price": "$2,300"
+        "price": "$2,650"
       },
       {
         "id": 6,
@@ -92,12 +92,12 @@
       {
         "id": 7,
         "title": "Brownie Tibio con Nueces y Helado",
-        "price": "$2,050"
+        "price": "$2,350"
       },
       {
         "id": 8,
         "title": "Ice Cream",
-        "price": "$700"
+        "price": "$800"
       }
     ]
   }

@@ -6,42 +6,42 @@
       {
         "id": 0,
         "title": "Ensalada Mixta (Tomate, Lechuga, Cebolla)",
-        "price": "$1.650"
+        "price": "$1.850"
       },
       {
         "id": 1,
         "title": "Ensalada Rucula y Parmesano",
-        "price": "$1.800"
+        "price": "$2.000"
       },
       {
         "id": 2,
         "title": "Ensalada de Zanahoria y Huevo",
-        "price": "$1.650"
+        "price": "$1.850"
       },
       {
         "id": 3,
         "title": "Papas, Batatas Fritas",
-        "price": "$1.650"
+        "price": "$1.850"
       },
       {
         "id": 4,
         "title": "Tortilla de Papas",
-        "price": "$2.500"
+        "price": "$2.850"
       },
       {
         "id": 5,
         "title": "Tortilla de Papas con Chorizo Colorado",
-        "price": "$2.900"
+        "price": "$3.300"
       },
       {
         "id": 6,
         "title": "Puré de Papas o Calabaza",
-        "price": "$1.650"
+        "price": "$1.850"
       },
       {
         "id": 7,
         "title": "Arroz",
-        "price": "$1.650"
+        "price": "$1.850"
       }
     ]
   },
@@ -52,42 +52,42 @@
       {
         "id": 0,
         "title": "Tomato, Lettuce, Onion",
-        "price": "$1,650"
+        "price": "$1,850"
       },
       {
         "id": 1,
         "title": "Arugula and Parmesan Salad",
-        "price": "$1,800"
+        "price": "$2,000"
       },
       {
         "id": 2,
         "title": "Carrot and Egg Salad",
-        "price": "$1,650"
+        "price": "$1,850"
       },
       {
         "id": 3,
         "title": "French Fries, Sweet Potato Fries",
-        "price": "$1,650"
+        "price": "$1,850"
       },
       {
         "id": 4,
         "title": "Potato Omelette",
-        "price": "$2,500"
+        "price": "$2,850"
       },
       {
         "id": 5,
         "title": "Potato Omelette with Red Chorizo",
-        "price": "$2,900"
+        "price": "$3,300"
       },
       {
         "id": 6,
         "title": "Mashed Potatoes or Pumpkin",
-        "price": "$1,650"
+        "price": "$1,850"
       },
       {
         "id": 7,
         "title": "Rice",
-        "price": "$1,650"
+        "price": "$1,850"
       }
     ]
   }
