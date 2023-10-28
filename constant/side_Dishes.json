@@ -6,74 +6,42 @@
       {
         "id": 0,
         "title": "Ensalada Mixta (Tomate, Lechuga, Cebolla)",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1.850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Ensalada Rucula y Parmesano",
-<<<<<<< HEAD
         "price": "$2.100"
-=======
-        "price": "$2.000"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "Ensalada de Zanahoria y Huevo",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1.850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "Papas, Batatas Fritas",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1.850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "Tortilla de Papas",
-<<<<<<< HEAD
         "price": "$3.200"
-=======
-        "price": "$2.850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 5,
         "title": "Tortilla de Papas con Chorizo Colorado",
-<<<<<<< HEAD
         "price": "$3.500"
-=======
-        "price": "$3.300"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 6,
         "title": "Puré de Papas o Calabaza",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1.850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 7,
         "title": "Arroz",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1.850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   },
@@ -84,74 +52,42 @@
       {
         "id": 0,
         "title": "Tomato, Lettuce, Onion",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1,850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Arugula and Parmesan Salad",
-<<<<<<< HEAD
         "price": "$2.100"
-=======
-        "price": "$2,000"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "Carrot and Egg Salad",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1,850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "French Fries, Sweet Potato Fries",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1,850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "Potato Omelette",
-<<<<<<< HEAD
         "price": "$3,200"
-=======
-        "price": "$2,850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 5,
         "title": "Potato Omelette with Red Chorizo",
-<<<<<<< HEAD
         "price": "$3,500"
-=======
-        "price": "$3,300"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 6,
         "title": "Mashed Potatoes or Pumpkin",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1,850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 7,
         "title": "Rice",
-<<<<<<< HEAD
         "price": "$2.000"
-=======
-        "price": "$1,850"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   }
