@@ -1,6 +1,6 @@
 // Data
-import suggestions from '../../constant/suggestions.json';
-import invierno from '../../constant/invierno.json';
+import suggestions from '../../constant/suggestions1.json';
+import invierno from '../../constant/pescado.json';
 
 // Components
 import Items from '../Items';
