@@ -6,27 +6,47 @@
       {
         "id": 0,
         "title": "Milanesa de Bife de Chorizo",
+<<<<<<< HEAD
         "price": "$5.850"
+=======
+        "price": "$5.800"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Suprema de Pollo",
+<<<<<<< HEAD
         "price": "$4.600"
+=======
+        "price": "$4.150"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "Agregado: Napolitana o Fugazzeta",
+<<<<<<< HEAD
         "price": "$900"
+=======
+        "price": "$750"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "Pollo al Verdeo o al Puerro acompañado de Papas Españolas",
+<<<<<<< HEAD
         "price": "$5.250"
+=======
+        "price": "$5.200"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "Pollo con Crema de Hongos acompañado de Papas Españolas",
+<<<<<<< HEAD
         "price": "$5.650"
+=======
+        "price": "$5.600"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   },
@@ -37,27 +57,47 @@
       {
         "id": 0,
         "title": "Breaded Beef Fillet",
+<<<<<<< HEAD
         "price": "$5,850"
+=======
+        "price": "$5,800"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Breaded Chicken",
+<<<<<<< HEAD
         "price": "$4,600"
+=======
+        "price": "$4,150"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "With: Napolitana o Fugazzeta",
+<<<<<<< HEAD
         "price": "$900"
+=======
+        "price": "$750"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "Chicken with green onion or leek and Spanish fries",
+<<<<<<< HEAD
         "price": "$5,250"
+=======
+        "price": "$5,200"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "Chicken with Cream and Mushroom and Spanish fries",
+<<<<<<< HEAD
         "price": "$5,650"
+=======
+        "price": "$5,600"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   }

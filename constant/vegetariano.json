@@ -6,22 +6,38 @@
       {
         "id": 0,
         "title": "Cazuela de Vegetales",
+<<<<<<< HEAD
         "price": "$4.100"
+=======
+        "price": "$4.050"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Wok de Arroz y Vegetales",
+<<<<<<< HEAD
         "price": "$4.100"
+=======
+        "price": "$4.050"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "Risotto de Hongos",
+<<<<<<< HEAD
         "price": "$5.700"
+=======
+        "price": "$5.600"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "Hamburguesas Veganas",
+<<<<<<< HEAD
         "price": "$3.600"
+=======
+        "price": "$3.550"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   },
@@ -32,22 +48,38 @@
       {
         "id": 0,
         "title": "Vegetable Casserole",
+<<<<<<< HEAD
         "price": "$4,100"
+=======
+        "price": "$4,050"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Rice and Vegetable Wok",
+<<<<<<< HEAD
         "price": "$4,100"
+=======
+        "price": "$4,050"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "Risotto Mushroom",
+<<<<<<< HEAD
         "price": "$5,700"
+=======
+        "price": "$5,600"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "Vegan Burgers",
+<<<<<<< HEAD
         "price": "$3,600"
+=======
+        "price": "$3,550"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   }

@@ -6,32 +6,56 @@
       {
         "id": 0,
         "title": "Fideos o Cinta",
+<<<<<<< HEAD
         "price": "$2.900"
+=======
+        "price": "$2.850"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Sorrentinos de Jamon y Queso",
+<<<<<<< HEAD
         "price": "$3.800"
+=======
+        "price": "$3.750"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "Raviolones de Verdura y Ricota",
+<<<<<<< HEAD
         "price": "$3.700"
+=======
+        "price": "$3.600"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada",
+<<<<<<< HEAD
         "price": "$4.200"
+=======
+        "price": "$4.150"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "Capeletis de Cordero, Queso Azul y Nueces",
+<<<<<<< HEAD
         "price": "$4.500"
+=======
+        "price": "$4.450"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 5,
         "title": "Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada",
+<<<<<<< HEAD
         "price": "$4.200"
+=======
+        "price": "$4.150"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   },
@@ -42,32 +66,56 @@
       {
         "id": 0,
         "title": "Spaghetti",
+<<<<<<< HEAD
         "price": "$2.900"
+=======
+        "price": "$2,850"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
         "title": "Sorrentinos the Ham and Cheese",
+<<<<<<< HEAD
         "price": "$3.800"
+=======
+        "price": "$3,750"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 2,
         "title": "Vegetable and Ricotta Ravioli",
+<<<<<<< HEAD
         "price": "$3.700"
+=======
+        "price": "$3,600"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 3,
         "title": "Sorrentinos of smoked pepper pasta, filled with braised pork",
+<<<<<<< HEAD
         "price": "$4.200"
+=======
+        "price": "$4,150"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "Lamb Capeletis, Blue Cheese and Walnuts",
+<<<<<<< HEAD
         "price": "$4,500"
+=======
+        "price": "$4,450"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 5,
         "title": "Panzottis made of smoked carrot dough stuffed with shredded veal",
+<<<<<<< HEAD
         "price": "$4.200"
+=======
+        "price": "$4,150"
+>>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       }
     ]
   }
