@@ -6,11 +6,7 @@
       {
         "id": 0,
         "title": "Asado 600 gr",
-<<<<<<< HEAD
         "price": "$8.600"
-=======
-        "price": "$8.500"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
@@ -25,20 +21,12 @@
       {
         "id": 3,
         "title": "Lomo 400 gr",
-<<<<<<< HEAD
         "price": "$9.800"
-=======
-        "price": "$9.700"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "Bife con Lomo más de 800 gr",
-<<<<<<< HEAD
         "price": "$11.800"
-=======
-        "price": "$11.700"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 5,
@@ -48,29 +36,17 @@
       {
         "id": 6,
         "title": "Tabla para 3 o 4 personas: Asado banderita, vacío, bondiola, pollo, chichulin, 1 chorizo, 1 morcilla.",
-<<<<<<< HEAD
         "price": "$21.000"
-=======
-        "price": "$20.300"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 7,
         "title": "Tabla Premium para 2 personas: Lomo, Bife de Chorizo, Asado Banderia",
-<<<<<<< HEAD
         "price": "$16.000"
-=======
-        "price": "$15.400"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 8,
         "title": "Tabla Mix para 2: Lomo, Mini bife de Chorizo, Asado Banderita, Bondiola, 1 Chorizo, 1 Morcilla, Chinchulin ",
-<<<<<<< HEAD
         "price": "$15.000"
-=======
-        "price": "$14.450"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 9,
@@ -86,11 +62,7 @@
       {
         "id": 0,
         "title": "Short Ribs 600 gr",
-<<<<<<< HEAD
         "price": "$8,600"
-=======
-        "price": "$8,500"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 1,
@@ -105,20 +77,12 @@
       {
         "id": 3,
         "title": "Tenderloin 400 gr",
-<<<<<<< HEAD
         "price": "$9,800"
-=======
-        "price": "$9,700"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 4,
         "title": "T-Bone more than 800 gr",
-<<<<<<< HEAD
         "price": "$11,800"
-=======
-        "price": "$11,700"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 5,
@@ -128,29 +92,17 @@
       {
         "id": 6,
         "title": "Barbecue for 3 or 4: Short Ribs, Thin Flank, Pork, Chicken, Chinchulin, 1 Chorizo, 1 Blood Sausage",
-<<<<<<< HEAD
         "price": "$21,000"
-=======
-        "price": "$20,300"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 7,
         "title": "Premium Barbecue for 2: Tenderloin, Sirloin Steak, Short Ribs",
-<<<<<<< HEAD
         "price": "$16,000"
-=======
-        "price": "$15,400"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 8,
         "title": "Barbecue Mix for 2: Tenderloin, Sirloin Steak, Short Ribs, Pork, Chinchulin, 1 Chorizo, 1 Blood Sausage",
-<<<<<<< HEAD
         "price": "$15,000"
-=======
-        "price": "$14,450"
->>>>>>> 3a38d5922e34233a23d31c2b536e7f77782de838
       },
       {
         "id": 9,
