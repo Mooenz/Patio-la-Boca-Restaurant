@@ -6,17 +6,17 @@
       {
         "id": 0,
         "title": "Choripan Extra con lechuga, tomate y fritas",
-        "price": "$3.550"
+        "price": "$4.100"
       },
       {
         "id": 1,
         "title": "Bondiola con lechuga, tomate y fritas",
-        "price": "$4.150"
+        "price": "$5.100"
       },
       {
         "id": 2,
         "title": "Hamburguesa casera con queso, lechuga, tomate y fritas",
-        "price": "$3.950"
+        "price": "$4.500"
       }
     ]
   },
@@ -27,17 +27,17 @@
       {
         "id": 0,
         "title": "Choripan with lettuce, tomato and fries",
-        "price": "$3.550"
+        "price": "$4,100"
       },
       {
         "id": 1,
         "title": "Pork with lettuce, tomato and fries",
-        "price": "$4.150"
+        "price": "$5,100"
       },
       {
         "id": 2,
         "title": "Homemade hamburger with cheese, lettuce, tomato and fries",
-        "price": "$3.950"
+        "price": "$4,500"
       }
     ]
   }

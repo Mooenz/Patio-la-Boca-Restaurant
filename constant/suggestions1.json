@@ -6,27 +6,27 @@
       {
         "id": 0,
         "title": "~ Alfajor de Queso de Cabra entre dos Medallones de Lomo, Bañado en Tzatziki Griego, Acompañado de Papas Españolas",
-        "price": "$11.500"
+        "price": "$13.000"
       },
       {
         "id": 3,
         "title": "~ Capeletis de Cordero, Queso Azul y Nueces con crema de hongos frescos",
-        "price": "$6.150"
+        "price": "$7.200"
       },
       {
         "id": 4,
         "title": "~ Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada hechos al hierro, acompañado de aceitunas negras, tomatitos cherry, rucula y escamas de parmesano",
-        "price": "$6.150"
+        "price": "$7.200"
       },
       {
         "id": 5,
         "title": "~ Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada con crema de Brocoli",
-        "price": "$5.600"
+        "price": "$6.500"
       },
       {
         "id": 6,
-        "title": "~ Raviolones Caprese (Albahaca, Cherry y mozzarella Bocconcino) hechos al hierro",
-        "price": "$6.500"
+        "title": "~ Raviolones Caprese (Albahaca, Cherry y mozzarella Bocconcino) hechos al hierro con aceite de oliva, tomates Cherry y terminados con Bocconcino",
+        "price": "$7.500"
       }
     ]
   },
@@ -37,27 +37,27 @@
       {
         "id": 0,
         "title": "~ Goat Cheese Alfajor between two Tenderloin, Bathed in Greek Tzatziki and Spanish Potatoes",
-        "price": "$11.500"
+        "price": "$13.000"
       },
       {
         "id": 1,
         "title": "~ Lamb Capelettis, Blue Cheese and Walnuts with fresh mushroom cream",
-        "price": "$6.150"
+        "price": "$7.200"
       },
       {
         "id": 2,
         "title": "~ Sorrentinos of smoked pepper pasta, filled with braised pork and on top are  black olives, Cherry tomatoes, arugula and parmesan cheese",
-        "price": "$6.150"
+        "price": "$7.200"
       },
       {
         "id": 3,
         "title": "~ Panzottis made of smoked carrot dough stuffed with shredded veal with Broccoli and cream",
-        "price": "$5.600"
+        "price": "$6.500"
       },
       {
         "id": 4,
-        "title": "~ Raviolones Caprese (Albahaca, Cherry y mozzarella Bocconcino) hechos al hierro",
-        "price": "$6.500"
+        "title": "~ Caprese Ravioli (Basil, Tomatoes Confit and Mozzarella) grilled with olive oil, Cherry tomatoes and finished with Bocconcino",
+        "price": "$7.500"
       }
     ]
   }

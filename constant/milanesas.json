@@ -6,27 +6,27 @@
       {
         "id": 0,
         "title": "Milanesa de Bife de Chorizo",
-        "price": "$5.850"
+        "price": "$6.300"
       },
       {
         "id": 1,
         "title": "Suprema de Pollo",
-        "price": "$4.600"
+        "price": "$5.200"
       },
       {
         "id": 2,
         "title": "Agregado: Napolitana o Fugazzeta",
-        "price": "$900"
+        "price": "$1.100"
       },
       {
         "id": 3,
         "title": "Pollo al Verdeo o al Puerro acompañado de Papas Españolas",
-        "price": "$5.250"
+        "price": "$6.100"
       },
       {
         "id": 4,
         "title": "Pollo con Crema de Hongos acompañado de Papas Españolas",
-        "price": "$5.650"
+        "price": "$6.500"
       }
     ]
   },
@@ -37,27 +37,27 @@
       {
         "id": 0,
         "title": "Breaded Beef Fillet",
-        "price": "$5,850"
+        "price": "$6,300"
       },
       {
         "id": 1,
         "title": "Breaded Chicken",
-        "price": "$4,600"
+        "price": "$5,200"
       },
       {
         "id": 2,
         "title": "With: Napolitana o Fugazzeta",
-        "price": "$900"
+        "price": "$1,100"
       },
       {
         "id": 3,
         "title": "Chicken with green onion or leek and Spanish fries",
-        "price": "$5,250"
+        "price": "$6,100"
       },
       {
         "id": 4,
         "title": "Chicken with Cream and Mushroom and Spanish fries",
-        "price": "$5,650"
+        "price": "$6,500"
       }
     ]
   }
