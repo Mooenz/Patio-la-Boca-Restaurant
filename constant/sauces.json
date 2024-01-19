@@ -6,22 +6,22 @@
       {
         "id": 0,
         "title": "Fileto, Rossini, Pesto, Salsa Blanca",
-        "price": "$1.900"
+        "price": "$3.200"
       },
       {
         "id": 1,
         "title": "Estofado, Bolognesa",
-        "price": "$2.500"
+        "price": "$4.200"
       },
       {
         "id": 2,
         "title": "Crema de Brócoli",
-        "price": "$2.300"
+        "price": "$4.200"
       },
       {
         "id": 3,
         "title": "Ragout de Hongos",
-        "price": "$2.600"
+        "price": "$4.700"
       }
     ]
   },
@@ -32,22 +32,22 @@
       {
         "id": 0,
         "title": "Fileto, Rossini, Pesto, Salsa Blanca (White Sauce)",
-        "price": "$1,900"
+        "price": "$3,200"
       },
       {
         "id": 1,
         "title": "Stew, Bolognese",
-        "price": "$2,500"
+        "price": "$4,200"
       },
       {
         "id": 2,
         "title": "Cream of Broccolii",
-        "price": "$2,300"
+        "price": "$4,200"
       },
       {
         "id": 3,
         "title": "Mushroom Ragout",
-        "price": "$2,600"
+        "price": "$4,700"
       }
     ]
   }
