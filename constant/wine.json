@@ -7,49 +7,49 @@
         "id": 1500,
         "Type": "Torrontés Tardio",
         "title": "Stutz 750cc - Torrontés Tardio",
-        "price": "$6.700"
+        "price": "$8.500"
       },
       {
         "id": 1501,
         "Type": "Rose",
         "title": "Caelum 750cc - Rose",
-        "price": "$6.800"
+        "price": "$8.200"
       },
       {
         "id": 1502,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc - Chardonnay",
-        "price": "$7.500"
+        "price": "$8.200"
       },
       {
         "id": 1503,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc - Chardonnay",
-        "price": "$5.900"
+        "price": "$6.200"
       },
       {
         "id": 1504,
         "Type": "Malbec",
         "title": "Juan Benegas 750cc - Malbec",
-        "price": "$5.200"
+        "price": "$6.000"
       },
       {
         "id": 1505,
         "Type": "Malbec",
         "title": "Caelum 750cc - Malbec",
-        "price": "$5.800"
+        "price": "$6.500"
       },
       {
         "id": 1506,
         "Type": "Malbec",
         "title": "Norcelo 750cc - Malbec",
-        "price": "$5.200"
+        "price": "$6.200"
       },
       {
         "id": 1507,
         "Type": "Malbec",
         "title": "Cavas de Crianza 750cc - Malbec",
-        "price": "$7.100"
+        "price": "$7.500"
       },
       {
         "id": 1508,
@@ -61,7 +61,7 @@
         "id": 1509,
         "Type": "Malbec",
         "title": "Gran Vino Chañarmuyo 750cc - Malbec",
-        "price": "$9.100"
+        "price": "$9.500"
       },
       {
         "id": 15010,
@@ -85,7 +85,7 @@
         "id": 15013,
         "Type": "Blend",
         "title": "Chañarmuyo 750cc (Cabernet Franc / Sauvignon) - Blend",
-        "price": "$7.500"
+        "price": "$8.200"
       },
       {
         "id": 15014,
@@ -97,25 +97,25 @@
         "id": 15015,
         "Type": "Carbernet Franc",
         "title": "Bataraz 750cc - Cabernet Franc",
-        "price": "$7.700"
+        "price": "$8.200"
       },
       {
         "id": 15016,
         "Type": "Pinot Noir",
         "title": "Kamala 750cc - Pinot Noir",
-        "price": "$5.500"
+        "price": "$6.200"
       },
       {
         "id": 15017,
         "Type": "Pinot Noir, Petit Verdot, Syrah",
         "title": "Finca La Anita 750cc - Pinot Noir, Petit Verdot, Syrah",
-        "price": "$8.100"
+        "price": "$9.200"
       },
       {
         "id": 15018,
         "Type": "Sangiovese",
         "title": "Benegas 750cc - Sangiovese",
-        "price": "$11.000"
+        "price": "$11,.000"
       },
       {
         "id": 15019,
@@ -127,7 +127,7 @@
         "id": 15020,
         "Type": "Merlot",
         "title": "Desenlace 750cc - Merlot",
-        "price": "$7.200"   
+        "price": "$8.200"   
       },
       {
         "id": 15021,
@@ -145,7 +145,7 @@
         "id": 15023,
         "Type": "Malbec",
         "title": "Copa de Vino (Tinto o Blanco)",
-        "price": "$1.800"
+        "price": "$2.500"
       }
     ]
   },
@@ -157,49 +157,49 @@
         "id": 1500,
         "Type": "Torrontés Tardio",
         "title": "Stutz 750cc - Torrontés Tardio",
-        "price": "$6,700"
+        "price": "$8,500"
       },
       {
         "id": 1501,
         "Type": "Rose",
         "title": "Caelum 750cc - Rose",
-        "price": "$6,800"
+        "price": "$8,200"
       },
       {
         "id": 1502,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc - Chardonnay",
-        "price": "$7,500"
+        "price": "$8,200"
       },
       {
         "id": 1503,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc - Chardonnay",
-        "price": "$5,900"
+        "price": "$6,200"
       },
       {
         "id": 1504,
         "Type": "Malbec",
         "title": "Juan Benegas 750cc - Malbec",
-        "price": "$5,200"
+        "price": "$6,000"
       },
       {
         "id": 1505,
         "Type": "Malbec",
         "title": "Caelum 750cc - Malbec",
-        "price": "$5,800"
+        "price": "$6,500"
       },
       {
         "id": 1506,
         "Type": "Malbec",
         "title": "Norcelo 750cc - Malbec",
-        "price": "$5,200"
+        "price": "$6,200"
       },
       {
         "id": 1507,
         "Type": "Malbec",
         "title": "Cavas de Crianza 750cc - Malbec",
-        "price": "$7,100"
+        "price": "$7,500"
       },
       {
         "id": 1508,
@@ -211,7 +211,7 @@
         "id": 1509,
         "Type": "Malbec",
         "title": "Gran Vino Chañarmuyo 750cc - Malbec",
-        "price": "$9,100"
+        "price": "$9,500"
       },
       {
         "id": 15010,
@@ -235,7 +235,7 @@
         "id": 15013,
         "Type": "Blend",
         "title": "Chañarmuyo 750cc (Cabernet Franc / Sauvignon) - Blend",
-        "price": "$7,500"
+        "price": "$8,200"
       },
       {
         "id": 15014,
@@ -247,25 +247,25 @@
         "id": 15015,
         "Type": "Carbernet Franc",
         "title": "Bataraz 750cc - Cabernet Franc",
-        "price": "$7,700"
+        "price": "$8,200"
       },
       {
         "id": 15016,
         "Type": "Pinot Noir",
         "title": "Kamala 750cc - Pinot Noir",
-        "price": "$5,500"
+        "price": "$6,200"
       },
       {
         "id": 15017,
         "Type": "Pinot Noir, Petit Verdot, Syrah",
         "title": "Finca La Anita 750cc - Pinot Noir, Petit Verdot, Syrah",
-        "price": "$8,100"
+        "price": "$9,200"
       },
       {
         "id": 15018,
         "Type": "Sangiovese",
         "title": "Benegas 750cc - Sangiovese",
-        "price": "$81000"
+        "price": "$11,000"
       },
       {
         "id": 15019,
@@ -277,7 +277,7 @@
         "id": 15020,
         "Type": "Merlot",
         "title": "Desenlace 750cc - Merlot",
-        "price": "$7,200"   
+        "price": "$8,200"   
       },
       {
         "id": 15021,
@@ -295,7 +295,7 @@
         "id": 15023,
         "Type": "Malbec",
         "title": "Glass of Red or White Wine",
-        "price": "$1.800" 
+        "price": "$2.500" 
       }
       ]
   }
