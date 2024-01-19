@@ -1,53 +1,73 @@
 {
   "es": {
-    "name": "Vegetariano",
-    "image":"Vegetariano.jpg",
+    "name": "Pasta Casera",
+    "image":"Pastas.jpg",
     "items": [
       {
         "id": 0,
-        "title": "Cazuela de Vegetales",
-        "price": "$7.500"
+        "title": "Fideos o Cinta",
+        "price": "$6.500"
       },
       {
         "id": 1,
-        "title": "Wok de Arroz y Vegetales",
-        "price": "$7.500"
+        "title": "Sorrentinos de Jamon y Queso",
+        "price": "$9.000"
       },
       {
         "id": 2,
-        "title": "Risotto de Hongos",
-        "price": "$11.000"
+        "title": "Raviolones de Verdura y Ricota",
+        "price": "$8.000"
       },
       {
         "id": 3,
-        "title": "Hamburguesas Veganas",
-        "price": "$7.500"
+        "title": "Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada",
+        "price": "$9.500"
+      },
+      {
+        "id": 4,
+        "title": "Capeletis de Cordero, Queso Azul y Nueces",
+        "price": "$9.500"
+      },
+      {
+        "id": 5,
+        "title": "Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada",
+        "price": "$9.000"
       }
     ]
   },
   "en": {
-    "name": "Vegetarian",
-    "image":"Vegetariano.jpg",
+    "name": "Homemade Pasta",
+    "image":"Pastas.jpg",
     "items": [
       {
         "id": 0,
-        "title": "Vegetable Casserole",
-        "price": "$7,500"
+        "title": "Spaghetti",
+        "price": "$6,500"
       },
       {
         "id": 1,
-        "title": "Rice and Vegetable Wok",
-        "price": "$7,500"
+        "title": "Sorrentinos the Ham and Cheese",
+        "price": "$9,000"
       },
       {
         "id": 2,
-        "title": "Risotto Mushroom",
-        "price": "$11,000"
+        "title": "Vegetable and Ricotta Ravioli",
+        "price": "$8,000"
       },
       {
         "id": 3,
-        "title": "Vegan Burgers",
-        "price": "$7,500"
+        "title": "Sorrentinos of smoked pepper pasta, filled with braised pork",
+        "price": "$9,500"
+      },
+      {
+        "id": 4,
+        "title": "Lamb Capeletis, Blue Cheese and Walnuts",
+        "price": "$9,500"
+      },
+      {
+        "id": 5,
+        "title": "Panzottis made of smoked carrot dough stuffed with shredded veal",
+        "price": "$9,000"
       }
     ]
   }
