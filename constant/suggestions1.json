@@ -6,32 +6,32 @@
       {
         "id": 0,
         "title": "~ Alfajor de Queso de Cabra entre dos Medallones de Lomo, Bañado en Tzatziki Griego, Acompañado de Papas Españolas",
-        "price": "$19.000"
+        "price": "$21.000"
       },
       {
         "id": 1,
         "title": "~ Capeletis de Cordero, Queso Azul y Nueces con crema de hongos frescos",
-        "price": "$11.000"
+        "price": "$12.500"
       },
       {
         "id": 2,
         "title": "~ Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada hechos al hierro, acompañado de aceitunas negras, tomatitos cherry, rucula y escamas de parmesano",
-        "price": "$11.000"
+        "price": "$12.500"
       },
       {
         "id": 3,
         "title": "~ Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada con crema de Brocoli",
-        "price": "$10.500"
+        "price": "$11.600"
       },
       {
         "id": 4,
         "title": "~ Sorrentinos Caprese (Albahaca, Cherry y mozzarella Bocconcino) hechos al hierro con aceite de oliva, tomates Cherry y terminados con Bocconcino",
-        "price": "$13.000"
+        "price": "$14.500"
       },
       {
         "id": 5,
         "title": "~ Abadejo a la plancha con verdeo y aceite de jenjibre con papas, zanahorias y brócoli al natura",
-        "price": "$14.000"
+        "price": "$15.500"
       }
     ]
   },
@@ -42,32 +42,32 @@
       {
         "id": 0,
         "title": "~ Goat Cheese Alfajor between two Tenderloin, Bathed in Greek Tzatziki and Spanish Potatoes",
-        "price": "$19,000"
+        "price": "$21,000"
       },
       {
         "id": 1,
         "title": "~ Lamb Capelettis, Blue Cheese and Walnuts with fresh mushroom cream",
-        "price": "$11,000"
+        "price": "$12,500"
       },
       {
         "id": 2,
         "title": "~ Sorrentinos of smoked pepper pasta, filled with braised pork and on top are  black olives, Cherry tomatoes, arugula and parmesan cheese",
-        "price": "$11,000"
+        "price": "$12,500"
       },
       {
         "id": 3,
         "title": "~ Panzottis made of smoked carrot dough stuffed with shredded veal with Broccoli and cream",
-        "price": "$10,500"
+        "price": "$11,600"
       },
       {
         "id": 4,
         "title": "~ Caprese Ravioli (Basil, Tomatoes Confit and Mozzarella) grilled with olive oil, Cherry tomatoes and finished with Bocconcino",
-        "price": "$13,000"
+        "price": "$14,500"
       },
       {
         "id": 5,
         "title": "~ Haddock fish grilled with Green onions and ginger oil and on the side boiled potatoes, karrots and broccoli",
-        "price": "$14,000"
+        "price": "$15,500"
       }
     ]
   }
