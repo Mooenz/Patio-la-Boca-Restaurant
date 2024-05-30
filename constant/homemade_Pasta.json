@@ -6,17 +6,17 @@
       {
         "id": 0,
         "title": "Fideos o Cinta",
-        "price": "$7.200"
+        "price": "$7.450"
       },
       {
         "id": 1,
         "title": "Sorrentinos de Jamon y Queso",
-        "price": "$9.900"
+        "price": "$9.950"
       },
       {
         "id": 2,
         "title": "Raviolones de Verdura y Ricota",
-        "price": "$8.800"
+        "price": "$9.250"
       },
       {
         "id": 3,
@@ -31,7 +31,7 @@
       {
         "id": 5,
         "title": "Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada",
-        "price": "$9.900"
+        "price": "$9.950"
       }
     ]
   },
@@ -42,17 +42,17 @@
       {
         "id": 0,
         "title": "Spaghetti",
-        "price": "$7,200"
+        "price": "$7,450"
       },
       {
         "id": 1,
         "title": "Sorrentinos the Ham and Cheese",
-        "price": "$9,900"
+        "price": "$9,950"
       },
       {
         "id": 2,
         "title": "Vegetable and Ricotta Ravioli",
-        "price": "$8,800"
+        "price": "$9,250"
       },
       {
         "id": 3,
@@ -67,7 +67,7 @@
       {
         "id": 5,
         "title": "Panzottis made of smoked carrot dough stuffed with shredded veal",
-        "price": "$9,900"
+        "price": "$9,950"
       }
     ]
   }
