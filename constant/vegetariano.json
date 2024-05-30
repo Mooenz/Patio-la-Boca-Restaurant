@@ -6,22 +6,22 @@
       {
         "id": 0,
         "title": "Cazuela de Vegetales",
-        "price": "$8.300"
+        "price": "$9.500"
       },
       {
         "id": 1,
         "title": "Wok de Arroz y Vegetales",
-        "price": "$8.300"
+        "price": "$9.500"
       },
       {
         "id": 2,
         "title": "Risotto de Hongos",
-        "price": "$12.000"
+        "price": "$13.000"
       },
       {
         "id": 3,
         "title": "Hamburguesas Veganas",
-        "price": "$8.300"
+        "price": "$9.500"
       }
     ]
   },
@@ -32,22 +32,22 @@
       {
         "id": 0,
         "title": "Vegetable Casserole",
-        "price": "$8,300"
+        "price": "$9,500"
       },
       {
         "id": 1,
         "title": "Rice and Vegetable Wok",
-        "price": "$8,300"
+        "price": "$9,500"
       },
       {
         "id": 2,
         "title": "Risotto Mushroom",
-        "price": "$12,000"
+        "price": "$13,000"
       },
       {
         "id": 3,
         "title": "Vegan Burgers",
-        "price": "$8,300"
+        "price": "$9,500"
       }
     ]
   }
