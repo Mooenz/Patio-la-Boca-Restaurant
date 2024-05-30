@@ -6,17 +6,17 @@
       {
         "id": 0,
         "title": "Gaseosa línea Coca-Cola 500cc",
-        "price": "$1.900"
+        "price": "$2.600"
       },
       {
         "id": 1,
         "title": "Agua saborizada levite",
-        "price": "$1.900"
+        "price": "$2.600"
       },
       {
         "id": 2,
         "title": "Agua c/s gas",
-        "price": "$1.700"
+        "price": "$2.100"
       },
       {
         "id": 3,
@@ -26,32 +26,32 @@
       {
         "id": 4,
         "title": "Cerveza Artesanal Rubia pinta 500cc",
-        "price": "$2.300"
+        "price": "$2.800"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$4.200"
+        "price": "$4.500"
       },
       {
         "id": 6,
         "title": "Fernet Branca con Coca",
-        "price": "$4.200"
+        "price": "$4.500"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italia) con Naranja o Tónica",
-        "price": "$4.200"
+        "price": "$4.500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$4.200"
+        "price": "$4.500"
       },
       {
         "id": 9,
         "title": "Vodka con Naranja",
-        "price": "$4.200"
+        "price": "$4.500"
       },
       {
         "id": 10,
@@ -97,17 +97,17 @@
       {
         "id": 0,
         "title": "Soda line Coca-Cola 500cc",
-        "price": "$1,900"
+        "price": "$2,600"
       },
       {
         "id": 1,
         "title": "Flavored Water",
-        "price": "$1,900"
+        "price": "$2,600"
       },
       {
         "id": 2,
         "title": "Water, Sparkling Water",
-        "price": "$1,700"
+        "price": "$2,100"
       },
       {
         "id": 3,
@@ -117,32 +117,32 @@
       {
         "id": 4,
         "title": "Draft Beer 500cc",
-        "price": "$2,300"
+        "price": "$2,800"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$4,200"
+        "price": "$4,500"
       },
       {
         "id": 6,
         "title": "Fernet Branca with Coca",
-        "price": "$4,200"
+        "price": "$4,500"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italy) with Orange or Tonic",
-        "price": "$4,200"
+        "price": "$4,500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$4,200"
+        "price": "$4,500"
       },
       {
         "id": 9,
         "title": "Vodka with Orange",
-        "price": "$4,200"
+        "price": "$4,500"
       },
       {
         "id": 10,
