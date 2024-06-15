@@ -1,7 +1,7 @@
 {
   "es": {
     "name": "Platos de Pescados y Mariscos",
-    "image":"Sugerencias.jpg",
+    "image":"pescado.jpg",
     "items": [
       {
         "id": 0,
@@ -27,7 +27,7 @@
   },
   "en": {
     "name": "Fish and Seafood Dishes",
-    "image":"Sugerencias.jpg",
+    "image":"pescado.jpg",
     "items": [
       {
         "id": 0,
