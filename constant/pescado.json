@@ -5,23 +5,23 @@
     "items": [
       {
         "id": 0,
-        "title": "Trucha cocida con aceite de oliva, limón y pimienta verde acompañada de Hongos Portobelos empanados y rellenos con queso",
-        "price": "$21.000"
+        "title": "Filete de Truchon cocido con aceite de oliva, limón y pimienta verde acompañada de Hongos Portobelos empanados y rellenos con queso",
+        "price": "$26.000"
       },
       {
         "id": 1,
         "title": "Curry de Langostinos con Arroz Basmati y Nueces",
-        "price": "$21.000"
+        "price": "$26.000"
       },
       {
         "id": 2,
         "title": "Raviolones de Casón en Crema de Ostras",
-        "price": "$13.500"
+        "price": "$15.500"
       },
       {
         "id": 3,
         "title": "Fideos con Frutos de Mar, Langostinos, Tentáculos de Calamar y Mejillones",
-        "price": "$16.500"
+        "price": "$18.500"
       }
     ]
   },
@@ -32,22 +32,22 @@
       {
         "id": 0,
         "title": "Trout cooked with Olive Oil, Lemon and Green Pepper accompanied by breaded Portobelos Mushrooms stuffed with Cheese",
-        "price": "$21.000"
+        "price": "$26,000"
       },
       {
         "id": 1,
         "title": "King Prawns Curry with Basmati Rice and Walnuts",
-        "price": "$21.000"
+        "price": "$26,000"
       },
       {
         "id": 2,
         "title": "Casón Ravioli in Oyster Cream",
-        "price": "$13.500"
+        "price": "$15,500"
       },
       {
         "id": 3,
         "title": "Spaghetti with Prawns, Squid Tentacles and Mussels",
-        "price": "$16.500"
+        "price": "$18,500"
       }
     ]
   }
