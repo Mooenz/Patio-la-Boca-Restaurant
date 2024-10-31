@@ -6,87 +6,92 @@
       {
         "id": 0,
         "title": "Gaseosa línea Coca-Cola 500cc",
-        "price": "$2.900"
+        "price": "$3.100"
       },
       {
         "id": 1,
         "title": "Agua saborizada levite",
-        "price": "$2.900"
+        "price": "$3.100"
       },
       {
         "id": 2,
         "title": "Agua c/s gas",
-        "price": "$2.300"
+        "price": "$2.600"
       },
       {
         "id": 3,
-        "title": "Jugo de Naranja exprimido",
-        "price": "SIN STOCK"
+        "title": "Vodka con Naranja",
+        "price": "S5.500"
       },
       {
         "id": 4,
         "title": "Cerveza Artesanal Rubia pinta 500cc",
-        "price": "$3.500"
+        "price": "$3.600"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$4.900"
+        "price": "$5.500"
       },
       {
         "id": 6,
         "title": "Fernet Branca con Coca",
-        "price": "$4.900"
+        "price": "$5.500"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italia) con Naranja o Tónica",
-        "price": "$4.900"
+        "price": "$5.500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$4.900"
+        "price": "$5.500"
       },
       {
         "id": 9,
-        "title": "Vodka con Naranja",
-        "price": "$4.900"
+        "title": "Gin Beefeater / Vodka Absolut con Naranja o Tónica",
+        "price": "$7.500"
       },
       {
         "id": 10,
         "title": "Vermut (Cinzano o Gancia con Soda)",
-        "price": "$4.400"
+        "price": "$5.500"
       },
       {
         "id": 11,
         "title": "Espumante - Sparkling Wine",
-        "price": "11.500"
+        "price": "13.500"
       },
       {
         "id": 12,
-        "title": "Café Expreso",
-        "price": "$2.200"
+        "title": "Whisky The Glenlivet",
+        "price": "$12.000"
       },
       {
         "id": 13,
-        "title": "Café Americano",
-        "price": "$2.200"
+        "title": "Café Expreso",
+        "price": "$2.300"
       },
       {
         "id": 14,
-        "title": "Café con Leche",
-        "price": "$2.400"
+        "title": "Café Americano",
+        "price": "$2.300"
       },
       {
         "id": 15,
-        "title": "Café Doble",
-        "price": "$3.000"
+        "title": "Café con Leche",
+        "price": "$2.500"
       },
       {
         "id": 16,
+        "title": "Café Doble",
+        "price": "$3.200"
+      },
+      {
+        "id": 17,
         "title": "Té (caja con variedad)",
-        "price": "$2.000"
+        "price": "$2.100"
       }
     ]
   },
@@ -96,88 +101,93 @@
     "items": [
       {
         "id": 0,
-        "title": "Soda line Coca-Cola 500cc",
-        "price": "$2,900"
+        "title": "Gaseosa línea Coca-Cola 500cc",
+        "price": "$3,100"
       },
       {
         "id": 1,
         "title": "Flavored Water",
-        "price": "$2,900"
+        "price": "$3,100"
       },
       {
         "id": 2,
-        "title": "Water, Sparkling Water",
-        "price": "$2,300"
+        "title": "AWater, Sparkling Water",
+        "price": "$2,600"
       },
       {
         "id": 3,
-        "title": "Squeezed Orange Juice",
-        "price": "SIN STOCK"
+        "title": "Vodka con Naranja",
+        "price": "S5,500"
       },
       {
         "id": 4,
-        "title": "Draft Beer 500cc",
-        "price": "$3,500"
+        "title": "Draft Beer Rubia pinta 500cc",
+        "price": "$3,600"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$4,900"
+        "price": "$5,500"
       },
       {
         "id": 6,
-        "title": "Fernet Branca with Coca",
-        "price": "$4,900"
+        "title": "Fernet Branca con Coca",
+        "price": "$5,500"
       },
       {
         "id": 7,
-        "title": "Campari Bitter (Italy) with Orange or Tonic",
-        "price": "$4,900"
+        "title": "Campari Bitter (Italia) con Naranja o Tónica",
+        "price": "$5,500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$4,900"
+        "price": "$5,500"
       },
       {
         "id": 9,
-        "title": "Vodka with Orange",
-        "price": "$4,900"
+        "title": "Gin Beefeater / Vodka Absolut con Naranja o Tónica",
+        "price": "$7,500"
       },
       {
         "id": 10,
-        "title": "Vermut (Cinzano or Gancia with Soda)",
-        "price": "$4,400"
+        "title": "Vermut (Cinzano o Gancia con Soda)",
+        "price": "$5,500"
       },
       {
         "id": 11,
-        "title": "Sparkling Wine",
-        "price": "11,500"
+        "title": "Espumante - Sparkling Wine",
+        "price": "13,500"
       },
       {
         "id": 12,
-        "title": "Coffe Express",
-        "price": "$2,200"
+        "title": "Whisky The Glenlivet",
+        "price": "$12,000"
       },
       {
         "id": 13,
-        "title": "American Coffe",
-        "price": "$2,200"
+        "title": "Café Expreso",
+        "price": "$2,300"
       },
       {
         "id": 14,
-        "title": "Coffee with milk",
-        "price": "$2,400"
+        "title": "Café Americano",
+        "price": "$2,300"
       },
       {
         "id": 15,
-        "title": "Double Coffee",
-        "price": "$3,000"
+        "title": "Café con Leche",
+        "price": "$2,500"
       },
       {
         "id": 16,
-        "title": "Tea (variety box)",
-        "price": "$2,000"
+        "title": "Café Doble",
+        "price": "$3,200"
+      },
+      {
+        "id": 17,
+        "title": "Té (caja con variedad)",
+        "price": "$2,100"
       }
     ]
   }
