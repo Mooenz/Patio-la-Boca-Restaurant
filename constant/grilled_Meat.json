@@ -6,27 +6,27 @@
       {
         "id": 0,
         "title": "Asado 600 gr",
-        "price": "$18.000"
+        "price": "$19.800"
       },
       {
         "id": 1,
         "title": "Vacío 600 gr",
-        "price": "$19.500"
+        "price": "$21.000"
       },
       {
         "id": 2,
         "title": "Bife de Chorizo 500 gr",
-        "price": "$19.400"
+        "price": "$22.000"
       },
       {
         "id": 3,
         "title": "Lomo 400 gr",
-        "price": "$20.400"
+        "price": "$25.000"
       },
       {
         "id": 4,
         "title": "Bife con Lomo más de 800 gr",
-        "price": "$26.500"
+        "price": "$28.500"
       },
       {
         "id": 5,
@@ -36,17 +36,17 @@
       {
         "id": 6,
         "title": "Tabla para 3 o 4 personas: Asado banderita, vacío, bondiola, pollo, chichulin, 1 chorizo, 1 morcilla.",
-        "price": "$44.600"
+        "price": "$49.000"
       },
       {
         "id": 7,
         "title": "Tabla Premium para 2 personas: Lomo, Bife de Chorizo, Asado Banderia",
-        "price": "$33.100"
+        "price": "$36.500"
       },
       {
         "id": 8,
         "title": "Tabla Mix para 2: Lomo, Mini bife de Chorizo, Asado Banderita, Bondiola, 1 Chorizo, 1 Morcilla, Chinchulin ",
-        "price": "$29.500"
+        "price": "$32.500"
       },
       {
         "id": 9,
@@ -62,27 +62,27 @@
       {
         "id": 0,
         "title": "Short Ribs 600 gr",
-        "price": "$18,000"
+        "price": "$19,800"
       },
       {
         "id": 1,
         "title": "Thin Flank 600 gr",
-        "price": "$19,500"
+        "price": "$21,000"
       },
       {
         "id": 2,
         "title": "Sirloin Steak 500 gr",
-        "price": "$20,400"
+        "price": "$22,000"
       },
       {
         "id": 3,
         "title": "Tenderloin 400 gr",
-        "price": "$23,000"
+        "price": "$25,000"
       },
       {
         "id": 4,
         "title": "T-Bone more than 800 gr",
-        "price": "$26,600"
+        "price": "$28,500"
       },
       {
         "id": 5,
