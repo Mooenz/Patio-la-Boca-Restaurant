@@ -127,7 +127,7 @@
         "id": 15020,
         "Type": "Merlot, Pinot Noir",
         "title": "Miras 750cc - Merlot, Pinot Noir",
-        "price": "$12.800"   
+        "price": "$16.800"   
       },
       {
         "id": 15021,
@@ -163,7 +163,7 @@
         "id": 15026,
         "Type": "Malbec",
         "title": "Copa de Vino (Tinto o Blanco)",
-        "price": "$3.200"
+        "price": "$3.300"
       },
       {
         "id": 15027,
@@ -199,7 +199,7 @@
         "id": 15032,
         "Type": "Malbec",
         "title": "Copa de Vino (Tinto o Blanco)",
-        "price": "$3.200"
+        "price": "$3.300"
       }
     ]
   },
@@ -331,7 +331,7 @@
         "id": 15020,
         "Type": "Merlot, Pinot Noir",
         "title": "Miras 750cc - Merlot, Pinot Noir",
-        "price": "$12.800"   
+        "price": "$16.800"   
       },
       {
         "id": 15021,
@@ -367,7 +367,7 @@
         "id": 15026,
         "Type": "Malbec",
         "title": "Copa de Vino (Tinto o Blanco)",
-        "price": "$3.200"
+        "price": "$3.300"
       },
       {
         "id": 15027,
@@ -403,7 +403,7 @@
         "id": 15032,
         "Type": "Malbec",
         "title": "Copa de Vino (Tinto o Blanco)",
-        "price": "$3.200"
+        "price": "$3.300"
       }
       ]
   }
