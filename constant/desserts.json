@@ -6,12 +6,12 @@
       {
         "id": 0,
         "title": "Budín de Pan Casero",
-        "price": "$4,000"
+        "price": "$4,800"
       },
       {
         "id": 1,
         "title": "Flan Casero",
-        "price": "$4.000"
+        "price": "$4.800"
       },
       {
         "id": 2,
@@ -21,17 +21,17 @@
       {
         "id": 3,
         "title": "Helado Almendrado",
-        "price": "$6.000"
+        "price": "$6.600"
       },
       {
         "id": 4,
         "title": "Chocotorta",
-        "price": "$6.000"
+        "price": "$6.600"
       },
       {
         "id": 5,
         "title": "Volcán de Chocolate con Bocha de Crema Americana",
-        "price": "$8.800"
+        "price": "$9.900"
       },
       {
         "id": 6,
@@ -41,12 +41,12 @@
       {
         "id": 7,
         "title": "Brownie Tibio con Nueces y Helado",
-        "price": "$7.200"
+        "price": "$8.500"
       },
       {
         "id": 8,
         "title": "Bocha de Helado",
-        "price": "$4.300"
+        "price": "$4.500"
       }
     ]
   },
@@ -57,12 +57,12 @@
       {
         "id": 0,
         "title": "Homemade Bread Pudding",
-        "price": "$3.900"
+        "price": "$4.800"
       },
       {
         "id": 1,
         "title": "Homemade Cream Caramel",
-        "price": "$3,900"
+        "price": "$4,800"
       },
       {
         "id": 2,
@@ -72,17 +72,17 @@
       {
         "id": 3,
         "title": "Almond Ice Cream",
-        "price": "$6,000"
+        "price": "$6,600"
       },
       {
         "id": 4,
         "title": "Chocolate Cookies Cake",
-        "price": "$6,000"
+        "price": "$6,600"
       },
       {
         "id": 5,
         "title": "Chocolate Volcano with Ice Cream",
-        "price": "$8,800"
+        "price": "$9,900"
       },
       {
         "id": 6,
@@ -92,12 +92,12 @@
       {
         "id": 7,
         "title": "Brownie Tibio con Nueces y Helado",
-        "price": "$7,200"
+        "price": "$8,500"
       },
       {
         "id": 8,
         "title": "Ice Cream",
-        "price": "$4,300"
+        "price": "$4,500"
       }
     ]
   }
