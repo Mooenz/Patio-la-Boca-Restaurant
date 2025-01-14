@@ -6,12 +6,12 @@
       {
         "id": 0,
         "title": "~ Alfajor de Queso de Cabra entre dos Medallones de Lomo, Bañado en Tzatziki Griego, Acompañado de Papas Españolas",
-        "price": "$28.500"
+        "price": "$32.000"
       },
       {
         "id": 1,
         "title": "~ Capeletis de Cordero, Queso Azul y Nueces con crema de hongos frescos",
-        "price": "$19.000"
+        "price": "$20.000"
       },
       {
         "id": 2,
@@ -21,17 +21,17 @@
       {
         "id": 3,
         "title": "~ Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada con crema de Brocoli",
-        "price": "$18.000"
+        "price": "$19.000"
       },
       {
         "id": 4,
         "title": "~ Sorrentinos Caprese (Albahaca, Cherry y mozzarella Bocconcino) hechos al hierro con aceite de oliva, tomates Cherry y terminados con Bocconcino",
-        "price": "$17.500"
+        "price": "$19.000"
       },
       {
         "id": 5,
         "title": "~ Abadejo a la plancha con verdeo y aceite de jenjibre con papas, zanahorias y brócoli al natura",
-        "price": "$22.500"
+        "price": "$23.500"
       }
     ]
   },
@@ -42,12 +42,12 @@
       {
         "id": 0,
         "title": "~ Goat Cheese Alfajor between two Tenderloin, Bathed in Greek Tzatziki and Spanish Potatoes",
-        "price": "$28,500"
+        "price": "$32,000"
       },
       {
         "id": 1,
         "title": "~ Lamb Capelettis, Blue Cheese and Walnuts with fresh mushroom cream",
-        "price": "$19,000"
+        "price": "$20,000"
       },
       {
         "id": 2,
@@ -57,17 +57,17 @@
       {
         "id": 3,
         "title": "~ Panzottis made of smoked carrot dough stuffed with shredded veal with Broccoli and cream",
-        "price": "$18,000"
+        "price": "$19,000"
       },
       {
         "id": 4,
         "title": "~ Caprese Ravioli (Basil, Tomatoes Confit and Mozzarella) grilled with olive oil, Cherry tomatoes and finished with Bocconcino",
-        "price": "$17,500"
+        "price": "$19,000"
       },
       {
         "id": 5,
         "title": "~ Haddock fish grilled with Green onions and ginger oil and on the side boiled potatoes, karrots and broccoli",
-        "price": "$22,500"
+        "price": "$23,500"
       }
     ]
   }
