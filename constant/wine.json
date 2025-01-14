@@ -19,19 +19,19 @@
         "id": 1502,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc - Chardonnay",
-        "price": "$12.500"
+        "price": "$13.800"
       },
       {
         "id": 1503,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc - Chardonnay",
-        "price": "$10.100"
+        "price": "$15.500"
       },
       {
         "id": 1504,
         "Type": "Malbec",
         "title": "Juan Benegas 750cc - Malbec",
-        "price": "$10.500"
+        "price": "$11.000"
       },
       {
         "id": 1505,
@@ -47,9 +47,9 @@
       },
       {
         "id": 1507,
-        "Type": "Malbec / Chardonnay",
+        "Type": "Malbec",
         "title": "Cavas de Crianza 750cc - Malbec",
-        "price": "$13.800"
+        "price": "$13.700"
       },
       {
         "id": 1508,
@@ -67,7 +67,7 @@
         "id": 15010,
         "Type": "Blend",
         "title": "Cumehue 750cc - (Bonarda/Suavignon))",
-        "price": "$12.000"
+        "price": "$13.800"
       },
       {
         "id": 15011,
@@ -89,9 +89,9 @@
       },
       {
         "id": 15014,
-        "Type": "Petit Verdot, Malbec",
+        "Type": "Petit Verdot",
         "title": "Finca La Anita 750cc - Petit Verdot, Malbec",
-        "price": "$16.000"
+        "price": "$21.500"
       },
       {
         "id": 15015,
@@ -109,7 +109,7 @@
         "id": 15017,
         "Type": "Pinot Noir, Cabernet Franc, Syrah",
         "title": "Finca La Anita 750cc - Pinot Noir, Cabernet Franc, Syrah",
-        "price": "$18.500"
+        "price": "$21.500"
       },
       {
         "id": 15018,
@@ -127,13 +127,13 @@
         "id": 15020,
         "Type": "Merlot, Pinot Noir",
         "title": "Miras 750cc - Merlot, Pinot Noir",
-        "price": "$16.800"   
+        "price": "$16.200"   
       },
       {
         "id": 15021,
         "Type": "Malbec",
         "title": "Tomero 375cc - Malbec",
-        "price": "$7.000"   
+        "price": "$8.200"   
       },
       {
         "id": 15022,
@@ -145,7 +145,7 @@
         "id": 15023,
         "Type": "Bonarda",
         "title": "Cumehue 750cc - Bonarda",
-        "price": "$14.300"   
+        "price": "$15.200"   
       },
       {
         "id": 15024,
@@ -157,7 +157,7 @@
         "id": 15025,
         "Type": "Rose",
         "title": "Carmela Benegas 750cc - Rose",
-        "price": "$9.900"   
+        "price": "$12.100"   
       },
       {
         "id": 15026,
@@ -229,13 +229,19 @@
         "id": 15037,
         "Type": "Cabernet Franc",
         "title": "Dos Puentes - 750cc",
-        "price": "$17.100"
+        "price": "$18.500"
       },
       {
         "id": 15038,
+        "Type": "Rose",
+        "title": "Valle del Condor Taruca (Blend de Rosados)",
+        "price": "$15.900"
+      },
+      {
+        "id": 15039,
         "Type": "Malbec",
         "title": "Copa de Vino (Tinto o Blanco)",
-        "price": "$3.300"
+        "price": "$4.500"
       }
     ]
   },
@@ -259,19 +265,19 @@
         "id": 1502,
         "Type": "Chardonnay",
         "title": "Cavas de Crianza 750cc - Chardonnay",
-        "price": "$12.500"
+        "price": "$13.800"
       },
       {
         "id": 1503,
         "Type": "Chardonnay",
         "title": "Clara Benegas 750cc - Chardonnay",
-        "price": "$10.100"
+        "price": "$15.500"
       },
       {
         "id": 1504,
         "Type": "Malbec",
         "title": "Juan Benegas 750cc - Malbec",
-        "price": "$10.500"
+        "price": "$11.000"
       },
       {
         "id": 1505,
@@ -287,9 +293,9 @@
       },
       {
         "id": 1507,
-        "Type": "Malbec / Chardonnay",
+        "Type": "Malbec",
         "title": "Cavas de Crianza 750cc - Malbec",
-        "price": "$13.800"
+        "price": "$13.700"
       },
       {
         "id": 1508,
@@ -307,7 +313,7 @@
         "id": 15010,
         "Type": "Blend",
         "title": "Cumehue 750cc - (Bonarda/Suavignon))",
-        "price": "$12.000"
+        "price": "$13.800"
       },
       {
         "id": 15011,
@@ -329,9 +335,9 @@
       },
       {
         "id": 15014,
-        "Type": "Petit Verdot, Malbec",
+        "Type": "Petit Verdot",
         "title": "Finca La Anita 750cc - Petit Verdot, Malbec",
-        "price": "$16.000"
+        "price": "$21.500"
       },
       {
         "id": 15015,
@@ -349,7 +355,7 @@
         "id": 15017,
         "Type": "Pinot Noir, Cabernet Franc, Syrah",
         "title": "Finca La Anita 750cc - Pinot Noir, Cabernet Franc, Syrah",
-        "price": "$18.500"
+        "price": "$21.500"
       },
       {
         "id": 15018,
@@ -367,13 +373,13 @@
         "id": 15020,
         "Type": "Merlot, Pinot Noir",
         "title": "Miras 750cc - Merlot, Pinot Noir",
-        "price": "$16.800"   
+        "price": "$16.200"   
       },
       {
         "id": 15021,
         "Type": "Malbec",
         "title": "Tomero 375cc - Malbec",
-        "price": "$7.000"   
+        "price": "$8.200"   
       },
       {
         "id": 15022,
@@ -385,7 +391,7 @@
         "id": 15023,
         "Type": "Bonarda",
         "title": "Cumehue 750cc - Bonarda",
-        "price": "$14.300"   
+        "price": "$15.200"   
       },
       {
         "id": 15024,
@@ -397,7 +403,7 @@
         "id": 15025,
         "Type": "Rose",
         "title": "Carmela Benegas 750cc - Rose",
-        "price": "$9.900"   
+        "price": "$12.100"   
       },
       {
         "id": 15026,
@@ -469,13 +475,19 @@
         "id": 15037,
         "Type": "Cabernet Franc",
         "title": "Dos Puentes - 750cc",
-        "price": "$17.100"
+        "price": "$18.500"
       },
       {
         "id": 15038,
+        "Type": "Rose",
+        "title": "Valle del Condor Taruca (Blend de Rosados)",
+        "price": "$15.900"
+      },
+      {
+        "id": 15039,
         "Type": "Malbec",
         "title": "Copa de Vino (Tinto o Blanco)",
-        "price": "$3.300"
+        "price": "$4.500"
       }
       ]
   }
