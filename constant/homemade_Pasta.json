@@ -6,32 +6,32 @@
       {
         "id": 0,
         "title": "Fideos o Cinta", 
-        "price": "$10.000"
+        "price": "$10.500"
       },
       {
         "id": 1,
         "title": "Sorrentinos de Jamon y Queso",
-        "price": "$13.500"
+        "price": "$14.200"
       },
       {
         "id": 2,
         "title": "Raviolones de Verdura y Ricota",
-        "price": "$12.300"
+        "price": "$13.200"
       },
       {
         "id": 3,
         "title": "Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada",
-        "price": "$14.000"
+        "price": "$14.700"
       },
       {
         "id": 4,
         "title": "Capeletis de Cordero, Queso Azul y Nueces",
-        "price": "$14.000"
+        "price": "$14.700"
       },
       {
         "id": 5,
         "title": "Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada",
-        "price": "$13.500"
+        "price": "$14.200"
       }
     ]
   },
@@ -42,32 +42,32 @@
       {
         "id": 0,
         "title": "Spaghetti",
-        "price": "$10,000"
+        "price": "$10,500"
       },
       {
         "id": 1,
         "title": "Sorrentinos the Ham and Cheese",
-        "price": "$13,500"
+        "price": "$14,200"
       },
       {
         "id": 2,
         "title": "Vegetable and Ricotta Ravioli",
-        "price": "$12,300"
+        "price": "$13,200"
       },
       {
         "id": 3,
         "title": "Sorrentinos of smoked pepper pasta, filled with braised pork",
-        "price": "$14,000"
+        "price": "$14,700"
       },
       {
         "id": 4,
         "title": "Lamb Capeletis, Blue Cheese and Walnuts",
-        "price": "$14,000"
+        "price": "$14,700"
       },
       {
         "id": 5,
         "title": "Panzottis made of smoked carrot dough stuffed with shredded veal",
-        "price": "$13,500"
+        "price": "$14,200"
       }
     ]
   }
