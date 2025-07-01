@@ -1,0 +1,54 @@
+{
+  "es": {
+    "name": "Vegetariano",
+    "image":"Vegetariano.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "Cazuela de Vegetales",
+        "price": "$14.000" 
+      },
+      {
+        "id": 1,
+        "title": "Wok de Arroz y Vegetales",
+        "price": "$14.000"
+      },
+      {
+        "id": 2,
+        "title": "Risotto de Hongos",
+        "price": "$20.500"
+      },
+      {
+        "id": 3,
+        "title": "Hamburguesas Veganas",
+        "price": "$14.500"
+      }
+    ]
+  },
+  "en": {
+    "name": "Vegetarian",
+    "image":"Vegetariano.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "Vegetable Casserole",
+        "price": "$14,000"
+      },
+      {
+        "id": 1,
+        "title": "Rice and Vegetable Wok",
+        "price": "$14,000"
+      },
+      {
+        "id": 2,
+        "title": "Risotto Mushroom",
+        "price": "$20,500"
+      },
+      {
+        "id": 3,
+        "title": "Vegan Burgers",
+        "price": "$14,500"
+      }
+    ]
+  }
+}
