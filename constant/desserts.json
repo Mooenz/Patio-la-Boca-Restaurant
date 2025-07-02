@@ -6,12 +6,12 @@
       {
         "id": 0,
         "title": "Budín de Pan Casero",
-        "price": "$4,800"
+        "price": "$5,000"
       },
       {
         "id": 1,
         "title": "Flan Casero",
-        "price": "$4.800"
+        "price": "$5.000"
       },
       {
         "id": 2,
@@ -21,12 +21,12 @@
       {
         "id": 3,
         "title": "Helado Almendrado",
-        "price": "$6.600"
+        "price": "$7.500"
       },
       {
         "id": 4,
         "title": "Chocotorta",
-        "price": "$6.600"
+        "price": "$7.500"
       },
       {
         "id": 5,
@@ -41,12 +41,17 @@
       {
         "id": 7,
         "title": "Brownie Tibio con Nueces y Helado",
-        "price": "$8.500"
+        "price": "$8.900"
       },
       {
         "id": 8,
         "title": "Bocha de Helado",
         "price": "$4.500"
+      },
+      {
+        "id": 9,
+        "title": "Menú Chipriota: LOKMADES con Helado - Bolas de masa fritas, dulces, remojadas en almíbar y glaseadas con miel antes de servir acompañada con bocha de helado",
+        "price": "$10.000"
       }
     ]
   },
@@ -57,12 +62,12 @@
       {
         "id": 0,
         "title": "Homemade Bread Pudding",
-        "price": "$4.800"
+        "price": "$5.000"
       },
       {
         "id": 1,
         "title": "Homemade Cream Caramel",
-        "price": "$4,800"
+        "price": "$5,000"
       },
       {
         "id": 2,
@@ -72,12 +77,12 @@
       {
         "id": 3,
         "title": "Almond Ice Cream",
-        "price": "$6,600"
+        "price": "$7,500"
       },
       {
         "id": 4,
         "title": "Chocolate Cookies Cake",
-        "price": "$6,600"
+        "price": "$7,500"
       },
       {
         "id": 5,
@@ -92,12 +97,17 @@
       {
         "id": 7,
         "title": "Brownie Tibio con Nueces y Helado",
-        "price": "$8,500"
+        "price": "$8,900"
       },
       {
         "id": 8,
         "title": "Ice Cream",
         "price": "$4,500"
+      },
+      {
+        "id": 9,
+        "title": "Cypriot Menu: LOKMADES with Ice Cream - Sweet deep fried dough balls soaked in sugar syrup and glazed with honey before serving and Ice Cream",
+        "price": "$10,000"
       }
     ]
   }

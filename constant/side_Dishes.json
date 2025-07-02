@@ -6,37 +6,37 @@
       {
         "id": 0,
         "title": "Ensalada Mixta (Tomate, Lechuga, Cebolla)",
-        "price": "$5.900"
+        "price": "$6.200"
       },
       {  
         "id": 1,
         "title": "Ensalada Rucula y Parmesano",
-        "price": "$6.400"
+        "price": "$6.700"
       },
       {
         "id": 2,
         "title": "Ensalada de Zanahoria y Huevo",
-        "price": "$5.900"
+        "price": "$6.200"
       },
       {
         "id": 3,
         "title": "Ensalada de Espinaca, con cubos de queso azul, huevos de codornis, olivas verdes,reducción de miel, aceto y aceite de oliva",
-        "price": "$8.900"
+        "price": "$9.800"
       },
       {
         "id": 4,
         "title": "Ensalada César",
-        "price": "$10.300"
+        "price": "$11.400"
       },
       {
         "id": 5,
         "title": "Papas, Batatas Fritas",
-        "price": "$5.900"
+        "price": "$6.200"
       },
       {
         "id": 6,
         "title": "Tortilla de Papas",
-        "price": "$8.800"
+        "price": "$9.500"
       },
       {
         "id": 7,
@@ -46,12 +46,12 @@
       {
         "id": 8,
         "title": "Puré de Papas o Calabaza",
-        "price": "$6.000"
+        "price": "$6.300"
       },
       {
         "id": 9,
         "title": "Arroz",
-        "price": "$5.900"
+        "price": "$6.200"
       }
     ]
   },
@@ -62,37 +62,37 @@
       {
         "id": 0,
         "title": "Tomato, Lettuce, Onion",
-        "price": "$5,900"
+        "price": "$6,200"
       },
       {
         "id": 1,
         "title": "Arugula and Parmesan Salad",
-        "price": "$6,400"
+        "price": "$6,700"
       },
       {
         "id": 2,
         "title": "Carrot and Egg Salad",
-        "price": "$5,900"
+        "price": "$6,200"
       },
       {
         "id": 3,
         "title": "Spinach sakad with blue chesse Green olives, qual eggs and a reductionof honey and aceto",
-        "price": "$8,900"
+        "price": "$9,800"
       },
       {
         "id": 4,
         "title": "Cesar salad",
-        "price": "$10,300"
+        "price": "$11,400"
       },
       {
         "id": 5,
         "title": "French Fries, Sweet Potato Fries",
-        "price": "$5,900"
+        "price": "$6,200"
       },
       {
         "id": 6,
         "title": "Potato Omelette",
-        "price": "$8,800"
+        "price": "$9,500"
       },
       {
         "id": 7,
@@ -102,12 +102,12 @@
       {
         "id": 8,
         "title": "Mashed Potatoes or Pumpkin",
-        "price": "$6,000"
+        "price": "$6,300"
       },
       {
         "id": 9,
         "title": "Rice",
-        "price": "$5,900"
+        "price": "$6,200"
       }
     ]
   }

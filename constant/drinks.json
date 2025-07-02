@@ -21,77 +21,77 @@
       {
         "id": 3,
         "title": "Vodka con Naranja",
-        "price": "S6.500"
+        "price": "$7.500"
       },
       {
         "id": 4,
         "title": "Cerveza Artesanal Rubia pinta 500cc",
-        "price": "$4.500"
+        "price": "$5.200"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$6.500"
+        "price": "$7.500"
       },
       {
         "id": 6,
         "title": "Fernet Branca con Coca",
-        "price": "$6.500"
+        "price": "$7.500"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italia) con Naranja o Tónica",
-        "price": "$6.500"
+        "price": "$7.500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$6.500"
+        "price": "$7.500"
       },
       {
         "id": 9,
         "title": "Gin Beefeater / Vodka Absolut con Naranja o Tónica",
-        "price": "$8.500"
+        "price": "$9.500"
       },
       {
         "id": 10,
         "title": "Vermut (Cinzano o Gancia con Soda)",
-        "price": "$6.000"
+        "price": "$7.000"
       },
       {
         "id": 11,
         "title": "Espumante - Sparkling Wine",
-        "price": "14.500"
+        "price": "15.500"
       },
       {
         "id": 12,
         "title": "Whisky The Glenlivet",
-        "price": "$13.000"
+        "price": "$14.000"
       },
       {
         "id": 13,
         "title": "Café Expreso",
-        "price": "$2.300"
+        "price": "$3.100"
       },
       {
         "id": 14,
         "title": "Café Americano",
-        "price": "$3.000"
+        "price": "$3.100"
       },
       {
         "id": 15,
         "title": "Café con Leche",
-        "price": "$3.000"
+        "price": "$3.100"
       },
       {
         "id": 16,
         "title": "Café Doble",
-        "price": "$4.000"
+        "price": "$4.100"
       },
       {
         "id": 17,
         "title": "Té (caja con variedad)",
-        "price": "$2.800"
+        "price": "$2.900"
       }
     ]
   },
@@ -117,77 +117,77 @@
       {
         "id": 3,
         "title": "Vodka con Naranja",
-        "price": "S6,500"
+        "price": "$7,500"
       },
       {
         "id": 4,
         "title": "Draft Beer Rubia pinta 500cc",
-        "price": "$4,500"
+        "price": "$5,200"
       },
       {
         "id": 5,
         "title": "Aperol Spritz",
-        "price": "$6,500"
+        "price": "$7,500"
       },
       {
         "id": 6,
         "title": "Fernet Branca con Coca",
-        "price": "$6,500"
+        "price": "$7,500"
       },
       {
         "id": 7,
         "title": "Campari Bitter (Italia) con Naranja o Tónica",
-        "price": "$6,500"
+        "price": "$7,500"
       },
       {
         "id": 8,
         "title": "Gin / Vodka & Tonic",
-        "price": "$6,500"
+        "price": "$7,500"
       },
       {
         "id": 9,
         "title": "Gin Beefeater / Vodka Absolut con Naranja o Tónica",
-        "price": "$8,500"
+        "price": "$9,500"
       },
       {
         "id": 10,
         "title": "Vermut (Cinzano o Gancia con Soda)",
-        "price": "$6,000"
+        "price": "$7,000"
       },
       {
         "id": 11,
         "title": "Espumante - Sparkling Wine",
-        "price": "14,500"
+        "price": "15,500"
       },
       {
         "id": 12,
         "title": "Whisky The Glenlivet",
-        "price": "$13,000"
+        "price": "$14,000"
       },
       {
         "id": 13,
         "title": "Café Expreso",
-        "price": "$2,300"
+        "price": "$3,100"
       },
       {
         "id": 14,
         "title": "Café Americano",
-        "price": "$3,000"
+        "price": "$3,100"
       },
       {
         "id": 15,
         "title": "Café con Leche",
-        "price": "$3,000"
+        "price": "$3,100"
       },
       {
         "id": 16,
         "title": "Café Doble",
-        "price": "$4,000"
+        "price": "$4,100"
       },
       {
         "id": 17,
         "title": "Té (caja con variedad)",
-        "price": "$2,800"
+        "price": "$2,900"
       }
     ]
   }

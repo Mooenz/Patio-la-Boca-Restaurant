@@ -1,114 +1,114 @@
 {
-	"es": {
-		"name": "Parrilla",
-		"image": "Parrilla.jpg",
-		"items": [
-			{
-				"id": 0,
-				"title": "Asado 600 gr",
-				"price": "$25.200"
-			},
-			{
-				"id": 1,
-				"title": "Vacío 600 gr",
-				"price": "$28.500"
-			},
-			{
-				"id": 2,
-				"title": "Bife de Chorizo 500 gr",
-				"price": "$28.500"
-			},
-			{
-				"id": 3,
-				"title": "Lomo 400 gr",
-				"price": "$29.600"
-			},
-			{
-				"id": 4,
-				"title": "Bife con Lomo más de 800 gr",
-				"price": "$37.300"
-			},
-			{
-				"id": 5,
-				"title": "Pechuga Grille",
-				"price": "$14.00"
-			},
-			{
-				"id": 6,
-				"title": "Tabla para 3 o 4 personas: Asado banderita, vacío, bondiola, pollo, chichulin, 1 chorizo, 1 morcilla.",
-				"price": "$62.500"
-			},
-			{
-				"id": 7,
-				"title": "Tabla Premium para 2 personas: Lomo, Bife de Chorizo, Asado Banderia",
-				"price": "$47.500"
-			},
-			{
-				"id": 8,
-				"title": "Tabla Mix para 2: Lomo, Mini bife de Chorizo, Asado Banderita, Bondiola, 1 Chorizo, 1 Morcilla, Chinchulin ",
-				"price": "$45.000"
-			},
-			{
-				"id": 9,
-				"title": "Cordero Patagonico al Asador para 10 personas por pedido (Solo con Reserva, Consultar)",
-				"price": "$Consultar"
-			}
-		]
-	},
-	"en": {
-		"name": "Grilled Meat",
-		"image": "Parrilla.jpg",
-		"items": [
-			{
-				"id": 0,
-				"title": "Short Ribs 600 gr",
-				"price": "$25,200"
-			},
-			{
-				"id": 1,
-				"title": "Thin Flank 600 gr",
-				"price": "$28,500"
-			},
-			{
-				"id": 2,
-				"title": "Sirloin Steak 500 gr",
-				"price": "$28,500"
-			},
-			{
-				"id": 3,
-				"title": "Tenderloin 400 gr",
-				"price": "$29,600"
-			},
-			{
-				"id": 4,
-				"title": "T-Bone more than 800 gr",
-				"price": "$37,300"
-			},
-			{
-				"id": 5,
-				"title": "Chicken",
-				"price": "$14,00"
-			},
-			{
-				"id": 6,
-				"title": "Barbecue for 3 or 4: Short Ribs, Thin Flank, Pork, Chicken, Chinchulin, 1 Chorizo, 1 Blood Sausage",
-				"price": "$62,500"
-			},
-			{
-				"id": 7,
-				"title": "Premium Barbecue for 2: Tenderloin, Sirloin Steak, Short Ribs",
-				"price": "$47,500"
-			},
-			{
-				"id": 8,
-				"title": "Barbecue Mix for 2: Tenderloin, Sirloin Steak, Short Ribs, Pork, Chinchulin, 1 Chorizo, 1 Blood Sausage",
-				"price": "$45,000"
-			},
-			{
-				"id": 9,
-				"title": "Patagonian Lamb on the Grill for 10 people per order (Only with Reservation, Consult)",
-				"price": "$Consult"
-			}
-		]
-	}
+  "es": {
+    "name": "Parrilla",
+    "image":"Parrilla.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "Asado 600 gr",
+        "price": "$27.000"
+      },
+      {
+        "id": 1,
+        "title": "Vacío 600 gr",
+        "price": "$30.000"
+      },
+      {
+        "id": 2,
+        "title": "Bife de Chorizo 500 gr",
+        "price": "$30.000"
+      },
+      {
+        "id": 3,
+        "title": "Lomo 400 gr",
+        "price": "$32.000"
+      },
+      {
+        "id": 4,
+        "title": "Bife con Lomo más de 800 gr",
+        "price": "$38.000"
+      },
+      {
+        "id": 5,
+        "title": "Pechuga Grille",
+        "price": "$14.000"
+      },
+      {
+        "id": 6,
+        "title": "Tabla para 3 o 4 personas: Asado banderita, vacío, bondiola, pollo, chichulin, 1 chorizo, 1 morcilla.",
+        "price": "$66.000"
+      },
+      {
+        "id": 7,
+        "title": "Tabla Premium para 2 personas: Lomo, Bife de Chorizo, Asado Banderia",
+        "price": "$50.500"
+      },
+      {
+        "id": 8,
+        "title": "Tabla Mix para 2: Lomo, Mini bife de Chorizo, Asado Banderita, Bondiola, 1 Chorizo, 1 Morcilla, Chinchulin ",
+        "price": "$48.000"
+      },
+      {
+        "id": 9,
+        "title": "Cordero Patagonico al Asador para 10 personas por pedido (Solo con Reserva, Consultar)",
+        "price": "$Consultar"
+      }
+    ]
+  },
+  "en": {
+    "name": "Grilled Meat",
+    "image":"Parrilla.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "Short Ribs 600 gr",
+        "price": "$27,000"
+      },
+      {
+        "id": 1,
+        "title": "Thin Flank 600 gr",
+        "price": "$30,000"
+      },
+      {
+        "id": 2,
+        "title": "Sirloin Steak 500 gr",
+        "price": "$30,000"
+      },
+      {
+        "id": 3,
+        "title": "Tenderloin 400 gr",
+        "price": "$32,000"
+      },
+      {
+        "id": 4,
+        "title": "T-Bone more than 800 gr",
+        "price": "$38,000"
+      },
+      {
+        "id": 5,
+        "title": "Chicken",
+        "price": "$14,000"
+      },
+      {
+        "id": 6,
+        "title": "Barbecue for 3 or 4: Short Ribs, Thin Flank, Pork, Chicken, Chinchulin, 1 Chorizo, 1 Blood Sausage",
+        "price": "$66,000"
+      },
+      {
+        "id": 7,
+        "title": "Premium Barbecue for 2: Tenderloin, Sirloin Steak, Short Ribs",
+        "price": "$50,500"
+      },
+      {
+        "id": 8,
+        "title": "Barbecue Mix for 2: Tenderloin, Sirloin Steak, Short Ribs, Pork, Chinchulin, 1 Chorizo, 1 Blood Sausage",
+        "price": "$48,000"
+      },
+      {
+        "id": 9,
+        "title": "Patagonian Lamb on the Grill for 10 people per order (Only with Reservation, Consult)",
+        "price": "$Consult"
+      }
+    ]
+  }
 }

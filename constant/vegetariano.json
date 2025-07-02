@@ -6,17 +6,17 @@
       {
         "id": 0,
         "title": "Cazuela de Vegetales",
-        "price": "$13.500" 
+        "price": "$14.000" 
       },
       {
         "id": 1,
         "title": "Wok de Arroz y Vegetales",
-        "price": "$13.500"
+        "price": "$14.000"
       },
       {
         "id": 2,
         "title": "Risotto de Hongos",
-        "price": "$20.000"
+        "price": "$20.500"
       },
       {
         "id": 3,
@@ -32,17 +32,17 @@
       {
         "id": 0,
         "title": "Vegetable Casserole",
-        "price": "$13,500"
+        "price": "$14,000"
       },
       {
         "id": 1,
         "title": "Rice and Vegetable Wok",
-        "price": "$13,500"
+        "price": "$14,000"
       },
       {
         "id": 2,
         "title": "Risotto Mushroom",
-        "price": "$20,000"
+        "price": "$20,500"
       },
       {
         "id": 3,
