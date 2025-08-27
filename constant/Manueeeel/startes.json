@@ -6,42 +6,42 @@
       {
         "id": 0,
         "title": "Empanada de Carne o Jamón y Queso",
-        "price": "$3.700"  
+        "price": "$4.000"  
       },
       {
         "id": 1,
         "title": "Empanada de Carne Cortada a Cuchillo",
-        "price": "$3.800"
+        "price": "$4.100"
       },
       {
         "id": 2,
         "title": "Empanada de Cordero",
-        "price": "$3.900"
+        "price": "$4.200"
       },
       {
         "id": 3,
         "title": "Chorizo",
-        "price": "$4.400"
+        "price": "$4.800"
       },
       {
         "id": 4,
         "title": "Morcilla",
-        "price": "$4.300"
+        "price": "$4.700"
       },
       {
         "id": 5,
         "title": "Provoleta",
-        "price": "$10.500"
+        "price": "$11.500"
       },
       {
         "id": 6,
         "title": "Provoleta de Cabra",
-        "price": "$16.500"
+        "price": "$17.500"
       },
       {
         "id": 7,
         "title": "Menú Chipriota: KUPEPIA - Hojas de parra rellenas con arroz, hierbas y carne molida de cordero",
-        "price": "$6.000"
+        "price": "$6.600"
       },
       {
         "id": 8,
@@ -57,47 +57,47 @@
       {
         "id": 0,
         "title": "Empanada Mence Meat or Ham & Cheese",
-        "price": "$3,700"
+        "price": "$4,000"
       },
       {
         "id": 1,
         "title": "Knife cut Beef Empanada",
-        "price": "$3,800"
+        "price": "$4,100"
       },
       {
         "id": 2,
         "title": "Lamb Empanada",
-        "price": "$3,900"
+        "price": "$4,200"
       },
       {
         "id": 3,
         "title": "Chorizo",
-        "price": "$4,400"
+        "price": "$4,800"
       },
       {
         "id": 4,
         "title": "Blood Sausage",
-        "price": "$4,300"
+        "price": "$4,700"
       },
       {
         "id": 5,
         "title": "Grilled Cheese",
-        "price": "$10,500"
+        "price": "$11,500"
       },
       {
         "id": 6,
         "title": "Goat Cheese Grilled",
-        "price": "$16,500"
+        "price": "$17,500"
       },
       {
         "id": 7,
         "title": "Cypriot Menu: KUPEPIA - Vine leaves stuffed with rice, herbs, and ground lamb meatGoat Cheese Grilled",
-        "price": "$16,500"
+        "price": "$6,600"
       },
       {
         "id": 8,
         "title": "Cypriot Menu: HALLOUMI - Grill or Fried Cheese of goat’s milk and sheep’s milk, is salty",
-        "price": "$16,500"
+        "price": "$21,000"
       }
     ]
   }
