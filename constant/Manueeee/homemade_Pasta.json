@@ -1,0 +1,94 @@
+{
+  "es": {
+    "name": "Pasta Casera",
+    "image":"Pastas.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "Fideos o Cinta", 
+        "price": "$12.600"
+      },
+      {
+        "id": 1,
+        "title": "Sorrentinos de Jamon y Queso",
+        "price": "$16.800"
+      },
+      {
+        "id": 2,
+        "title": "Raviolones de Verdura y Ricota",
+        "price": "$15.800"
+      },
+      {
+        "id": 3,
+        "title": "Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada",
+        "price": "$17.500"
+      },
+      {
+        "id": 4,
+        "title": "Capeletis de Cordero, Queso Azul y Nueces",
+        "price": "$17.500"
+      },
+      {
+        "id": 5,
+        "title": "Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada",
+        "price": "$16.800"
+      },
+      {
+        "id": 6,
+        "title": "Raviolones de Casón",
+        "price": "$16.800"
+      },
+      {
+        "id": 7,
+        "title": "Ravioli: Pasta rellena de Halloumi rallado, ricotta y menta servidos con aceite de oliva, tomates cherry, menta y escamas de queso de cabra",
+        "price": "$23.000"
+      }
+    ]
+  },
+  "en": {
+    "name": "Homemade Pasta",
+    "image":"Pastas.jpg",
+    "items": [
+      {
+        "id": 0,
+        "title": "Spaghetti",
+        "price": "$12,600"
+      },
+      {
+        "id": 1,
+        "title": "Sorrentinos the Ham and Cheese",
+        "price": "$16,800"
+      },
+      {
+        "id": 2,
+        "title": "Vegetable and Ricotta Ravioli",
+        "price": "$15,800"
+      },
+      {
+        "id": 3,
+        "title": "Sorrentinos of smoked pepper pasta, filled with braised pork",
+        "price": "$17,500"
+      },
+      {
+        "id": 4,
+        "title": "Lamb Capeletis, Blue Cheese and Walnuts",
+        "price": "$17,500"
+      },
+      {
+        "id": 5,
+        "title": "Panzottis made of smoked carrot dough stuffed with shredded veal",
+        "price": "$16,800"
+      },
+      {
+        "id": 6,
+        "title": "Casón Ravioli",
+        "price": "$16,800"
+      },
+      {
+        "id": 7,
+        "title": "Ravioli:Pasta filled with grated halloumi, ricotta and mint served with olive oil, cherry tomatoes",
+        "price": "$23,000"
+      }
+    ]
+  }
+}
