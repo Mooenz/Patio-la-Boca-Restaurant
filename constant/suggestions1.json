@@ -6,52 +6,52 @@
       {
         "id": 0,
         "title": "~ Alfajor de Queso de Cabra entre dos Medallones de Lomo, Bañado en Tzatziki Griego, Acompañado de Papas Españolas",
-        "price": "$38.000"
+        "price": "$39.900"
       },
       {
         "id": 1,
         "title": "~ Capeletis de Cordero, Queso Azul y Nueces con crema de hongos frescos",
-        "price": "$23.100"
+        "price": "$24.100"
       },
       {
         "id": 2,
         "title": "~ Sorrentinos con Masa de Morrón ahumado rellenos de Bondiola braseada hechos al hierro, acompañado de aceitunas negras, tomatitos cherry, rucula y escamas de parmesano",
-        "price": "$22.700"
+        "price": "$23.800"
       },
       {
         "id": 3,
         "title": "~ Panzottis con Masa de Zanahoria ahumada rellenos de Ternera desmechada con crema de Brocoli",
-        "price": "$22.000"
+        "price": "$22.800"
       },
       {
         "id": 4,
         "title": "~ Sorrentinos Caprese (Albahaca, Cherry y mozzarella Bocconcino) hechos al hierro con aceite de oliva, tomates Cherry y terminados con Bocconcino",
-        "price": "$22.000"
+        "price": "$23.100"
       },
       {
         "id": 5,
         "title": "~ Abadejo a la plancha con verdeo y aceite de jenjibre con papas, zanahorias y brócoli al natura",
-        "price": "$27.000"
+        "price": "$28.500"
       },
       {
         "id": 6,
         "title": "Menú Chipriota: SUVLAKIA CON ENSALADA GRIEGA - Trozos de carne de cerdo marinados con aceite de oliva, limón, orégano o tomillo, sal y pimienta a la parrilla acompañado de tomates, pepino, pimiento morrón, cebolla y queso feta",
-        "price": "$22.000"
+        "price": "$23.500"
       },
       {
         "id": 7,
         "title": "Menú Chipriota: MUSAKA - Berenjena y carne picada de cordero, en capas, con tomates confitados y capa de bechamel",
-        "price": "$23.000"
+        "price": "$24.200"
       },
       {
         "id": 8,
         "title": "Menú Chipriota: KLEFTIKO - Cordero braseado marinado con aceite de oliva, ajo, cebolla y limón acompañado con papas y yogurt",
-        "price": "$25.000"
+        "price": "$26.500"
       },
       {
         "id": 9,
         "title": "Menú Chipriota: RAVIOLI - Pasta rellena de halloumi rallado, ricotta, huevos y menta",
-        "price": "$22.000"
+        "price": "$23.000"
       }
     ]
   },
@@ -62,52 +62,52 @@
       {
         "id": 0,
         "title": "~ Goat Cheese Alfajor between two Tenderloin, Bathed in Greek Tzatziki and Spanish Potatoes",
-        "price": "$38,000"
+        "price": "$39,900"
       },
       {
         "id": 1,
         "title": "~ Lamb Capelettis, Blue Cheese and Walnuts with fresh mushroom cream",
-        "price": "$23,100"
+        "price": "$24,100"
       },
       {
         "id": 2,
         "title": "~ Sorrentinos of smoked pepper pasta, filled with braised pork and on top are  black olives, Cherry tomatoes, arugula and parmesan cheese",
-        "price": "$22,700"
+        "price": "$23,800"
       },
       {
         "id": 3,
         "title": "~ Panzottis made of smoked carrot dough stuffed with shredded veal with Broccoli and cream",
-        "price": "$22,000"
+        "price": "$22,800"
       },
       {
         "id": 4,
         "title": "~ Caprese Ravioli (Basil, Tomatoes Confit and Mozzarella) grilled with olive oil, Cherry tomatoes and finished with Bocconcino",
-        "price": "$22,000"
+        "price": "$23,100"
       },
       {
         "id": 5,
         "title": "~ Haddock fish grilled with Green onions and ginger oil and on the side boiled potatoes, karrots and broccoli",
-        "price": "$27,000"
+        "price": "$28,500"
       },
       {
         "id": 5,
         "title": "Cypriot Menu: SUVLAKIA with Greek Salad - Grilled chunks of pork meat marinated with olive oil, lemon, oregano or thyme, salt and pepper with tomatoes, cucumber, bell pepper, white onion and feta cheese",
-        "price": "$22.000"
+        "price": "$23.500"
       },
       {
         "id": 5,
         "title": "Cypriot Menu: MUSAKA - egg plant and minced lamb meat and dry tomatoes layer of béchamel sauce and cheese",
-        "price": "$23.000"
+        "price": "$24.200"
       },
       {
         "id": 5,
         "title": "Cypriot Menu: Kleftiko - Braised lamb marinated with olive oil, garlic, onion and lemon with Potatoes and yoghurt on the side",
-        "price": "$25.000"
+        "price": "$26.500"
       },
       {
         "id": 5,
         "title": "Cypriot Menu: RAVIOLI - Pasta filled with grated halloumi, ricotta, eggs and mint ",
-        "price": "$22.500"
+        "price": "$23.500"
       }
     ]
 
