@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite';
 import vercel from '@astrojs/vercel/static';
 
 export default defineConfig({
+	site: 'https://patio-la-boca.vercel.app/',
 	base: '/',
 	output: 'static',
 	adapter: vercel({}),
