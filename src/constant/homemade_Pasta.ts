@@ -1,6 +1,3 @@
-import type { ImageMetadata } from 'astro';
-import pescadoImage from '@/assets/images/Pastas.jpg';
-
 export interface MenuItem {
 	id: number;
 	translate: {
@@ -16,7 +13,7 @@ export interface MenuSection {
 		es: string;
 		en: string;
 	};
-	image: ImageMetadata;
+	image: string;
 	items: MenuItem[];
 }
 
@@ -25,7 +22,7 @@ export const pastaCasera: MenuSection = {
 		es: 'Pasta Casera',
 		en: 'Homemade Pasta',
 	},
-	image: pescadoImage,
+	image: '/images/Pastas.jpg',
 	items: [
 		{
 			id: 0,
@@ -69,12 +66,8 @@ export const pastaCasera: MenuSection = {
 			id: 4,
 			price: '$17.500',
 			translate: {
-				es: { title: 'Capeletis de Cordero',
-							description: 'con Queso Azul y Nueces'
-				 },
-				en: { title: 'Lamb Capeletis',
-							description: 'With Blue Cheese & Walnuts'
-				 },
+				es: { title: 'Capeletis de Cordero', description: 'con Queso Azul y Nueces' },
+				en: { title: 'Lamb Capeletis', description: 'With Blue Cheese & Walnuts' },
 			},
 		},
 		{

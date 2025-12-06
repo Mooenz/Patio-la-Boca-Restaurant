@@ -1,6 +1,6 @@
 ---
 import Image from 'astro/components/Image.astro';
-import ImgPatioLaBoca from '@/assets/images/logo.png';
+const logo = '/images/logo.png';
 import LocationIcon from '@/assets/icons/Location.astro';
 import InstagramIcon from '@/assets/icons/Instagram.astro';
 import TikTokIcon from '@/assets/icons/TikTok.astro';
@@ -31,7 +31,7 @@ const options: Record<string, LocaleOptions> = {
 			<span class="group-hover:text-white transition-colors ease-in-out duration-300">Iniciar Sesión</span>
 		</a> -->
 
-		<Image src={ImgPatioLaBoca} alt="Logo Cantina Patio La Boca" class="mx-auto mb-4 lg:mb-7 w-24 h-24" />
+		<Image src={logo} alt="Logo Cantina Patio La Boca" class="mx-auto mb-4 lg:mb-7 w-24 h-24" width={96} height={96} />
 		<hgroup class="mb-4 lg:mb-7">
 			<span class="leading-4 font-semibold text-accent">{options[currentLocale]?.welcome}</span>
 			<h1 class="text-text text-3xl font-bold leading-8">Cantina Patio La Boca</h1>

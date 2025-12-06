@@ -1,6 +1,3 @@
-import type { ImageMetadata } from 'astro';
-import salsasImage from '@/assets/images/Salsas.jpg';
-
 export interface MenuItem {
 	id: number;
 	translate: {
@@ -16,64 +13,64 @@ export interface MenuSection {
 		es: string;
 		en: string;
 	};
-	image: ImageMetadata;
+	image: string;
 	items: MenuItem[];
 }
 
 export const salsasSection: MenuSection = {
 	title: {
-		es: "Salsas",
-		en: "Sauces",
+		es: 'Salsas',
+		en: 'Sauces',
 	},
-	image: salsasImage,
+	image: '/images/Salsas.jpg',
 	items: [
 		{
 			id: 0,
 			translate: {
 				es: {
-					title: "Fileto, Rossini, Pesto, Salsa Blanca",
+					title: 'Fileto, Rossini, Pesto, Salsa Blanca',
 				},
 				en: {
-					title: "Fileto, Rossini, Pesto, White Sauce",
+					title: 'Fileto, Rossini, Pesto, White Sauce',
 				},
 			},
-			price: "$4.600",
+			price: '$4.600',
 		},
 		{
 			id: 1,
 			translate: {
 				es: {
-					title: "Estofado, Bolognesa",
+					title: 'Estofado, Bolognesa',
 				},
 				en: {
-					title: "Stew, Bolognese",
+					title: 'Stew, Bolognese',
 				},
 			},
-			price: "$6.000",
+			price: '$6.000',
 		},
 		{
 			id: 2,
 			translate: {
 				es: {
-					title: "Crema de Brócoli",
+					title: 'Crema de Brócoli',
 				},
 				en: {
-					title: "Cream of Broccoli",
+					title: 'Cream of Broccoli',
 				},
 			},
-			price: "$6.000",
+			price: '$6.000',
 		},
 		{
 			id: 3,
 			translate: {
 				es: {
-					title: "Ragout de Hongos",
+					title: 'Ragout de Hongos',
 				},
 				en: {
-					title: "Mushroom Ragout",
+					title: 'Mushroom Ragout',
 				},
 			},
-			price: "$6.600",
+			price: '$6.600',
 		},
 	],
 };

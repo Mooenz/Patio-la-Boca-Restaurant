@@ -1,6 +1,3 @@
-import type { ImageMetadata } from 'astro';
-import inviernoImage from '@/assets/images/invierno.jpeg';
-
 export interface MenuItem {
 	id: number;
 	translate: {
@@ -16,52 +13,52 @@ export interface MenuSection {
 		es: string;
 		en: string;
 	};
-	image: ImageMetadata;
+	image: string;
 	items: MenuItem[];
 }
 
 export const inviernoSection: MenuSection = {
 	title: {
-		es: "Platos de Invierno",
-		en: "Winter Dishes",
+		es: 'Platos de Invierno',
+		en: 'Winter Dishes',
 	},
-	image: inviernoImage,
+	image: '/images/invierno.jpeg',
 	items: [
 		{
 			id: 0,
 			translate: {
 				es: {
-					title: "Osobuco Braseado con Cremoso de Batata y Cebolla Caramelizada",
+					title: 'Osobuco Braseado con Cremoso de Batata y Cebolla Caramelizada',
 				},
 				en: {
-					title: "Braised Osso Buco with Sweet Potato Purée and Caramelized Onion",
+					title: 'Braised Osso Buco with Sweet Potato Purée and Caramelized Onion',
 				},
 			},
-			price: "$4.950",
+			price: '$4.950',
 		},
 		{
 			id: 1,
 			translate: {
 				es: {
-					title: "Guiso de Lentejas",
+					title: 'Guiso de Lentejas',
 				},
 				en: {
-					title: "Lentil Stew",
+					title: 'Lentil Stew',
 				},
 			},
-			price: "$3.850",
+			price: '$3.850',
 		},
 		{
 			id: 2,
 			translate: {
 				es: {
-					title: "Colación Sopa Crema de Cebolla",
+					title: 'Colación Sopa Crema de Cebolla',
 				},
 				en: {
-					title: "Creamy Onion Soup",
+					title: 'Creamy Onion Soup',
 				},
 			},
-			price: "$2.450",
+			price: '$2.450',
 		},
 	],
 };

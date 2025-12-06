@@ -1,6 +1,3 @@
-import type { ImageMetadata } from 'astro';
-import postresImage from '@/assets/images/Postres.jpg';
-
 export interface MenuItem {
 	id: number;
 	translate: {
@@ -16,7 +13,7 @@ export interface MenuSection {
 		es: string;
 		en: string;
 	};
-	image: ImageMetadata;
+	image: string;
 	items: MenuItem[];
 }
 
@@ -25,7 +22,7 @@ const postresSection: MenuSection = {
 		es: 'Postres',
 		en: 'Desserts',
 	},
-	image: postresImage,
+	image: '/images/Postres.jpg',
 	items: [
 		{
 			id: 0,

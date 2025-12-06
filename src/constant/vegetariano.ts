@@ -1,6 +1,3 @@
-import type { ImageMetadata } from 'astro';
-import vegetarianoImage from '@/assets/images/Vegetariano.jpg';
-
 export interface MenuItem {
 	id: number;
 	translate: {
@@ -16,52 +13,52 @@ export interface MenuSection {
 		es: string;
 		en: string;
 	};
-	image: ImageMetadata;
+	image: string;
 	items: MenuItem[];
 }
 
 const vegetarianoSection: MenuSection = {
 	title: {
-		es: "Vegetariano",
-		en: "Vegetarian",
+		es: 'Vegetariano',
+		en: 'Vegetarian',
 	},
-	image: vegetarianoImage,
+	image: '/images/Vegetariano.jpg',
 	items: [
 		{
 			id: 0,
 			translate: {
 				es: {
-					title: "Cazuela de Vegetales",
+					title: 'Cazuela de Vegetales',
 				},
 				en: {
-					title: "Vegetable Casserole",
+					title: 'Vegetable Casserole',
 				},
 			},
-			price: "$16.500",
+			price: '$16.500',
 		},
 		{
 			id: 1,
 			translate: {
 				es: {
-					title: "Wok de Arroz y Vegetales",
+					title: 'Wok de Arroz y Vegetales',
 				},
 				en: {
-					title: "Rice and Vegetable Wok",
+					title: 'Rice and Vegetable Wok',
 				},
 			},
-			price: "$16.500",
+			price: '$16.500',
 		},
 		{
 			id: 2,
 			translate: {
 				es: {
-					title: "Risotto de Hongos",
+					title: 'Risotto de Hongos',
 				},
 				en: {
-					title: "Mushroom Risotto",
+					title: 'Mushroom Risotto',
 				},
 			},
-			price: "$24.000",
+			price: '$24.000',
 		},
 	],
 };

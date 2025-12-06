@@ -1,9 +1,3 @@
-// menu-data.ts
-import type { ImageMetadata } from 'astro';
-
-// Import images
-import imageSugerencias from '@/assets/images/Sugerencias.jpg';
-
 // Data structure
 export interface MenuItem {
 	id: number;
@@ -20,7 +14,7 @@ export interface MenuSection {
 		es: string;
 		en: string;
 	};
-	image: ImageMetadata;
+	image: string;
 	items: MenuItem[];
 }
 
@@ -29,7 +23,7 @@ const section: MenuSection = {
 		es: 'Sugerencia',
 		en: 'Suggestion',
 	},
-	image: imageSugerencias,
+	image: '/images/Sugerencias.jpg',
 	items: [
 		{
 			id: 1,

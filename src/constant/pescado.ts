@@ -1,6 +1,3 @@
-import type { ImageMetadata } from 'astro';
-import pescadoImage from '@/assets/images/pescado.jpg';
-
 export interface MenuItem {
 	id: number;
 	translate: {
@@ -16,7 +13,7 @@ export interface MenuSection {
 		es: string;
 		en: string;
 	};
-	image: ImageMetadata;
+	image: string;
 	items: MenuItem[];
 }
 
@@ -25,7 +22,7 @@ const section: MenuSection = {
 		es: 'Platos de Pescados y Mariscos',
 		en: 'Fish and Seafood Dishes',
 	},
-	image: pescadoImage,
+	image: '/images/pescado.jpg',
 	items: [
 		{
 			id: 0,
