@@ -29,6 +29,10 @@ yarn-error.log*
 .env*.local
 .vscode
 
+#astro
+/dist/
+.astro/
+
 # vercel
 .vercel
 
