@@ -1,34 +1,157 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🍽️ Patio La Boca Restaurant - Carta Digital
 
-## Getting Started
+Carta digital interactiva de **Patio La Boca Restaurant**, una aplicación web moderna y bilingüe (español e inglés) para presentar el menú del restaurante con una experiencia de usuario optimizada.
 
-First, run the development server:
+## 📋 Descripción del Proyecto
+
+Este proyecto es una carta digital para Patio La Boca Restaurant que incluye:
+
+- **Menú Digital Interactivo**: Catálogo completo de platos organizados por categorías (carnes a la parrilla, pastas caseras, sándwiches, pescados, milanesas, vegetarianos, salsas, acompañamientos, postres, bebidas, vinos, entre otros)
+- **Sitio Multiidioma**: Soporte para español e inglés con navegación automática según preferencias del usuario
+- **Interfaz Responsiva**: Diseño moderno y adaptativo para dispositivos móviles y escritorio
+- **Animaciones Fluidas**: Experiencia visual atractiva usando GSAP
+- **Información del Restaurante**: Sección de contacto, ubicación e información general
+- **Sistema de Autenticación**: Módulo de login integrado (preparado para futuras expansiones)
+
+## 🛠️ Stack Tecnológico
+
+- **Astro 5.16.1**: Framework meta para sitios web ultrarrápidos
+- **TailwindCSS 4.1.17**: Framework CSS utility-first para estilos
+- **TypeScript**: Tipado estático para mayor seguridad
+- **GSAP 3.13.0**: Librería de animaciones profesionales
+- **Supabase**: Backend as a Service (integración lista)
+- **Vercel**: Plataforma de hosting y despliegue
+
+**Requisitos:**
+
+- Node.js >= 22.0.0
+
+## 🚀 Cómo Levantar el Proyecto
+
+### 1. Instalación de Dependencias
 
 ```bash
-npm run dev
-# or
-yarn dev
+pnpm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Si no tienes `pnpm` instalado, puedes instalarlo globalmente:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+```bash
+npm install -g pnpm
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+### 2. Servidor de Desarrollo
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Para ejecutar el servidor de desarrollo en modo local:
 
-## Learn More
+```bash
+pnpm dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+El sitio estará disponible en: **`http://localhost:3000`** (o el puerto que Astro asigne)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 3. Compilación para Producción
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Para construir la versión optimizada para producción:
 
-## Deploy on Vercel
+```bash
+pnpm build
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Los archivos compilados se generarán en la carpeta `dist/`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### 4. Vista Previa de Producción
+
+Para previsualizar la compilación de producción antes de desplegar:
+
+```bash
+pnpm preview
+```
+
+## 📁 Estructura del Proyecto
+
+```
+src/
+├── assets/icons/          # Iconos SVG reutilizables
+├── components/            # Componentes Astro reutilizables
+│   ├── ButtonsLateral.astro
+│   ├── Language.astro     # Selector de idioma
+│   ├── Link.astro
+│   └── MenuInfoItem.astro
+├── constant/              # Datos de menú y configuraciones
+│   ├── desserts.ts        # Postres
+│   ├── drinks.ts          # Bebidas
+│   ├── grilled_Meat.ts    # Carnes a la parrilla
+│   ├── homemade_Pasta.ts  # Pastas caseras
+│   ├── milanesas.ts       # Milanesas
+│   ├── pescado.ts         # Pescados
+│   ├── sandwich.ts        # Sándwiches
+│   ├── sauces.ts          # Salsas
+│   ├── vegetariano.ts     # Platos vegetarianos
+│   ├── wine.ts            # Vinos
+│   └── menu.json          # Configuración del menú
+├── i18n/                  # Internacionalización (es/en)
+├── layout/                # Layouts principales
+├── pages/                 # Páginas y rutas
+│   ├── index.astro        # Página principal (español)
+│   └── en/index.astro     # Página principal (inglés)
+├── sections/              # Secciones grandes del sitio
+│   ├── Info.astro         # Información del restaurante
+│   ├── Menu.astro         # Sección de menú
+│   └── InfoMenu.astro     # Información del menú
+├── styles/                # Estilos globales
+└── utilities/             # Funciones auxiliares y animaciones
+```
+
+## 🎨 Características Principales
+
+### Menú Dinámico
+
+- Múltiples categorías de platos
+- Interfaz interactiva y fácil de navegar
+- Información detallada de cada plato
+
+### Multiidioma (i18n)
+
+- Español como idioma por defecto
+- Soporte completo para inglés
+- Cambio de idioma sin recarga de página
+
+### Diseño Responsivo
+
+- Mobile-first approach
+- Optimización para todos los tamaños de pantalla
+- Componentes flexibles
+
+### Animaciones
+
+- Transiciones suaves con GSAP
+- Efectos visuales atractivos
+- Rendimiento optimizado
+
+## 📱 Despliegue
+
+El proyecto está configurado para desplegar en **Vercel** automáticamente:
+
+```javascript
+adapter: vercel({});
+output: 'server';
+```
+
+**Sitio en vivo:** https://patio-la-boca.vercel.app/
+
+## 👥 Autores
+
+- [Jose Manuel Montaño Saenz](https://www.mooenz.me/)
+- [Kevin Silva Zarate](https://www.linkedin.com/in/kevinsilvaz/)
+
+## 📝 Notas Adicionales
+
+- No hay comandos especiales necesarios
+- El proyecto utiliza `pnpm` como gestor de paquetes (recomendado pero compatible con npm)
+- La configuración de TailwindCSS 4 está integrada vía Vite
+- El output está configurado como `server` para Vercel (SSR)
+
+---
+
+**¡Disfruta explorando Patio La Boca! 🎉**
