@@ -1,0 +1,86 @@
+@import 'tailwindcss';
+
+@theme {
+	--color-text: #200a07;
+	--color-text-secondary: #a79c88;
+	--color-background: #f9eeee;
+	--color-background-secondary: #fff;
+	--color-accent: #d0710a;
+	--color-button-background: #f1d6d3;
+}
+
+.dark {
+	--color-text: #f9eeee;
+	--color-background: #200a07;
+	--color-background-secondary: #fff;
+	--color-button-background: #30120e;
+}
+
+html,
+body {
+	text-wrap: pretty;
+	scroll-behavior: smooth;
+	font-family: 'Poppins', 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+	font-size-adjust: 0.56;
+	background-color: var(--color-background);
+	color: var(--color-text);
+}
+
+p,
+a,
+li,
+button,
+input,
+textarea,
+select,
+label,
+aside {
+	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+	text-wrap: balance;
+}
+
+a {
+	text-decoration: none;
+}
+
+.active,
+.active svg {
+	color: var(--color-accent);
+}
+
+/* Animation FadeIn */
+.element {
+	opacity: 0;
+	animation: fadeIn 0.5s ease-in-out forwards;
+	animation-delay: var(--delay);
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+	width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	border: 6px solid #fff;
+	border-color: var(--color-background);
+	background-color: var(--color-text);
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: var(--color-text-secondary);
+}
