@@ -1,0 +1,48 @@
+---
+import MenuInfoItem from '@/components/MenuInfoItem.astro';
+
+// Suggestions data
+import suggestions from '@/constant/suggestions.ts';
+import pescado from '@/constant/pescado';
+
+// Menú data
+import starters from '@/constant/startes';
+import grilledMeat from '@/constant/grilled_Meat';
+import sideDishes from '@/constant/side_Dishes';
+import homemadePasta from '@/constant/homemade_Pasta';
+import sauce from '@/constant/sauces';
+import vegetarian from '@/constant/vegetariano';
+import milanesas from '@/constant/milanesas';
+import sandwich from '@/constant/sandwich';
+import desserts from '@/constant/desserts';
+
+// Drinks data
+import drinks from '@/constant/drinks';
+import wine from '@/constant/wine';
+
+---
+
+<section class="element h-[calc(100%-72px)]" style="--delay: 400ms">
+	<MenuInfoItem classList="option" data={suggestions} id="sugerencias" />
+	<MenuInfoItem classList="option" data={pescado} id="pescado" />
+	<MenuInfoItem classList="option" data={starters} id="entradas" />
+	<MenuInfoItem classList="option" data={grilledMeat} id="parrilla" />
+	<MenuInfoItem classList="option" data={sideDishes} id="acompañamientos" />
+	<MenuInfoItem classList="option" data={homemadePasta} id="pasta-casera" />
+	<MenuInfoItem classList="option" data={sauce} id="salsas" />
+	<MenuInfoItem classList="option" data={vegetarian} id="vegetariano" />
+	<MenuInfoItem classList="option" data={milanesas} id="milanesas" />
+	<MenuInfoItem classList="option" data={sandwich} id="sándwiches" />
+	<MenuInfoItem classList="option" data={desserts} id="postres" />
+	<MenuInfoItem classList="option" data={drinks} id="bebidas" />
+	<MenuInfoItem classList="option" data={wine} id="vinos" />
+</section>
+
+<script>
+	import { scrollItems } from '@/utilities/animations.ts';
+
+	// Inicializar cuando el DOM esté listo
+	document.addEventListener('DOMContentLoaded', () => {
+		scrollItems('.option');
+	});
+</script>

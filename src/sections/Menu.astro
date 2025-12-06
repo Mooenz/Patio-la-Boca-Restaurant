@@ -1,0 +1,239 @@
+---
+import HomeIcon from '@/assets/icons/Home.astro';
+import DrinksIcon from '@/assets/icons/Drinks.astro';
+import DinnerIcon from '@/assets/icons/Dinner.astro';
+import SuggestionsIcon from '@/assets/icons/Suggestion.astro';
+import FishIcon from '@/assets/icons/FishIcon.astro';
+import GrilledIcon from '@/assets/icons/GrilledIcon.astro';
+import SideDishesIcon from '@/assets/icons/SideDishesIcon.astro';
+import HomemadePastaIcon from '@/assets/icons/HomemadePastaIcon.astro';
+import SaucesIcon from '@/assets/icons/SaucesIcon.astro';
+import VegetarianIcon from '@/assets/icons/VegetarianIcon.astro';
+import MilanesasIcon from '@/assets/icons/MilanesasIcon.astro';
+import SandwichesIcon from '@/assets/icons/SandwichesIcon.astro';
+import DessertsIcon from '@/assets/icons/DessertsIcon.astro';
+import WineIcon from '@/assets/icons/WineIcon.astro';
+
+const currentLocale = Astro.currentLocale || 'es';
+
+interface LocaleOptions {
+	home: string;
+	suggestions: string;
+	menu: string;
+	drinks: string;
+	fish: string;
+	start: string;
+	grilled: string;
+	sideDishes: string;
+	homemadePasta: string;
+	sauce: string;
+	vegetarian: string;
+	milanesas: string;
+	sandwiches: string;
+	desserts: string;
+	wine: string;
+}
+
+const options: Record<string, LocaleOptions> = {
+	es: {
+		home: 'Inicio',
+		suggestions: 'Sugerencias',
+		menu: 'Menú',
+		drinks: 'Bebidas',
+		fish: 'Pescado y mariscos',
+		start: 'Entradas',
+		grilled: 'Parrilla',
+		sideDishes: 'Acompañamientos',
+		homemadePasta: 'Pasta casera',
+		sauce: 'Salsas',
+		vegetarian: 'Vegetariano',
+		milanesas: 'Milanesas',
+		sandwiches: 'Sándwiches',
+		desserts: 'Postres',
+		wine: 'Vinos',
+	},
+	en: {
+		home: 'Home',
+		suggestions: 'Suggestions',
+		menu: 'Menu',
+		drinks: 'Drinks',
+		fish: 'Fish and seafood dishes',
+		start: 'Starters',
+		grilled: 'Grilled meat',
+		sideDishes: 'Side dishes',
+		homemadePasta: 'Homemade pasta',
+		sauce: 'Sauces',
+		vegetarian: 'Vegetarian',
+		milanesas: 'Breaded cutlets',
+		sandwiches: 'Sandwiches',
+		desserts: 'Desserts',
+		wine: 'Wines',
+	},
+};
+
+const menuOptions = [
+	{ id: 'sugerencias', label: options[currentLocale].suggestions, icon: DinnerIcon },
+	{ id: 'pescado', label: options[currentLocale].fish, icon: FishIcon },
+	{ id: 'entradas', label: options[currentLocale].start, icon: SuggestionsIcon },
+	{ id: 'parrilla', label: options[currentLocale].grilled, icon: GrilledIcon },
+	{ id: 'acompañamientos', label: options[currentLocale].sideDishes, icon: SideDishesIcon },
+	{ id: 'pasta-casera', label: options[currentLocale].homemadePasta, icon: HomemadePastaIcon },
+	{ id: 'salsas', label: options[currentLocale].sauce, icon: SaucesIcon },
+	{ id: 'vegetariano', label: options[currentLocale].vegetarian, icon: VegetarianIcon },
+	{ id: 'milanesas', label: options[currentLocale].milanesas, icon: MilanesasIcon },
+	{ id: 'sándwiches', label: options[currentLocale].sandwiches, icon: SandwichesIcon },
+	{ id: 'postres', label: options[currentLocale].desserts, icon: DessertsIcon },
+	{ id: 'bebidas', label: options[currentLocale].drinks, icon: DrinksIcon },
+	{ id: 'vinos', label: options[currentLocale].wine, icon: WineIcon },
+];
+---
+
+<nav class="element fixed left-0 bottom-0 lg:sticky lg:top-4 z-10" style="--delay: 200ms">
+	<div class="relative bg-background-secondary w-full lg:rounded-2xl shadow shadow-black/30 lg:shadow-text/5">
+		<ul class="menu-main flex items-center gap-8 p-4 md:p-6 md:pt-5 md:pb-3 overflow-x-auto">
+			<li>
+				<a href="#inicio" class="item-nav flex gap-3 items-center cursor-pointer group active">
+					<HomeIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
+					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.home}</span>
+				</a>
+			</li>
+			{
+				menuOptions.map(({ id, label, icon: Icon }) => (
+					<li>
+						<a href={`#${id}`} class="item-nav flex gap-3 items-center cursor-pointer group " title={`Enlace a ${id}`}>
+							<Icon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
+							<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300" style="white-space: nowrap;">
+								{label}
+							</span>
+						</a>
+					</li>
+				))
+			}
+
+			<!-- <li>
+				<a href="#sugerencias" class="item-nav flex gap-3 items-center cursor-pointer group active">
+					<DinnerIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
+					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.suggestions}</span>
+				</a>
+			</li>
+			<li>
+				<a href="#menu" class="item-nav flex gap-3 items-center cursor-pointer group">
+					<SuggestionsIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
+					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.menu}</span>
+				</a>
+			</li>
+			<li>
+				<a href="#bebidas" class="item-nav flex gap-3 items-center cursor-pointer group">
+					<DrinksIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
+					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.drinks}</span>
+				</a>
+			</li> -->
+		</ul>
+	</div>
+</nav>
+
+<script>
+	import { gsap } from 'gsap';
+	import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+	gsap.registerPlugin(ScrollTrigger);
+
+	document.addEventListener('DOMContentLoaded', async () => {
+		const buttons = document.querySelectorAll('nav .item-nav');
+		const navElement = document.querySelector('nav');
+		const navDiv = document.querySelector('nav > div');
+		const widthScreen = window.innerWidth;
+
+		buttons.forEach((button) => {
+			button.addEventListener('click', (e) => {
+				e.preventDefault();
+
+				// Remover clase active de todos los botones
+				buttons.forEach((btn) => btn.classList.remove('active'));
+				button.classList.add('active');
+
+				// Obtener el destino del scroll
+				const targetId = button.getAttribute('href') || button.getAttribute('data-target');
+
+				if (targetId) {
+					const targetElement = document.querySelector(targetId);
+
+					if (targetElement) {
+						// Calcular la posición con offset de 50px
+						const elementPosition = targetElement.getBoundingClientRect().top;
+						const offsetPosition = elementPosition + window.pageYOffset - 50;
+
+						// Hacer scroll suave
+						window.scrollTo({
+							top: offsetPosition,
+							behavior: 'smooth',
+						});
+					}
+				}
+			});
+		});
+
+		if (navElement && navDiv && widthScreen >= 1024) {
+			gsap.to(navElement, {
+				paddingLeft: '16px',
+				paddingRight: '16px',
+				ease: 'none',
+				scrollTrigger: {
+					trigger: 'body',
+					start: 'top top',
+					end: '+=500',
+					scrub: true,
+					markers: false,
+				},
+			});
+
+			gsap.to(navDiv, {
+				boxShadow: '0 4px 40px 4px rgba(0, 0, 0, 0.1)',
+				ease: 'none',
+				scrollTrigger: {
+					trigger: 'body',
+					start: 'top top',
+					end: '+=500',
+					scrub: true,
+					markers: false,
+				},
+			});
+		}
+	});
+</script>
+
+<style>
+	.menu-main::-webkit-scrollbar {
+		height: 6px;
+	}
+
+	.menu-main::-webkit-scrollbar-thumb {
+		border-radius: 10px;
+		/* border: 6px solid #fff; */
+		background-color: var(--color-button-background);
+		border: none;
+	}
+
+	.menu-main::before,
+	.menu-main::after {
+		content: '';
+		position: absolute;
+		top: 0;
+		z-index: 10;
+		width: 40px;
+		height: calc(100% - 8px);
+		pointer-events: none;
+	}
+
+	.menu-main::before {
+		left: 0;
+		border-radius: 16px 0 0 16px;
+		background: linear-gradient(to right, #fff 0, rgba(255, 255, 255, 0) 100%);
+	}
+
+	.menu-main::after {
+		right: 0;
+		border-radius: 0 16px 16px 0;
+		background: linear-gradient(to left, #fff 0, rgba(255, 255, 255, 0) 100%);
+	}
+</style>

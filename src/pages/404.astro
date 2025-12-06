@@ -1,0 +1,37 @@
+---
+import Layout from '@/layout/Layout.astro';
+import Link from '@/components/Link.astro';
+import ArrowLeft from '@/assets/icons/arrow-left.astro';
+
+const currentLocale = Astro.currentLocale || 'es';
+
+interface LocaleOptions {
+	title: string;
+	description: string;
+}
+
+const options: Record<string, LocaleOptions> = {
+	es: {
+		title: '404 - Página no encontrada',
+		description: 'Lo sentimos, la página que buscas no existe.',
+	},
+	en: {
+		title: '404 - Page not found',
+		description: 'Sorry, the page you search not exist',
+	},
+};
+---
+
+<Layout>
+	<section class="section flex justify-center items-center min-h-[85dvh]">
+		<div class="text-center">
+			<h1 class="element text-4xl font-bold mt-20">{options[currentLocale]?.title}</h1>
+			<p class="element mt-4" style="--delay: 200ms">{options[currentLocale]?.description}</p>
+
+			<Link href="/" class="element flex items-center gap-2 p-5 py-3 rounded-xl bg-button-background w-fit ml-auto hover:bg-accent group shadow shadow-text/5 mb-6 lg:mb-9 mx-auto mt-10" style="--delay: 400ms">
+				<ArrowLeft width={14} height={14} class="text-text-secondary group-hover:text-white transition-colors ease-in-out duration-300" />
+				<span class="group-hover:text-white transition-colors ease-in-out duration-300">Regresar</span>
+			</Link>
+		</div>
+	</section>
+</Layout>

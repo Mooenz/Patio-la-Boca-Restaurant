@@ -1,0 +1,61 @@
+---
+import Image from 'astro/components/Image.astro';
+import ImgPatioLaBoca from '@/assets/images/logo.png';
+import LocationIcon from '@/assets/icons/Location.astro';
+import InstagramIcon from '@/assets/icons/Instagram.astro';
+import TikTokIcon from '@/assets/icons/TikTok.astro';
+
+const currentLocale = Astro.currentLocale || 'es';
+
+interface LocaleOptions {
+	welcome: string;
+	followUs: string;
+}
+
+const options: Record<string, LocaleOptions> = {
+	es: {
+		welcome: 'Bienvenidos al menú',
+		followUs: 'Síguenos en',
+	},
+	en: {
+		welcome: 'Welcome to menu',
+		followUs: 'Follow us on',
+	},
+};
+---
+
+<section class="element lg:col-span-3 mb-6 lg:mb-0 flex flex-col gap-4 md:gap-6 lg:gap-8">
+	<div class="relative lg:sticky lg:top-6 xl:top-9 bg-background-secondary text-text p-4 md:p-6 lg:pt-8 xl:pt-10 rounded-2xl text-center shadow shadow-text/5 order-1">
+		<!-- <a href="#" title="Enlace a iniciar sesión" class="absolute top-3 right-3 aspect-square flex items-center justify-center gap-2 h-10 w-10 rounded-full hover:bg-accent group">
+			<UserIcon width={14} height={14} class="text-text-secondary group-hover:text-white transition-colors ease-in-out duration-300" />
+			<span class="group-hover:text-white transition-colors ease-in-out duration-300">Iniciar Sesión</span>
+		</a> -->
+
+		<Image src={ImgPatioLaBoca} alt="Logo Cantina Patio La Boca" class="mx-auto mb-4 lg:mb-7 w-24 h-24" />
+		<hgroup class="mb-4 lg:mb-7">
+			<span class="leading-4 font-semibold text-accent">{options[currentLocale]?.welcome}</span>
+			<h1 class="text-text text-3xl font-bold leading-8">Cantina Patio La Boca</h1>
+		</hgroup>
+
+		<a href="https://maps.app.goo.gl/4VuWeVqyZyR89dri6" target="_blank" rel="noopener noreferrer" title="Ubicación Cantina Patio la Boca" class="flex gap-4 items-center justify-center mb-4 lg:mb-7 group max-w-68 mx-auto">
+			<LocationIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300 min-w-5" width={20} height={20} />
+			<p class="text-start text-sm group-hover:text-accent transition-all ease-in-out duration-300">Gregorio Aráoz de Lamadrid 843, La Boca~A 30 mts de Caminito</p>
+		</a>
+
+		<div class="flex flex-col md:flex-row gap-2 md:gap-5 items-center justify-center text-sm">
+			<h2 class="font-semibold" style="white-space: nowrap;">{options[currentLocale]?.followUs}</h2>
+
+			<div class="flex gap-2 items-center flex-wrap">
+				<a href="https://www.instagram.com/patio.laboca/?hl=es-la" class="flex gap-1 items-center group" target="_blank" rel="noopener noreferrer" title="Enlace a Instagram de Patio La Boca">
+					<InstagramIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={14} height={14} />
+					<h3 class="group-hover:text-accent transition-all ease-in-out duration-300">patio.laboca</h3>
+				</a>
+
+				<a href="https://www.tiktok.com/@patio.laboca" class="flex gap-1 items-center group" target="_blank" rel="noopener noreferrer" title="Enlace a TikTok de Patio La Boca">
+					<TikTokIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={14} height={14} />
+					<h3 class="group-hover:text-accent transition-all ease-in-out duration-300">patio.laboca</h3>
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

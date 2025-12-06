@@ -1,0 +1,62 @@
+---
+const currentLocale = Astro.currentLocale || 'es';
+
+import '@/styles/globals.css';
+import '@/styles/fonts.css';
+
+import ButtonsLateral from '@/components/ButtonsLateral.astro';
+
+interface LocaleOptions {
+	footerText: string;
+	madeBy: string;
+}
+
+const options: Record<string, LocaleOptions> = {
+	es: {
+		footerText: 'Cantina Patio La Boca. Todos los derechos reservados.',
+		madeBy: 'Creado por',
+	},
+	en: {
+		footerText: 'Cantina Patio La Boca. All rights reserved.',
+		madeBy: 'Created by',
+	},
+};
+---
+
+<html lang={currentLocale}>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image/png" href="/images/favicon-96x96.png" sizes="96x96" />
+		<link rel="icon" type="image/svg+xml" href="/images/favicon.svg" />
+		<link rel="shortcut icon" href="/images/favicon.ico" />
+		<link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
+		<meta name="apple-mobile-web-app-title" content="Patio la Boca" />
+		<link rel="manifest" href="/images/site.webmanifest" />
+
+		<title>Menú | Cantina patio la boca</title>
+	</head>
+	<body>
+		<main class="p-4 px-3 pb-2 md:pb-2 lg:pb-2 md:p-8 lg:p-12" id="inicio">
+			<slot />
+		</main>
+		<footer class="flex gap-2 flex-col-reverse md:flex-row flex-wrap justify-center items-center text-text-secondary text-center px-4 py-6 mb-14 lg:mb-0">
+			<a href="https://www.mooenz.me/" class="text-text-secondary group" target="_blank" rel="noopener noreferrer">{options[currentLocale]?.madeBy} <span class="font-bold group-hover:text-accent transition-colors ease-in-out duration-300">Mooenz</span></a>
+			<p>© <span id="date"></span> {options[currentLocale]?.footerText}</p>
+		</footer>
+
+		<ButtonsLateral />
+	</body>
+</html>
+
+<script>
+	document.addEventListener('DOMContentLoaded', async () => {
+		// Date
+		const date = new Date();
+		const $date = document.querySelector('#date');
+
+		if ($date) {
+			$date.textContent = String(date.getFullYear());
+		}
+	});
+</script>
