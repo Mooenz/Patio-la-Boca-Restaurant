@@ -1,0 +1,42 @@
+---
+import LanguageIcon from '@/assets/icons/Language.astro';
+
+import { getRelativeLocaleUrl } from 'astro:i18n';
+const currentLocale = Astro.currentLocale;
+
+// Obtener la ruta actual sin el prefijo de idioma
+const pathSegments = Astro.url.pathname.split('/').filter(Boolean);
+const isEnglish = pathSegments[0] === 'en';
+const pathWithoutLocale = isEnglish ? '/' + pathSegments.slice(1).join('/') : Astro.url.pathname;
+
+const esUrl = pathWithoutLocale || '/';
+const enUrl = getRelativeLocaleUrl('en', pathWithoutLocale || '/');
+
+// Props
+interface Props {
+	classList?: string;
+	classTooltip?: string;
+}
+
+const { classList, classTooltip } = Astro.props;
+---
+
+<a href={esUrl} class={`${classList} bg-white hidden`} aria-label="Cambiar idioma" class:list={['lang-btn', { activo: currentLocale === 'en' }]}>
+	<LanguageIcon width={20} height={20} class="text-text" />
+	<span class={classTooltip}>Cambiar a español</span>
+</a>
+
+<a href={enUrl} class={`${classList} bg-white hidden`} aria-label="Cambiar idioma" class:list={['lang-btn', { activo: currentLocale === 'es' }]}>
+	<span class={classTooltip}>Change to english</span>
+	<LanguageIcon width={20} height={20} class="text-text" />
+</a>
+
+<style>
+	.lang-btn {
+		display: none;
+	}
+
+	.lang-btn.activo {
+		display: flex;
+	}
+</style>
