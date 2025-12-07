@@ -11,6 +11,12 @@ interface LocaleOptions {
 	madeBy: string;
 }
 
+interface SeoOptions {
+	title: string;
+	description: string;
+	keywords: string;
+}
+
 const options: Record<string, LocaleOptions> = {
 	es: {
 		footerText: 'Cantina Patio La Boca. Todos los derechos reservados.',
@@ -19,6 +25,19 @@ const options: Record<string, LocaleOptions> = {
 	en: {
 		footerText: 'Cantina Patio La Boca. All rights reserved.',
 		madeBy: 'Created by',
+	},
+};
+
+const seoOptions: Record<string, SeoOptions> = {
+	es: {
+		title: 'Menú | Cantina Patio La Boca',
+		description: 'Descubre el menú de Cantina Patio La Boca: parrilla, pastas caseras, pescados, vinos y postres en el corazón de La Boca, Buenos Aires.',
+		keywords: 'cantina la boca, menú, parrilla, pastas caseras, pescados, vinos, restaurante buenos aires',
+	},
+	en: {
+		title: 'Menu | Cantina Patio La Boca',
+		description: 'Explore the Cantina Patio La Boca menu: grilled meats, homemade pasta, seafood, wines, and desserts in the heart of La Boca, Buenos Aires.',
+		keywords: 'cantina la boca, menu, grilled meats, homemade pasta, seafood, wines, restaurant buenos aires',
 	},
 };
 ---
@@ -34,7 +53,9 @@ const options: Record<string, LocaleOptions> = {
 		<meta name="apple-mobile-web-app-title" content="Patio la Boca" />
 		<link rel="manifest" href="/images/site.webmanifest" />
 
-		<title>Menú | Cantina patio la boca</title>
+		<title>{seoOptions[currentLocale]?.title || seoOptions.es.title}</title>
+		<meta name="description" content={seoOptions[currentLocale]?.description || seoOptions.es.description} />
+		<meta name="keywords" content={seoOptions[currentLocale]?.keywords || seoOptions.es.keywords} />
 
 		<script is:inline>
 			const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
