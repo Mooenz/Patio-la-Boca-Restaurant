@@ -35,6 +35,15 @@ const options: Record<string, LocaleOptions> = {
 		<link rel="manifest" href="/images/site.webmanifest" />
 
 		<title>Menú | Cantina patio la boca</title>
+
+		<script is:inline>
+			const userPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+			const currentTheme = localStorage.getItem('theme');
+
+			if (currentTheme === 'dark' || (!currentTheme && userPrefersDark)) {
+				document.documentElement.classList.add('dark');
+			}
+		</script>
 	</head>
 	<body>
 		<main class="p-4 px-3 pb-2 md:pb-2 lg:pb-2 md:p-8 lg:p-12" id="inicio">

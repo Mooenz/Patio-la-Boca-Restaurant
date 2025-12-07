@@ -89,45 +89,26 @@ const menuOptions = [
 ---
 
 <nav class="element fixed left-0 bottom-0 right-0 lg:sticky lg:top-4 z-10" style="--delay: 200ms">
-	<div class="relative bg-background-secondary w-full lg:rounded-2xl shadow shadow-black/30 lg:shadow-text/5">
+	<div class="relative transition-base bg-background-secondary w-full lg:rounded-2xl shadow shadow-black/30 lg:shadow-text/5">
 		<ul class="menu-main flex items-center gap-8 p-4 md:p-6 md:pt-5 md:pb-3 overflow-x-auto">
 			<li>
 				<a href="#inicio" class="item-nav flex gap-3 items-center cursor-pointer group active">
-					<HomeIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
-					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.home}</span>
+					<HomeIcon class="text-text-secondary group-hover:text-accent transition-base" width={16} height={16} />
+					<span class="text-base group-hover:text-accent transition-base">{options[currentLocale]?.home}</span>
 				</a>
 			</li>
 			{
 				menuOptions.map(({ id, label, icon: Icon }) => (
 					<li>
 						<a href={`#${id}`} class="item-nav flex gap-3 items-center cursor-pointer group " title={`Enlace a ${id}`}>
-							<Icon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
-							<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300" style="white-space: nowrap;">
+							<Icon class="text-text-secondary group-hover:text-accent transition-base" width={16} height={16} />
+							<span class="text-base group-hover:text-accent transition-base" style="white-space: nowrap;">
 								{label}
 							</span>
 						</a>
 					</li>
 				))
 			}
-
-			<!-- <li>
-				<a href="#sugerencias" class="item-nav flex gap-3 items-center cursor-pointer group active">
-					<DinnerIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
-					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.suggestions}</span>
-				</a>
-			</li>
-			<li>
-				<a href="#menu" class="item-nav flex gap-3 items-center cursor-pointer group">
-					<SuggestionsIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
-					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.menu}</span>
-				</a>
-			</li>
-			<li>
-				<a href="#bebidas" class="item-nav flex gap-3 items-center cursor-pointer group">
-					<DrinksIcon class="text-text-secondary group-hover:text-accent transition-all ease-in-out duration-300" width={16} height={16} />
-					<span class="text-base group-hover:text-accent transition-all ease-in-out duration-300">{options[currentLocale]?.drinks}</span>
-				</a>
-			</li> -->
 		</ul>
 	</div>
 </nav>
@@ -210,11 +191,10 @@ const menuOptions = [
 	.menu-main::-webkit-scrollbar-thumb {
 		border-radius: 10px;
 		/* border: 6px solid #fff; */
-		background-color: var(--color-button-background);
 		border: none;
 	}
 
-	.menu-main::before,
+	/* .menu-main::before,
 	.menu-main::after {
 		content: '';
 		position: absolute;
@@ -223,17 +203,18 @@ const menuOptions = [
 		width: 40px;
 		height: calc(100% - 8px);
 		pointer-events: none;
-	}
+		transition: background-color 0.3s ease-in-out;
+	} */
 
-	.menu-main::before {
+	/* .menu-main::before {
 		left: 0;
 		border-radius: 16px 0 0 16px;
-		background: linear-gradient(to right, #fff 0, rgba(255, 255, 255, 0) 100%);
-	}
+		background-color: linear-gradient(to right, var(--color-background-secondary) 0, rgba(255, 255, 255, 0) 100%);
+	} */
 
 	.menu-main::after {
 		right: 0;
 		border-radius: 0 16px 16px 0;
-		background: linear-gradient(to left, #fff 0, rgba(255, 255, 255, 0) 100%);
+		background: linear-gradient(to left, var(--color-background-secondary) 0, rgba(255, 255, 255, 0) 100%);
 	}
 </style>

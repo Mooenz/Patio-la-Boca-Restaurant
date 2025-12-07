@@ -1,16 +1,22 @@
 ---
 import WhatsApp from '@/assets/icons/Whatsapp.astro';
 import ButtonLanguage from '@/components/Language.astro';
+import IconMoon from '@/assets/icons/iconMoon.astro';
+import IconSun from '@/assets/icons/iconSun.astro';
 
-const classIcon = 'relative rounded-full flex items-center justify-center w-12 h-12 md:w-14 md:h-14 shadow-md group cursor-pointer';
+const classIcon = 'relative rounded-full flex items-center justify-center w-12 h-12 md:w-14 md:h-14 shadow-md group cursor-pointer transition-base';
 const tooltipClass =
-	"absolute right-[calc(100%+1rem)] group-hover:right-[calc(100%+0.8rem)] top-1/2 transform -translate-y-1/2 text-text py-1 px-3 text-sm bg-white rounded-md whitespace-nowrap before:content-[''] before:absolute before:top-1/2 before:right-[-9px] before:-translate-y-1/2 before:border-[5px] before:border-solid before:border-transparent before:z-10 before:border-l-white group-hover:opacity-100 opacity-0 transition-all duration-300 semibold tooltip-shadow font-semibold pointer-events-none shadow-[0_0_40px_0_rgba(0,0,0,0.1)]";
+	"absolute right-[calc(100%+1rem)] group-hover:right-[calc(100%+0.8rem)] top-1/2 transform -translate-y-1/2 text-text py-1 px-3 text-sm bg-background-secondary rounded-md whitespace-nowrap before:content-[''] before:absolute before:top-1/2 before:right-[-9px] before:-translate-y-1/2 before:border-[5px] before:border-solid before:border-transparent before:z-10 before:border-l-background-secondary group-hover:opacity-100 opacity-0 transition-all duration-300 semibold tooltip-shadow font-semibold pointer-events-none shadow-[0_0_40px_0_rgba(0,0,0,0.1)] before:transition-all before:duration-300 before:ease-in-out";
 ---
 
 <div class="fixed top-1/2 -translate-y-1/2 right-2 md:bottom-4 md:right-4 lg:bottom-6 lg:right-6 flex flex-col gap-3 lg:gap-4 z-50 justify-center">
-	<!-- <button class={`${classIcon} bg-white`}>
-		<span class={tooltipClass}>Change to english</span>
-	</button> -->
+	<button class={`${classIcon} bg-background-secondary`} id="btn-toggle-theme" aria-label="Botón para cambiar el tema de la página">
+		<IconMoon width={20} height={20} class="icon text-text icon-moon" />
+		<IconSun width={20} height={20} class="icon text-text icon-sun" />
+
+		<span class={tooltipClass}>Cambiar tema</span>
+	</button>
+
 	<ButtonLanguage classList={classIcon} classTooltip={tooltipClass} />
 
 	<a class={`${classIcon} bg-[#25D366] text-white `} href="https://api.whatsapp.com/send?phone=5491139542225&text=Hola!%20me%20contacto%20por%20una%20reserva%20o%20consulta%20respecto%20a%20Cantina%20Patio%20La%20Boca%20%F0%9F%8D%B7%F0%9F%8D%96%F0%9F%98%8B" target="_blank" rel="noopener noreferrer" title="Abrir chat de WhatsApp">
@@ -18,3 +24,18 @@ const tooltipClass =
 		<span class={tooltipClass}>Estamos listos para ti</span>
 	</a>
 </div>
+
+<script>
+	document.addEventListener('DOMContentLoaded', () => {
+		const btnToggleTheme = document.getElementById('btn-toggle-theme') as HTMLButtonElement;
+
+		if (btnToggleTheme) {
+			btnToggleTheme.addEventListener('click', () => {
+				document.documentElement.classList.toggle('dark');
+
+				const isDark = document.documentElement.classList.contains('dark');
+				localStorage.setItem('theme', isDark ? 'dark' : 'light');
+			});
+		}
+	});
+</script>
