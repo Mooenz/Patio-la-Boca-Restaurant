@@ -116,7 +116,7 @@ const menuOptions = [
 			});
 
 			gsap.to(navDiv, {
-				boxShadow: '0 4px 40px 4px rgba(0, 0, 0, 0.1)',
+				boxShadow: '0 4px 40px 4px var(--color-shadow)',
 				ease: 'none',
 				scrollTrigger: {
 					trigger: 'body',
@@ -137,27 +137,8 @@ const menuOptions = [
 
 	.menu-main::-webkit-scrollbar-thumb {
 		border-radius: 10px;
-		/* border: 6px solid #fff; */
 		border: none;
 	}
-
-	/* .menu-main::before,
-	.menu-main::after {
-		content: '';
-		position: absolute;
-		top: 0;
-		z-index: 10;
-		width: 40px;
-		height: calc(100% - 8px);
-		pointer-events: none;
-		transition: background-color 0.3s ease-in-out;
-	} */
-
-	/* .menu-main::before {
-		left: 0;
-		border-radius: 16px 0 0 16px;
-		background-color: linear-gradient(to right, var(--color-background-secondary) 0, rgba(255, 255, 255, 0) 100%);
-	} */
 
 	.menu-main::after {
 		right: 0;

@@ -7,6 +7,7 @@
 	--color-background-secondary: #fff;
 	--color-accent: #d0710a;
 	--color-button-background: #f1d6d3;
+	--color-shadow: rgba(0, 0, 0, 0.1);
 }
 
 .dark {
@@ -14,6 +15,7 @@
 	--color-background: #200a07;
 	--color-background-secondary: #2e110d;
 	--color-button-background: #2e110d;
+	--color-shadow: rgba(0, 0, 0, 0.3);
 }
 
 html,
