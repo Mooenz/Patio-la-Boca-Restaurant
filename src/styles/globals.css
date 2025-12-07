@@ -12,8 +12,8 @@
 .dark {
 	--color-text: #f9eeee;
 	--color-background: #200a07;
-	--color-background-secondary: #fff;
-	--color-button-background: #30120e;
+	--color-background-secondary: #2e110d;
+	--color-button-background: #2e110d;
 }
 
 html,
@@ -24,18 +24,11 @@ body {
 	font-size-adjust: 0.56;
 	background-color: var(--color-background);
 	color: var(--color-text);
+	transition: background-color 0.3s ease-in-out 0s;
 }
 
-p,
-a,
-li,
-button,
-input,
-textarea,
-select,
-label,
-aside {
-	transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+.transition-base {
+	transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -49,6 +42,27 @@ a {
 .active,
 .active svg {
 	color: var(--color-accent);
+}
+
+/*  */
+.icon {
+	transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.dark .icon-moon {
+	opacity: 0;
+	transform: scale(0);
+}
+
+.dark .icon-sun {
+	opacity: 1;
+	transform: scale(1);
+}
+
+.icon-sun {
+	position: absolute;
+	opacity: 0;
+	transform: scale(0);
 }
 
 /* Animation FadeIn */
