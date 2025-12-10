@@ -13,15 +13,12 @@ export function scrollItems(item: string): void {
 		gsap.fromTo(
 			el,
 			{
-				scale: 0.8,
-				opacity: 0.7,
-				rotate: 15,
+				scale: 0.9,
+				opacity: 0.5,
 			},
 			{
 				scale: 1,
 				opacity: 1,
-				rotate: 0,
-				duration: 1,
 				ease: 'none',
 				scrollTrigger: {
 					trigger: el,
