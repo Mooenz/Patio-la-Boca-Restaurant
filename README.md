@@ -11,7 +11,8 @@ Este proyecto es una carta digital para Patio La Boca Restaurant que incluye:
 - **Interfaz Responsiva**: Diseño moderno y adaptativo para dispositivos móviles y escritorio
 - **Animaciones Fluidas**: Experiencia visual atractiva usando GSAP
 - **Información del Restaurante**: Sección de contacto, ubicación e información general
-- **Sistema de Autenticación**: Módulo de login integrado (preparado para futuras expansiones)
+- **Sistema de Autenticación**: Panel de administración con login seguro
+- **Dashboard de Administración**: Gestión completa de menús y platos
 
 ## 🛠️ Stack Tecnológico
 
@@ -19,7 +20,7 @@ Este proyecto es una carta digital para Patio La Boca Restaurant que incluye:
 - **TailwindCSS 4.1.17**: Framework CSS utility-first para estilos
 - **TypeScript**: Tipado estático para mayor seguridad
 - **GSAP 3.13.0**: Librería de animaciones profesionales
-- **Supabase**: Backend as a Service (integración lista)
+- **Supabase**: Backend as a Service (autenticación + base de datos)
 - **Vercel**: Plataforma de hosting y despliegue
 
 **Requisitos:**
@@ -100,8 +101,48 @@ src/
 │   ├── Menu.astro         # Sección de menú
 │   └── InfoMenu.astro     # Información del menú
 ├── styles/                # Estilos globales
-└── utilities/             # Funciones auxiliares y animaciones
+├── utilities/             # Funciones auxiliares y animaciones
+│   ├── auth.ts            # Autenticación con Supabase
+│   ├── cache.ts           # Sistema de caché para menús
+│   ├── menu-db.ts         # Operaciones CRUD de menús
+│   └── supabase.ts        # Cliente de Supabase
+├── scripts/               # Scripts de dashboard
+│   └── dashboard.ts       # Lógica del panel de administración
+└── components/dashboard/  # Componentes del dashboard
+    ├── DashboardHeader.astro
+    ├── DashboardTabs.astro
+    ├── MenuList.astro
+    ├── ItemList.astro
+    ├── MenuModal.astro
+    ├── ItemModal.astro
+    └── DeleteModal.astro
 ```
+
+## 🔐 Sistema de Administración
+
+El proyecto incluye un panel de administración completo para gestionar el menú del restaurante.
+
+### Características del Dashboard
+
+- **Autenticación segura** con Supabase Auth
+- **Gestión de Menús**: Crear, editar y eliminar secciones del menú
+- **Gestión de Platos**: CRUD completo de platos con filtros y búsqueda
+- **Subida de imágenes** con validación (dimensiones, tamaño, formato)
+- **Sistema de caché** para optimizar el rendimiento
+- **Protección de APIs** con verificación de autenticación
+
+### Acceso al Dashboard
+
+1. Navega a `/login`
+2. Inicia sesión con tus credenciales de Supabase
+3. Accede al panel en `/dashboard`
+
+### Seguridad
+
+- **Row Level Security (RLS)** habilitado en Supabase
+- **APIs protegidas** - Solo usuarios autenticados pueden modificar datos
+- **Validación de imágenes** - Magic bytes, tamaño y dimensiones
+- **Cookies seguras** - httpOnly, sameSite, secure en producción
 
 ## 🎨 Características Principales
 
@@ -151,6 +192,7 @@ output: 'server';
 - El proyecto utiliza `pnpm` como gestor de paquetes (recomendado pero compatible con npm)
 - La configuración de TailwindCSS 4 está integrada vía Vite
 - El output está configurado como `server` para Vercel (SSR)
+- Los cambios en el dashboard se reflejan en la carta en ~2-3 minutos (caché)
 
 ---
 
