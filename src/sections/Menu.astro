@@ -13,26 +13,41 @@ import MilanesasIcon from '@/assets/icons/MilanesasIcon.astro';
 import SandwichesIcon from '@/assets/icons/SandwichesIcon.astro';
 import DessertsIcon from '@/assets/icons/DessertsIcon.astro';
 import WineIcon from '@/assets/icons/WineIcon.astro';
+import { getMenuSections } from '@/utilities/menu-db';
 
-const currentLocale = Astro.currentLocale || 'es';
+const currentLocale: 'es' | 'en' = (Astro.currentLocale || 'es') as 'es' | 'en';
 
 import { options } from '@/constant/menu.ts';
 
-const menuOptions = [
-	{ id: 'sugerencias', label: options[currentLocale].suggestions, icon: DinnerIcon },
-	{ id: 'pescado', label: options[currentLocale].fish, icon: FishIcon },
-	{ id: 'entradas', label: options[currentLocale].start, icon: SuggestionsIcon },
-	{ id: 'parrilla', label: options[currentLocale].grilled, icon: GrilledIcon },
-	{ id: 'acompañamientos', label: options[currentLocale].sideDishes, icon: SideDishesIcon },
-	{ id: 'pasta-casera', label: options[currentLocale].homemadePasta, icon: HomemadePastaIcon },
-	{ id: 'salsas', label: options[currentLocale].sauce, icon: SaucesIcon },
-	{ id: 'vegetariano', label: options[currentLocale].vegetarian, icon: VegetarianIcon },
-	{ id: 'milanesas', label: options[currentLocale].milanesas, icon: MilanesasIcon },
-	{ id: 'sándwiches', label: options[currentLocale].sandwiches, icon: SandwichesIcon },
-	{ id: 'postres', label: options[currentLocale].desserts, icon: DessertsIcon },
-	{ id: 'bebidas', label: options[currentLocale].drinks, icon: DrinksIcon },
-	{ id: 'vinos', label: options[currentLocale].wine, icon: WineIcon },
-];
+// Mapeo de slugs a iconos
+const iconMap: Record<string, any> = {
+	sugerencias: DinnerIcon,
+	pescado: FishIcon,
+	entradas: SuggestionsIcon,
+	parrilla: GrilledIcon,
+	acompañamientos: SideDishesIcon,
+	acompanamientos: SideDishesIcon,
+	'pasta-casera': HomemadePastaIcon,
+	salsas: SaucesIcon,
+	vegetariano: VegetarianIcon,
+	milanesas: MilanesasIcon,
+	sándwiches: SandwichesIcon,
+	sandwiches: SandwichesIcon,
+	postres: DessertsIcon,
+	bebidas: DrinksIcon,
+	vinos: WineIcon,
+	invierno: DinnerIcon,
+};
+
+// Obtener secciones activas desde la base de datos
+const activeSections = await getMenuSections(Astro.cookies, false);
+
+// Construir opciones de menú dinámicamente basadas en secciones activas
+const menuOptions = activeSections.map((section) => ({
+	id: section.slug,
+	label: currentLocale === 'es' ? section.title_es : section.title_en,
+	icon: iconMap[section.slug] || DinnerIcon, // Icono por defecto si no hay mapeo
+}));
 ---
 
 <nav class="element fixed left-0 bottom-0 right-0 lg:sticky lg:top-4 z-10" style="--delay: 200ms">
@@ -101,6 +116,7 @@ const menuOptions = [
 			});
 		});
 
+		// Animaciones de scroll para el nav
 		if (navElement && navDiv && widthScreen >= 1024) {
 			gsap.to(navElement, {
 				paddingLeft: '16px',
@@ -127,6 +143,43 @@ const menuOptions = [
 				},
 			});
 		}
+
+		// Al hacer scroll se va activando el botón correspondiente
+		// const menuOptions = [
+		// 	{ id: 'sugerencias' },
+		// 	{ id: 'pescado' },
+		// 	{ id: 'entradas' },
+		// 	{ id: 'parrilla' },
+		// 	{ id: 'acompañamientos' },
+		// 	{ id: 'pasta-casera' },
+		// 	{ id: 'salsas' },
+		// 	{ id: 'vegetariano' },
+		// 	{ id: 'milanesas' },
+		// 	{ id: 'sándwiches' },
+		// 	{ id: 'postres' },
+		// 	{ id: 'bebidas' },
+		// 	{ id: 'vinos' },
+		// ];
+
+		// window.addEventListener('scroll', () => {
+		// 	let currentSectionId = '';
+		// 	menuOptions.forEach(({ id }) => {
+		// 		const section = document.getElementById(id);
+		// 		if (section) {
+		// 			const sectionTop = section.offsetTop - 60;
+		// 			if (window.pageYOffset >= sectionTop) {
+		// 				currentSectionId = id;
+		// 			}
+		// 		}
+		// 	});
+		// 	buttons.forEach((button) => {
+		// 		button.classList.remove('active');
+		// 		const targetId = button.getAttribute('href') || button.getAttribute('data-target');
+		// 		if (targetId === `#${currentSectionId}`) {
+		// 			button.classList.add('active');
+		// 		}
+		// 	});
+		// });
 	});
 </script>
 

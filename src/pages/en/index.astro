@@ -6,13 +6,21 @@ import InfoMenu from '@/sections/InfoMenu.astro';
 import GeneralContainer from '@/components/GeneralContainer.astro';
 import UserIcon from '@/assets/icons/User.astro';
 import Link from '@/components/Link.astro';
+import { getUser } from '@/utilities/auth';
+
+const user = await getUser(Astro.cookies);
+const currentLocale = Astro.currentLocale || 'es';
+
+const linkText = user ? 'Panel de Control' : 'Iniciar Sesión';
+const linkHref = user ? '/dashboard' : '/login';
+const linkTitle = user ? 'Ir al panel de control' : 'Enlace a iniciar sesión';
 ---
 
 <Layout>
 	<GeneralContainer classList="h-full">
-		<Link href="/login" title="Enlace a iniciar sesión" class="flex items-center gap-2 p-5 py-3 rounded-xl bg-button-background w-fit ml-auto hover:bg-accent group shadow shadow-text/5 mb-6 lg:mb-9 transition-base">
+		<Link href={linkHref} title={linkTitle} class="flex items-center gap-2 p-5 py-3 rounded-xl bg-button-background w-fit ml-auto hover:bg-accent group shadow shadow-text/5 mb-6 lg:mb-9 transition-base">
 			<UserIcon width={14} height={14} class="text-text-secondary group-hover:text-white transition-base" />
-			<span class="block group-hover:text-white transition-base">Iniciar Sesión</span>
+			<span class="block group-hover:text-white transition-base">{linkText}</span>
 		</Link>
 
 		<section class="lg:grid gap-6 lg:gap-9 lg:grid-cols-8 h-full">

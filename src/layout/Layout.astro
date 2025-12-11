@@ -40,6 +40,13 @@ const seoOptions: Record<string, SeoOptions> = {
 		keywords: 'cantina la boca, menu, grilled meats, homemade pasta, seafood, wines, restaurant buenos aires',
 	},
 };
+
+// Props
+interface LayoutProps {
+	lateralMenu?: boolean;
+}
+
+const { lateralMenu = true } = Astro.props as LayoutProps;
 ---
 
 <html lang={currentLocale}>
@@ -70,12 +77,12 @@ const seoOptions: Record<string, SeoOptions> = {
 		<main class="p-4 px-3 pb-2 md:pb-2 lg:pb-2 md:p-8 lg:p-12" id="inicio">
 			<slot />
 		</main>
-		<footer class="flex gap-2 flex-col-reverse md:flex-row flex-wrap justify-center items-center text-text-secondary text-center px-4 py-6 mb-14 lg:mb-0">
+		<footer class="flex gap-2 flex-col-reverse md:flex-row flex-wrap justify-center items-center text-text-secondary text-center px-4 py-6">
 			<a href="https://www.mooenz.me/" class="text-text-secondary group" target="_blank" rel="noopener noreferrer">{options[currentLocale]?.madeBy} <span class="font-bold group-hover:text-accent transition-colors ease-in-out duration-300">Mooenz</span></a>
 			<p>© <span id="date"></span> {options[currentLocale]?.footerText}</p>
 		</footer>
 
-		<ButtonsLateral />
+		<ButtonsLateral lateralMenu={lateralMenu} />
 	</body>
 </html>
 
