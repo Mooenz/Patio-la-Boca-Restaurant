@@ -11,6 +11,15 @@ const IMAGE_CONFIG = {
 const toastContainer = document.getElementById('toast-container');
 
 /**
+ * Escapa HTML para prevenir XSS
+ */
+function escapeHtml(text: string): string {
+	const div = document.createElement('div');
+	div.textContent = text;
+	return div.innerHTML;
+}
+
+/**
  * Muestra un mensaje temporal (toast) al usuario
  */
 function showToast(message: string, duration: number = 8000) {
@@ -18,17 +27,37 @@ function showToast(message: string, duration: number = 8000) {
 
 	const toast = document.createElement('div');
 	toast.className = 'toast-enter pointer-events-auto bg-background-secondary border border-accent/30 text-text px-5 py-4 rounded-lg shadow-lg max-w-sm mb-3';
-	toast.innerHTML = `
-		<div class="flex items-start gap-3">
-			<svg class="w-5 h-5 text-accent shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-				<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-			</svg>
-			<div>
-				<p class="font-medium">¡Cambios guardados!</p>
-				<p class="text-sm text-text-secondary mt-1">${message}</p>
-			</div>
-		</div>
-	`;
+
+	// Crear elementos de forma segura (sin innerHTML con datos dinámicos)
+	const wrapper = document.createElement('div');
+	wrapper.className = 'flex items-start gap-3';
+
+	const svgNS = 'http://www.w3.org/2000/svg';
+	const svg = document.createElementNS(svgNS, 'svg');
+	svg.setAttribute('class', 'w-5 h-5 text-accent shrink-0 mt-0.5');
+	svg.setAttribute('fill', 'none');
+	svg.setAttribute('stroke', 'currentColor');
+	svg.setAttribute('viewBox', '0 0 24 24');
+	const path = document.createElementNS(svgNS, 'path');
+	path.setAttribute('stroke-linecap', 'round');
+	path.setAttribute('stroke-linejoin', 'round');
+	path.setAttribute('stroke-width', '2');
+	path.setAttribute('d', 'M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z');
+	svg.appendChild(path);
+
+	const textDiv = document.createElement('div');
+	const title = document.createElement('p');
+	title.className = 'font-medium';
+	title.textContent = '¡Cambios guardados!';
+	const messageP = document.createElement('p');
+	messageP.className = 'text-sm text-text-secondary mt-1';
+	messageP.textContent = message; // Seguro: textContent escapa automáticamente
+
+	textDiv.appendChild(title);
+	textDiv.appendChild(messageP);
+	wrapper.appendChild(svg);
+	wrapper.appendChild(textDiv);
+	toast.appendChild(wrapper);
 
 	toastContainer.appendChild(toast);
 

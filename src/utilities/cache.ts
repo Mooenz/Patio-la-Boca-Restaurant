@@ -3,6 +3,15 @@
  * Solo se usa en el servidor (Astro SSR)
  */
 
+const isDev = !import.meta.env.PROD;
+
+// Logger condicional - solo muestra logs en desarrollo
+const debugLog = (...args: any[]) => {
+	if (isDev) {
+		console.log(...args);
+	}
+};
+
 interface CacheEntry<T> {
 	data: T;
 	timestamp: number;
@@ -39,7 +48,7 @@ function isCacheValid<T>(entry: CacheEntry<T> | null, userId: string): boolean {
  */
 export function getCachedMenuSections(userId: string): any[] | null {
 	if (isCacheValid(cache.menuSections, userId)) {
-		console.log('[Cache] Usando menuSections desde caché');
+		debugLog('[Cache] Usando menuSections desde caché');
 		return cache.menuSections!.data;
 	}
 	return null;
@@ -54,7 +63,7 @@ export function setCachedMenuSections(data: any[], userId: string): void {
 		timestamp: Date.now(),
 		userId,
 	};
-	console.log('[Cache] menuSections guardado en caché');
+	debugLog('[Cache] menuSections guardado en caché');
 }
 
 /**
@@ -62,7 +71,7 @@ export function setCachedMenuSections(data: any[], userId: string): void {
  */
 export function getCachedMenuItems(userId: string): any[] | null {
 	if (isCacheValid(cache.menuItems, userId)) {
-		console.log('[Cache] Usando menuItems desde caché');
+		debugLog('[Cache] Usando menuItems desde caché');
 		return cache.menuItems!.data;
 	}
 	return null;
@@ -77,7 +86,7 @@ export function setCachedMenuItems(data: any[], userId: string): void {
 		timestamp: Date.now(),
 		userId,
 	};
-	console.log('[Cache] menuItems guardado en caché');
+	debugLog('[Cache] menuItems guardado en caché');
 }
 
 /**
@@ -87,7 +96,7 @@ export function updateCachedMenuItem(itemId: string, updates: Partial<any>, user
 	if (cache.menuItems && cache.menuItems.userId === userId) {
 		cache.menuItems.data = cache.menuItems.data.map((item) => (item.id === itemId ? { ...item, ...updates } : item));
 		cache.menuItems.timestamp = Date.now();
-		console.log('[Cache] Item actualizado en caché:', itemId);
+		debugLog('[Cache] Item actualizado en caché:', itemId);
 	}
 }
 
@@ -98,7 +107,7 @@ export function addCachedMenuItem(item: any, userId: string): void {
 	if (cache.menuItems && cache.menuItems.userId === userId) {
 		cache.menuItems.data.push(item);
 		cache.menuItems.timestamp = Date.now();
-		console.log('[Cache] Nuevo item añadido al caché');
+		debugLog('[Cache] Nuevo item añadido al caché');
 	}
 }
 
@@ -109,7 +118,7 @@ export function updateCachedMenuSection(sectionId: string, updates: Partial<any>
 	if (cache.menuSections && cache.menuSections.userId === userId) {
 		cache.menuSections.data = cache.menuSections.data.map((section) => (section.id === sectionId ? { ...section, ...updates } : section));
 		cache.menuSections.timestamp = Date.now();
-		console.log('[Cache] Sección actualizada en caché:', sectionId);
+		debugLog('[Cache] Sección actualizada en caché:', sectionId);
 	}
 }
 
@@ -120,7 +129,7 @@ export function addCachedMenuSection(section: any, userId: string): void {
 	if (cache.menuSections && cache.menuSections.userId === userId) {
 		cache.menuSections.data.push(section);
 		cache.menuSections.timestamp = Date.now();
-		console.log('[Cache] Nueva sección añadida al caché');
+		debugLog('[Cache] Nueva sección añadida al caché');
 	}
 }
 
@@ -131,7 +140,7 @@ export function removeCachedMenuItem(itemId: string, userId: string): void {
 	if (cache.menuItems && cache.menuItems.userId === userId) {
 		cache.menuItems.data = cache.menuItems.data.filter((item) => item.id !== itemId);
 		cache.menuItems.timestamp = Date.now();
-		console.log('[Cache] Item eliminado del caché:', itemId);
+		debugLog('[Cache] Item eliminado del caché:', itemId);
 	}
 }
 
@@ -142,7 +151,7 @@ export function removeCachedMenuSection(sectionId: string, userId: string): void
 	if (cache.menuSections && cache.menuSections.userId === userId) {
 		cache.menuSections.data = cache.menuSections.data.filter((section) => section.id !== sectionId);
 		cache.menuSections.timestamp = Date.now();
-		console.log('[Cache] Sección eliminada del caché:', sectionId);
+		debugLog('[Cache] Sección eliminada del caché:', sectionId);
 	}
 }
 
@@ -152,7 +161,7 @@ export function removeCachedMenuSection(sectionId: string, userId: string): void
 export function invalidateCache(): void {
 	cache.menuSections = null;
 	cache.menuItems = null;
-	console.log('[Cache] Caché invalidado');
+	debugLog('[Cache] Caché invalidado');
 }
 
 /**
@@ -165,7 +174,7 @@ export function invalidateUserCache(userId: string): void {
 	if (cache.menuItems?.userId === userId) {
 		cache.menuItems = null;
 	}
-	console.log('[Cache] Caché de usuario invalidado:', userId);
+	debugLog('[Cache] Caché de usuario invalidado:', userId);
 }
 
 /**
@@ -173,5 +182,5 @@ export function invalidateUserCache(userId: string): void {
  */
 export function forceRefreshCache(userId: string): void {
 	invalidateUserCache(userId);
-	console.log('[Cache] Forzando recarga de caché para usuario:', userId);
+	debugLog('[Cache] Forzando recarga de caché para usuario:', userId);
 }
