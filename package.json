@@ -2,6 +2,7 @@
 	"name": "la-boca-restaurant",
 	"version": "1.0.0",
 	"private": true,
+	"type": "module",
 	"author": "Jose Manuel Montaño Saenz, Kevin Silva Zarate",
 	"engines": {
 		"node": ">=22.0.0"
@@ -10,7 +11,8 @@
 		"dev": "astro dev",
 		"build": "astro build",
 		"preview": "astro preview",
-		"astro": "astro"
+		"astro": "astro",
+		"generate-migration": "node scripts/generate-migration-sql.js"
 	},
 	"dependencies": {
 		"@astrojs/vercel": "^8.0.4",
