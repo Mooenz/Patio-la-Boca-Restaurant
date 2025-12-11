@@ -34,8 +34,8 @@ import Image from 'astro/components/Image.astro';
 
 <section class="pt-6 lg:pt-9" id={id}>
 	<div class=`${classList} shadow shadow-text/5 rounded-2xl`>
-		<figure class="block relative before:content-[''] before:absolute before:inset-0 before:z-10 before:bg-text/10 overflow-hidden rounded-t-2xl max-h-30 lg:max-h-45 transition-base">
-			<Image src={data?.image} alt={data?.title?.[currentLocale]} width={800} height={400} />
+		<figure class="block relative before:content-[''] before:absolute before:inset-0 before:z-10 before:bg-shadow/50 overflow-hidden rounded-t-2xl max-h-30 lg:max-h-45 transition-base">
+			<Image class="w-full object-cover object-center" src={data?.image} alt={data?.title?.[currentLocale]} width={800} height={400} />
 			<h2 class="absolute transform -translate-y-1/2 top-1/2 left-4 md:left-6 lg:left-8 xl:left-10 text-3xl text-white font-bold z-100 w-full h-auto object-cover drop-shadow-lg">{data?.title?.[currentLocale]}</h2>
 		</figure>
 		<div class="bg-background-secondary text-text p-4 md:p-6 lg:p-8 xl:px-10 rounded-b-2xl transition-base">

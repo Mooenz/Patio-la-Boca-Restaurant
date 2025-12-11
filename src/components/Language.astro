@@ -21,12 +21,12 @@ interface Props {
 const { classList, classTooltip } = Astro.props;
 ---
 
-<a href={esUrl} class={`${classList} bg-background-secondary hidden transition-base`} aria-label="Cambiar idioma" class:list={['lang-btn', { activo: currentLocale === 'en' }]}>
+<a href={esUrl} class={`${classList} bg-background-lateral hidden transition-base`} aria-label="Cambiar idioma" class:list={['lang-btn', { activo: currentLocale === 'en' }]} style="--delay:200ms">
 	<LanguageIcon width={20} height={20} class="text-text" />
 	<span class={classTooltip}>Cambiar a español</span>
 </a>
 
-<a href={enUrl} class={`${classList} bg-background-secondary hidden transition-base`} aria-label="Cambiar idioma" class:list={['lang-btn', { activo: currentLocale === 'es' }]}>
+<a href={enUrl} class={`${classList} bg-background-lateral hidden transition-base`} aria-label="Cambiar idioma" class:list={['lang-btn', { activo: currentLocale === 'es' }]} style="--delay:200ms">
 	<span class={classTooltip}>Change to english</span>
 	<LanguageIcon width={20} height={20} class="text-text" />
 </a>

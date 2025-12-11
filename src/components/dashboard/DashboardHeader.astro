@@ -1,0 +1,17 @@
+---
+import Link from '@/components/Link.astro';
+---
+
+<div class="flex flex-wrap justify-between items-center gap-4 mb-8">
+	<h1 class="text-4xl font-bold text-center">Panel de Control</h1>
+
+	<div class="flex flex-wrap items-center justify-center">
+		<Link href="/" class="p-5 py-3 rounded-xl mr-4 hover:text-accent transition-base">
+			<span>Volver al menú</span>
+		</Link>
+
+		<Link href="/logout" class="flex items-center gap-2 p-5 py-3 rounded-xl bg-button-background w-fit hover:bg-accent group shadow shadow-text/5 transition-base">
+			<span class="block group-hover:text-white transition-base">Cerrar Sesión</span>
+		</Link>
+	</div>
+</div>

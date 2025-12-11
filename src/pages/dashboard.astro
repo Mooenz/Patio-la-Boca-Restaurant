@@ -1,0 +1,102 @@
+---
+import Layout from '@/layout/Layout.astro';
+import GeneralContainer from '@/components/GeneralContainer.astro';
+import { requireAuth } from '@/utilities/auth';
+import { getMenuSections, getAllMenuItems } from '@/utilities/menu-db';
+
+// Componentes del Dashboard
+import DashboardHeader from '@/components/dashboard/DashboardHeader.astro';
+import DashboardTabs from '@/components/dashboard/DashboardTabs.astro';
+import MenuList from '@/components/dashboard/MenuList.astro';
+import ItemList from '@/components/dashboard/ItemList.astro';
+import MenuModal from '@/components/dashboard/MenuModal.astro';
+import ItemModal from '@/components/dashboard/ItemModal.astro';
+import DeleteModal from '@/components/dashboard/DeleteModal.astro';
+
+// Proteger esta ruta - requiere autenticación
+const authResult = await requireAuth(Astro.cookies);
+if (!authResult) {
+	return Astro.redirect('/login');
+}
+
+// Cargar datos
+const menuSections = await getMenuSections(Astro.cookies, true);
+const menuItems = await getAllMenuItems(Astro.cookies, true);
+
+// Calcular cantidad de platos por sección
+const itemsCountBySection = menuItems.reduce((acc: Record<string, number>, item: any) => {
+	const sectionId = item.menu_section_id;
+	if (sectionId) {
+		acc[sectionId] = (acc[sectionId] || 0) + 1;
+	}
+	return acc;
+}, {});
+---
+
+<Layout lateralMenu={false}>
+	<GeneralContainer classList="min-h-[85dvh]">
+		<div class="max-w-6xl mx-auto">
+			<DashboardHeader />
+
+			<!-- Tabs Container -->
+			<div class="bg-background-secondary rounded-xl shadow shadow-text/5 overflow-hidden transition-base">
+				<DashboardTabs menuSectionsCount={menuSections.length} menuItemsCount={menuItems.length} />
+
+				<MenuList menuSections={menuSections} itemsCountBySection={itemsCountBySection} />
+
+				<ItemList menuItems={menuItems} menuSections={menuSections} />
+			</div>
+		</div>
+
+		<!-- Modales -->
+		<MenuModal />
+		<ItemModal menuSections={menuSections} />
+		<DeleteModal />
+
+		<!-- Toast de notificación -->
+		<div id="toast-container" class="fixed bottom-6 right-6 z-[60] pointer-events-none"></div>
+	</GeneralContainer>
+</Layout>
+
+<script>
+	import '@/scripts/dashboard.ts';
+</script>
+
+<style>
+	@keyframes slideIn {
+		from {
+			transform: translateX(100%);
+			opacity: 0;
+		}
+		to {
+			transform: translateX(0);
+			opacity: 1;
+		}
+	}
+
+	@keyframes slideOut {
+		from {
+			transform: translateX(0);
+			opacity: 1;
+		}
+		to {
+			transform: translateX(100%);
+			opacity: 0;
+		}
+	}
+
+	:global(.toast-enter) {
+		animation: slideIn 0.3s ease-out forwards;
+	}
+
+	:global(.toast-exit) {
+		animation: slideOut 0.3s ease-in forwards;
+	}
+</style>
+
+<style>
+	.tab-button.active {
+		border-bottom-color: var(--accent);
+		color: var(--text);
+	}
+</style>
