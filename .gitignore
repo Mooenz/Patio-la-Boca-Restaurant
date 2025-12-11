@@ -26,8 +26,14 @@ yarn-error.log*
 .pnpm-debug.log*
 
 # local env files
+.env
 .env*.local
 .vscode
+.env.example
+
+# Database migration files (contain sensitive data)
+supabase-migrate-data.sql
+supabase-schema.sql
 
 #astro
 /dist/
