@@ -8,10 +8,10 @@ const { menuSectionsCount, menuItemsCount } = Astro.props;
 ---
 
 <div class="flex border-b border-text/20">
-	<button data-tab="menus" class="cursor-pointer tab-button px-6 py-4 font-medium text-text-secondary hover:text-text transition-base border-b-2 border-transparent hover:border-accent">
-		Menús ({menuSectionsCount})
-	</button>
 	<button data-tab="items" class="cursor-pointer tab-button px-6 py-4 font-medium text-text-secondary hover:text-text transition-base border-b-2 border-transparent hover:border-accent">
 		Platos ({menuItemsCount})
+	</button>
+	<button data-tab="menus" class="cursor-pointer tab-button px-6 py-4 font-medium text-text-secondary hover:text-text transition-base border-b-2 border-transparent hover:border-accent">
+		Menús ({menuSectionsCount})
 	</button>
 </div>
