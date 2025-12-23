@@ -37,7 +37,6 @@ export interface MenuSectionDB {
 export interface MenuItemDB {
 	id: string;
 	menu_section_id: string;
-	item_id: number;
 	title_es: string;
 	title_en: string;
 	description_es: string | null;
@@ -49,4 +48,3 @@ export interface MenuItemDB {
 	created_at: string;
 	updated_at: string;
 }
-

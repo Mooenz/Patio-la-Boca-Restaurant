@@ -325,7 +325,7 @@ export async function getMenuItemsBySection(cookies: AstroCookies, sectionSlug: 
  */
 export function dbItemToItem(dbItem: any) {
 	return {
-		id: dbItem.item_id || dbItem.id,
+		id: dbItem.id,
 		translate: {
 			es: {
 				title: dbItem.title_es,
