@@ -61,15 +61,22 @@ const { menuSections } = Astro.props;
 					<span class="ml-3 text-sm text-text-secondary active-label">Activo</span>
 				</label>
 			</div>
+			<!-- Indicador de cambios guardados localmente -->
+			<div id="item-saved-indicator" class="hidden text-sm text-accent bg-accent/10 px-3 py-2 rounded-lg flex items-center gap-2">
+				<svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+				</svg>
+				<span>Cambios guardados localmente</span>
+			</div>
 			<div class="flex gap-3">
-				<button type="submit" class="cursor-pointer btn-submit flex-1 px-4 py-2 rounded-lg bg-button-background hover:bg-accent text-text hover:text-white font-medium transition-base disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
-					<svg class="spinner hidden animate-spin" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<button type="button" id="close-item-modal" class="cursor-pointer flex-1 px-4 py-2 rounded-lg bg-background border border-text/20 text-text hover:bg-background-secondary transition-base disabled:opacity-50 disabled:cursor-not-allowed"> Cancelar </button>
+				<button type="button" id="save-item-local" class="cursor-pointer btn-save-local flex-1 px-4 py-2 rounded-lg bg-background border-2 border-accent text-accent hover:bg-accent/10 font-medium transition-base disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2">
+					<svg class="spinner-save hidden animate-spin" width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
 						<path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
 					</svg>
-					<span class="btn-text">Guardar</span>
+					<span class="btn-save-text">Guardar cambios</span>
 				</button>
-				<button type="button" id="close-item-modal" class="cursor-pointer flex-1 px-4 py-2 rounded-lg bg-background border border-text/20 text-text hover:bg-background-secondary transition-base disabled:opacity-50 disabled:cursor-not-allowed"> Cancelar </button>
 			</div>
 		</form>
 	</div>
