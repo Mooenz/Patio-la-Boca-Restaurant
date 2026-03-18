@@ -15,12 +15,12 @@
 		"generate-migration": "node scripts/generate-migration-sql.js"
 	},
 	"dependencies": {
-		"@astrojs/vercel": "^8.0.4",
-		"@supabase/supabase-js": "^2.86.0",
-		"@tailwindcss/vite": "^4.1.17",
-		"astro": "^5.16.1",
-		"gsap": "^3.13.0",
-		"tailwindcss": "^4.1.17",
-		"zod": "^4.1.13"
+		"@astrojs/vercel": "^10.0.1",
+		"@supabase/supabase-js": "^2.99.2",
+		"@tailwindcss/vite": "^4.2.2",
+		"astro": "^6.0.6",
+		"gsap": "^3.14.2",
+		"tailwindcss": "^4.2.2",
+		"zod": "^4.3.6"
 	}
 }
