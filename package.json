@@ -5,7 +5,7 @@
 	"type": "module",
 	"author": "Jose Manuel Montaño Saenz, Kevin Silva Zarate",
 	"engines": {
-		"node": ">=24.0.0"
+		"node": "24.x"
 	},
 	"scripts": {
 		"dev": "astro dev",
